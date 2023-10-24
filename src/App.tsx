@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import header from 'header.tsx'
 
 import './App.css'
 
@@ -8,7 +9,10 @@ function App() {
   return (
     <>
       <div>
-        Little Lemon Restaurant
+        <header/>
+        <nav></nav>
+        <main></main>
+        <footer></footer>
         </div>
     </>
   )
