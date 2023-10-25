@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 
 
-function header() {
+function Header() {
   
 
   return (
