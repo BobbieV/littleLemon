@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 import Logo from 'src/assets/Little Lemon logo (420x150px).png'
 import './App.css'
 
