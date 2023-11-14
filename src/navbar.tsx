@@ -1,12 +1,14 @@
 
 
 import './App.css'
+import Logo from './logo.tsx'
 
 function Navbar() {
 
   return (
     <>
       <div>
+        <Logo/>
        <nav>
         <ul>
           <li className="navbar">Home</li>
