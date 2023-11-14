@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <Header/>
         <Navbar/>
+        <Header/>
         <main></main>
         <footer></footer>
         </div>
