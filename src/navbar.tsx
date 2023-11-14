@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <div>
-        <img src="src/assets/images/logo.png" className="AppLogo"></img>
+        <img src="./src/assets/images/logo.png" className="AppLogo"></img>
        <nav>
         <ul>
           <li className="navbar">Home</li>
