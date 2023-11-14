@@ -1,5 +1,5 @@
 
-import  Header  from 'BobbieV/littleLemon/src/header.tsx'
+import  Header  from 'BobbieV/littleLemon/src/Header.tsx'
 import  Navbar  from 'BobbieV/littleLemon/src/navbar.tsx'
 
 import './App.css'
