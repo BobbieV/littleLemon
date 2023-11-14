@@ -1,6 +1,4 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import Card from 'react-bootstrap/Card';
 
 
 function Specials() {
@@ -12,24 +10,24 @@ function Specials() {
         <header>
             <h1>This week's specials!</h1>
             <button>Online Menu</button>
-            <Card>
+            <section>
                 <img></img>
                 <h2>Greek Salad</h2>
                 <h2>$12.95</h2>
                 <p></p>
-                </Card>
-            <Card>
+                </section>
+            <section>
                 <img></img>
                 <h2>Bruschetta</h2>
                 <h2>$5.99</h2>
                 <p></p>
-                </Card>
-            <Card>
+                </section>
+            <section>
                 <img></img>
                 <h2>Lemon Dessert</h2>
                 <h2>$5.00</h2>
                 <p></p>
-                </Card>
+                </section>
         </header>
         </div>
     </>
