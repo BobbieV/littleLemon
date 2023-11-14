@@ -1,6 +1,6 @@
 
-import  Header  from 'header.tsx'
-import  Navbar  from 'navbar.tsx'
+import  Header  from 'BobbieV/littleLemon/src/header.tsx'
+import  Navbar  from 'BobbieV/littleLemon/src/navbar.tsx'
 
 import './App.css'
 
