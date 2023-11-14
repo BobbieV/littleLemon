@@ -57,6 +57,7 @@ button:focus-visible {
 
 .navbar {
   display: inline;
+  padding: auto;
 
 }
 
