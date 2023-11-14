@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <>
-      <div>
+      <div className="hero">
         <img style={{width: '100%', height: '100%', position: 'relative'}} src="./assets/logo-19f49d27.png" className="AppLogo"></img>
        <nav>
         <ul>
