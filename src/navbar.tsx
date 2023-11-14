@@ -1,14 +1,14 @@
 
 
 import './App.css'
-import Logo from './logo.tsx'
+import logo from './src/assets/images/logo.png'
 
 function Navbar() {
 
   return (
     <>
       <div>
-        <Logo/>
+        <img src={logo} className="AppLogo"></img>
        <nav>
         <ul>
           <li className="navbar">Home</li>
