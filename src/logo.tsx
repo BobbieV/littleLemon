@@ -1,7 +1,10 @@
-import 'src/assets/images/Little Lemon logo (420x150px).png'
+import logo from './src/assets/images/Little Lemon logo (420x150px).png'
+
 function Logo() {
     return (
-        <><img src="src/assets/images/Little Lemon logo (420x150px).png"></img></>
+        <><div>
+            <img src={logo} className="AppLogo" alt="logo"></img>
+            </div></>
     )
 }
 
