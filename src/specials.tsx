@@ -1,5 +1,6 @@
-import './App.css'
-import Card from 'react-bootstrap/Card'
+import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Card from 'react-bootstrap/Card';
 
 
 function Specials() {
