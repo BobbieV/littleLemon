@@ -23,4 +23,4 @@ function Navbar() {
   )
 }
 
-export default App
+export default Navbar
