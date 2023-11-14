@@ -1,14 +1,14 @@
 
 
 import './App.css'
-import logo from './src/assets/images/logo.png'
+
 
 function Navbar() {
 
   return (
     <>
       <div>
-        <img src={logo} className="AppLogo"></img>
+        <img src="src/assets/images/logo.png" className="AppLogo"></img>
        <nav>
         <ul>
           <li className="navbar">Home</li>
