@@ -1,4 +1,4 @@
-import logo from './src/assets/images/Little Lemon logo (420x150px).png'
+import logo from './logo.png'
 
 function Logo() {
     return (
