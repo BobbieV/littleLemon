@@ -1,7 +1,15 @@
-import logo from './src/assets/images/logo.png'
+import logo from './src/assets/images/logo.png';
+import lemonDessert from './src/assets/images/lemon dessert.jpg';
+import heroImage from './src/assets/images/Hero Image.png';
+import greekSalad from '.src/assets/images/greek salad.jpg';
 
 const Images = {
-    logo: string = "./src/assests/images/logo.png"
+    greekSalad,
+    heroImage,
+    lemonDessert,
+    logo
+
+
 }
 
 export default Images
