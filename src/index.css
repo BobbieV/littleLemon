@@ -56,8 +56,8 @@ button:focus-visible {
 }
 
 .navbar {
-  display: grid;
-  grid-row: 1;
+  display: inline;
+
 }
 
 @media (prefers-color-scheme: light) {
