@@ -1,6 +1,6 @@
 
-import Header from 'header.tsx'
-import Navbar from 'navbar.tsx'
+import { Header } from 'header.tsx'
+import { Navbar } from 'navbar.tsx'
 
 import './App.css'
 
@@ -19,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

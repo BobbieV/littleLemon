@@ -1,5 +1,5 @@
 
-import Logo from 'src/assets/Little Lemon logo (420x150px).png'
+import { Logo } from 'src/assets/Little Lemon logo (420x150px).png'
 import './App.css'
 
 function Navbar() {
@@ -23,4 +23,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
