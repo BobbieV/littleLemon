@@ -1,4 +1,4 @@
-import logo from './BobbieV/littleLemon/src/assets/images/logo.png'
+import logo from './src/assets/images/logo.png'
 
 function Logo() {
     return (
