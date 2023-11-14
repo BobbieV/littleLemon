@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from 'header.tsx'
 import Navbar from 'navbar.tsx'
 
