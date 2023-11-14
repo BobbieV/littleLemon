@@ -1,4 +1,4 @@
-import './logo.png'
+import logo from './logo.png'
 
 function Logo() {
     return (
