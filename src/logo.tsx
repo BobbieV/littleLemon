@@ -1,4 +1,4 @@
-import logo from './images.tsx'
+import Images from './images.tsx'
 
 function Logo() {
     return (
