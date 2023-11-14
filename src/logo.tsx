@@ -1,8 +1,7 @@
-import 'Little Lemon logo (420x150px).png'
-
+import './BobbieV/littleLemon/src/assets/Little Lemon logo (420x150px).png'
 function Logo() {
     return (
-        <><img src="./Little Lemon logo (420x150px).png"></img></>
+        <><img src="BobbieV/littleLemon/src/assets/Little Lemon logo (420x150px).png"></img></>
     )
 }
 
