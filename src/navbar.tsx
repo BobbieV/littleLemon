@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <div>
        <nav>
-        <img src="BobbieV/littleLemon/src/assets/Little Lemon logo (420x150px).png" className="navbarLogo" alt="Little Lemon Logo"/>
+        <Logo/>
         <ul>
           <li className="navbar">Home</li>
           <li className="navbar">About</li>
