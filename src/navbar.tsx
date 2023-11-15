@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <img style={{width: '8rem', height: '3rem', position: 'relative', display: inline}} src="./assets/logo-19f49d27.png" className="AppLogo"></img>
+        <img style={{width: '8rem', height: '3rem', position: 'relative', display: 'inline'}} src="./assets/logo-19f49d27.png" className="AppLogo"></img>
        <nav>
         <ul>
           <li className="navbar">Home</li>
