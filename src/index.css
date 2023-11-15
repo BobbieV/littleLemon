@@ -63,7 +63,8 @@ button:focus-visible {
 
 .header {
   background-color: #495E57;
-
+  grid-column-start: 1;
+  grid-column-end: 5;
 
 
 
@@ -94,7 +95,7 @@ button:focus-visible {
   padding: 3rem;
   background-color: #EDEFEE;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
 }
 
 
