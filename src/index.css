@@ -62,7 +62,8 @@ button:focus-visible {
   color:#EDEFEE
 }
 .heroImage {
-  align-self: flex-end;
+  display: block;
+  margin-right: auto;
 }
 .navbar {
 
@@ -72,7 +73,8 @@ button:focus-visible {
 background-color: #EDEFEE;
 }
 .reserveATable {
-  align-self: flex-start;
+  display: block;
+  margin-left: auto;
 }
 .header {
   background-color: #495E57;
