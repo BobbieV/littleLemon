@@ -59,7 +59,7 @@ button:focus-visible {
   display: inline;
   float: left;
   padding: 3rem;
-
+background-color: #EDEFEE;
 }
 
 .header {
