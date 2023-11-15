@@ -74,9 +74,7 @@ button:focus-visible {
   word-wrap: 'break-word';
 
 }
-.heroImage {
 
-}
 .navbar {
 
   display: inline;
@@ -84,10 +82,9 @@ button:focus-visible {
   padding: 3rem;
   background-color: #EDEFEE;
 }
-.reserveATable {
 
 
-}
+
 .header {
   background-color: #495E57;
 
