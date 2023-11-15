@@ -66,20 +66,19 @@ button:focus-visible {
   word-wrap: 'break-word'
 }
 .heroImage {
-  size: 10rem;
+  size: 7rem;
   display: block;
-  margin-left: 3rem, auto;
+
 }
 .navbar {
 
   display: inline;
   float: left;
   padding: 3rem;
-background-color: #EDEFEE;
+  background-color: #EDEFEE;
 }
 .reserveATable {
   display: block;
-  margin-right: 3rem, auto;
 
 }
 .header {
