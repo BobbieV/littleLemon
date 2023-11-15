@@ -56,6 +56,7 @@ button:focus-visible {
 }
 
 .navbar {
+  width: 100%;
   display: inline;
   float: left;
   padding: 3rem;
@@ -64,6 +65,7 @@ background-color: #EDEFEE;
 
 .header {
   background-color: #495E57;
+  
 }
 
 @media (prefers-color-scheme: light) {
