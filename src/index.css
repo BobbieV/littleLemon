@@ -63,11 +63,10 @@ button:focus-visible {
   font-size: 32;
   font-family: 'Karla';
   font-weight: '400';
-  word-wrap: 'break-word'
+  word-wrap: 'break-word';
 }
 .heroImage {
-  size: 7rem;
-  display: block;
+  size: 5rem;
 
 }
 .navbar {
@@ -78,12 +77,13 @@ button:focus-visible {
   background-color: #EDEFEE;
 }
 .reserveATable {
-  display: block;
+  margin: 3rem, 3rem, auto;
+
 
 }
 .header {
   background-color: #495E57;
-  display: inline; ;
+  display: inline;
 
 }
 
