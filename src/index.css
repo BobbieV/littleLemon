@@ -55,6 +55,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.title {
+  color:#F4CE14
+}
+.text {
+  color:#EDEFEE
+}
+
 .navbar {
   width: 100%;
   display: inline;
@@ -65,7 +72,7 @@ background-color: #EDEFEE;
 
 .header {
   background-color: #495E57;
-  
+
 }
 
 @media (prefers-color-scheme: light) {
