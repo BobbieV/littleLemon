@@ -16,8 +16,8 @@
 
 .mainGrid{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  
+  grid-template-columns: repeat(4, 1fr);
+
 }
 
 a {
@@ -63,7 +63,7 @@ button:focus-visible {
 
 .header {
   background-color: #495E57;
-  
+
 
 
 
@@ -75,7 +75,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  
+
 }
 .text {
   color: #EDEFEE;
@@ -93,6 +93,8 @@ button:focus-visible {
   float: left;
   padding: 3rem;
   background-color: #EDEFEE;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 
