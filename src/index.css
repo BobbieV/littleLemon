@@ -62,7 +62,7 @@ button:focus-visible {
   color:#EDEFEE
 }
 .heroImage {
-  display: inline-flex;
+  float: right;
 }
 .navbar {
 
@@ -71,7 +71,9 @@ button:focus-visible {
   padding: 3rem;
 background-color: #EDEFEE;
 }
-
+.reserveATable {
+  float: left;
+}
 .header {
   background-color: #495E57;
 
