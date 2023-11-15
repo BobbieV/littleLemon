@@ -83,7 +83,13 @@ button:focus-visible {
   background-color: #EDEFEE;
 }
 
+.heroImage {
+  grid-column-start: 3;
+}
 
+.reserveATable {
+  grid-column-start: 1;
+}
 
 .header {
   background-color: #495E57;
