@@ -74,7 +74,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  grid-row-start: 1;
+  
 }
 .text {
   color: #EDEFEE;
@@ -82,7 +82,7 @@ button:focus-visible {
   font-family: 'Karla';
   font-weight: '400';
   word-wrap: 'break-word';
-  grid-row-start: 1;
+
 
 }
 
@@ -94,13 +94,7 @@ button:focus-visible {
   background-color: #EDEFEE;
 }
 
-.heroImage {
-  grid-column-start: 3;
-}
 
-.reserveATable {
-  grid-column-start: 1;
-}
 
 
 
