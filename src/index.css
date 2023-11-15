@@ -61,7 +61,9 @@ button:focus-visible {
 .text {
   color:#EDEFEE
 }
-
+.heroImage {
+  display: inline-flex;
+}
 .navbar {
 
   display: inline;
