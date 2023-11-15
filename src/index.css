@@ -59,12 +59,21 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.header {
+  background-color: #495E57;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+
+}
+
 .title {
   color:#F4CE14;
   font-size: 72;
   font-family: 'Markazi Text';
   font-weight: '400';
-  word-wrap: 'break-word'
+  word-wrap: 'break-word';
+  grid-row-start: 1;
 }
 .text {
   color: #EDEFEE;
@@ -72,6 +81,7 @@ button:focus-visible {
   font-family: 'Karla';
   font-weight: '400';
   word-wrap: 'break-word';
+  grid-row-start: 1;
 
 }
 
@@ -91,11 +101,7 @@ button:focus-visible {
   grid-column-start: 1;
 }
 
-.header {
-  background-color: #495E57;
 
-
-}
 
 @media (prefers-color-scheme: light) {
   :root {
