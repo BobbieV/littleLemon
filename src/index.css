@@ -59,7 +59,11 @@ button:focus-visible {
   color:#F4CE14
 }
 .text {
-  color:#EDEFEE
+  color: '#EDEFEE';
+  font-size: 32;
+  font-family: 'Karla';
+  font-weight: '400';
+  word-wrap: 'break-word'
 }
 .heroImage {
   size: 10rem;
