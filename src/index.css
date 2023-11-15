@@ -68,10 +68,10 @@ button:focus-visible {
   font-family: 'Karla';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin-right: 3rem;
+  
 }
 .heroImage {
-  margin: 3rem, auto, 3rem, auto;
+
 }
 .navbar {
 
@@ -81,7 +81,6 @@ button:focus-visible {
   background-color: #EDEFEE;
 }
 .reserveATable {
-  margin: 3rem, 3rem, auto;
 
 
 }
