@@ -62,9 +62,9 @@ button:focus-visible {
   color:#EDEFEE
 }
 .heroImage {
-  size: medium;
+  size: 10rem;
   display: block;
-  margin-left: auto;
+  margin-left: 3rem, auto;
 }
 .navbar {
 
@@ -75,8 +75,8 @@ background-color: #EDEFEE;
 }
 .reserveATable {
   display: block;
-  margin-right: auto;
-  padding: 3rem;
+  margin-right: 3rem, auto;
+
 }
 .header {
   background-color: #495E57;
