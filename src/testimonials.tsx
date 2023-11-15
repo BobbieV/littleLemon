@@ -7,9 +7,9 @@ function Testimonials() {
 
   return (
     <>
-      <div>
+      <div className="header">
         <header>
-            <h1>Testimonials</h1>
+            <h1 className="title">Testimonials</h1>
             <section></section>
             <section></section>
             <section></section>
