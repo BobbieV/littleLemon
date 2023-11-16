@@ -82,6 +82,7 @@ button:focus-visible {
 
  grid-column-start: 1;
  grid-column-end: 5;
+ display: inline;
   padding: 3rem;
   background-color: #EDEFEE;
 
