@@ -17,6 +17,7 @@
 .mainGrid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat (3, 1fr);
 
 }
 
@@ -105,6 +106,7 @@ button:focus-visible {
 }
 
 .reserveATable {
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 2;
 }
