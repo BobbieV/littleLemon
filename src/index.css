@@ -49,11 +49,7 @@ button:focus-visible {
 
 .header {
   background-color: #495E57;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat (3, 1fr);
-grid-column-start: 1;
-grid-column-end: 5;
+
 
 
 }
@@ -64,8 +60,7 @@ grid-column-end: 5;
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  grid-column-start: 1;
-  grid-column-end: 2;
+
 
 }
 .text {
@@ -74,8 +69,6 @@ grid-column-end: 5;
   font-family: 'Karla';
   font-weight: '400';
   word-wrap: 'break-word';
-  grid-column-start: 1;
-  grid-column-end: 3;
 
 
 }
@@ -86,26 +79,10 @@ grid-column-end: 5;
   float: left;
   padding: 3rem;
   background-color: #EDEFEE;
-  grid-column-start: 1;
-  grid-column-end: 5;
+
 }
 
-.AppLogo {
-grid-column-start: 1;
-grid-row-start: 1;
-}
 
-.reserveATable {
- 
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.heroImage {
-  
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
