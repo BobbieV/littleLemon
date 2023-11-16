@@ -110,6 +110,7 @@ button:focus-visible {
 }
 
 .heroImage {
+  display: grid;
   grid-column-start: 3;
   grid-column-end: 4;
 }
