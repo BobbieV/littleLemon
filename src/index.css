@@ -77,15 +77,11 @@ button:focus-visible {
 
   display: inline;
   float: left;
-  width: 100%;
   padding: 3rem;
   background-color: #EDEFEE;
 
 }
 
-.AppLogo {
-  display: inline;
-}
 
 
 @media (prefers-color-scheme: light) {
