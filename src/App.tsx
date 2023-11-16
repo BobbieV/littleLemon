@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className="mainGrid">
+      <div>
         <Navbar/>
         <Header/>
         <Specials/>

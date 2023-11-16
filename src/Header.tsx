@@ -7,7 +7,7 @@ function Header() {
 
   return (
     <>
-      <div className="header">
+      <section className="header">
         <header>
             <h1 className="title">Little Lemon</h1>
             <h2 className="text">Chicago</h2>
@@ -15,7 +15,7 @@ function Header() {
             <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/Hero%20Image.png?raw=true" className="heroImage"></img>
             <button className="reserveATable">Reserve a Table</button>
         </header>
-        </div>
+        </section>
     </>
   )
 }

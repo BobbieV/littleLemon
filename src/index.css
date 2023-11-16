@@ -14,13 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.mainGrid{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat (3, 1fr);
-
-}
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -58,8 +51,7 @@ button:focus-visible {
   background-color: #495E57;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-template-rows: repeat (3, 1fr);
 
 
 
@@ -97,14 +89,19 @@ button:focus-visible {
   grid-column-end: 5;
 }
 
+.AppLogo {
+grid-column-start: 1;
+grid-row-start: 1;
+}
+
 .reserveATable {
-  display: grid;
+ 
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 .heroImage {
-  display: grid;
+  
   grid-column-start: 3;
   grid-column-end: 4;
 }
