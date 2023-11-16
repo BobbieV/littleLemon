@@ -63,6 +63,8 @@ button:focus-visible {
 
 .header {
   background-color: #495E57;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-column-start: 1;
   grid-column-end: 5;
 
