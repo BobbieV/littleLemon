@@ -78,14 +78,14 @@ grid-column-end: 5;
 }
 
 .navbar {
-
+display: grid;
  grid-column-start: 1;
  grid-column-end: 5;
  display: inline;
  float:inline-start;
   padding: 3rem;
   background-color: #EDEFEE;
-height: 5 rem;
+
 }
 
 
