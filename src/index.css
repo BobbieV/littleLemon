@@ -47,6 +47,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
 .header {
   background-color: #495E57;
 
@@ -75,8 +80,8 @@ button:focus-visible {
 
 .navbar {
 
-  display: inline;
-  float: left;
+ grid-column-start: 1;
+ grid-column-end: 5;
   padding: 3rem;
   background-color: #EDEFEE;
 
