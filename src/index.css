@@ -28,14 +28,10 @@ button:focus-visible {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: .0125fr, 1fr, 1fr, 1fr;
 }
 
 .header {
   background-color: #495E57;
-grid-column-start: 1;
-grid-column-end: 5;
 }
 
 .title {
@@ -58,9 +54,7 @@ grid-column-end: 5;
 }
 
 .nav {
-display: grid;
- grid-column-start: 1;
- grid-column-end: 6;
+
   padding: 3rem;
   background-color: #EDEFEE;
 
@@ -68,18 +62,14 @@ display: grid;
 
 .navbar {
   display: inline;
- grid-column-start: 3;
- grid-column-end: 6;
+
 }
 
 .navtext {
   padding: 1rem;
 }
 
-.AppLogo {
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
+
 
 
 @media (prefers-color-scheme: light) {
