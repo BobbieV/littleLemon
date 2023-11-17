@@ -61,10 +61,14 @@ grid-column-end: 5;
 display: grid;
  grid-column-start: 1;
  grid-column-end: 5;
- display: inline;
-  padding: 3rem;
+ 
+  padding: 1rem;
   background-color: #EDEFEE;
 
+}
+
+.navbar {
+  display: inline;
 }
 
 
