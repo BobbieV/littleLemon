@@ -69,7 +69,9 @@ button:focus-visible {
   padding: 1rem;
 }
 
-
+.footer {
+  display: inline;
+}
 
 
 @media (prefers-color-scheme: light) {
