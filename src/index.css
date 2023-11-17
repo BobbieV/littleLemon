@@ -29,7 +29,7 @@ button:focus-visible {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 25px, 1fr, 1fr, 1fr, 1fr,50px;
+  grid-template-rows: 10px, 1fr, 1fr, 1fr, 1fr,25px;
 }
 .header {
   background-color: #495E57;
