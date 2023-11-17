@@ -61,13 +61,12 @@ button:focus-visible {
 
 .navbar {
   display: inline;
-
+position: fixed;
+top: 5;
 }
 
 .navtext {
-  position: fixed;
-  top: 5;
-
+ 
   padding: 1rem;
 }
 
