@@ -5,7 +5,7 @@ import Specials from './specials.tsx'
 import Testimonials from './testimonials.tsx'
 import Footer from './footer.tsx'
 
-import './App.css'
+import './index.css'
 
 function App() {
 
