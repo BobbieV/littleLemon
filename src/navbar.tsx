@@ -9,7 +9,7 @@ function Navbar() {
     <>
       <section className="navbar">
         <nav>
-          <img style={{width: '8rem', height: '3rem'}} src="./assets/logo-19f49d27.png" className="AppLogo"></img>
+          <img style={{width: '8rem', height: '3rem'}} src="./assets/logo-19f49d27.png" className="AppLogo navbar"></img>
         <ul>
           <li className="navbar">Home</li>
           <li className="navbar">About</li>
