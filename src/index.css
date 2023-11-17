@@ -28,8 +28,8 @@ button:focus-visible {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: .125fr, 1fr, 1fr, 1fr, 1fr, .25fr;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: .0125fr, 1fr, 2fr, 2fr, 1fr, 1fr, 1fr, .25fr;
 }
 
 .header {
@@ -60,7 +60,7 @@ grid-column-end: 5;
 .nav {
 display: grid;
  grid-column-start: 1;
- grid-column-end: 5;
+ grid-column-end: 6;
   padding: 3rem;
   background-color: #EDEFEE;
 
@@ -68,8 +68,8 @@ display: grid;
 
 .navbar {
   display: inline;
- grid-column-start: 2;
- grid-column-end: 5;
+ grid-column-start: 3;
+ grid-column-end: 6;
 }
 
 .navtext {
