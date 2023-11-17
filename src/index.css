@@ -61,8 +61,7 @@ grid-column-end: 5;
 display: grid;
  grid-column-start: 1;
  grid-column-end: 5;
- 
-  padding: 1rem;
+  padding: 3rem;
   background-color: #EDEFEE;
 
 }
@@ -71,6 +70,10 @@ display: grid;
   display: inline;
 }
 
+.AppLogo {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
 
 
 @media (prefers-color-scheme: light) {
