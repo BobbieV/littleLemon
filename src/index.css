@@ -54,7 +54,7 @@ button:focus-visible {
 }
 
 .nav {
-
+justify-items: flex-end;
   padding: 3rem;
   background-color: #EDEFEE;
 
