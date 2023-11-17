@@ -50,7 +50,7 @@ button:focus-visible {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 50px, 1fr, 1fr, 1fr, 1fr,100px;
+  grid-template-rows: 25px, 1fr, 1fr, 1fr, 1fr,50px;
 }
 .header {
   background-color: #495E57;
