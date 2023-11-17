@@ -32,9 +32,6 @@ button:focus-visible {
   grid-template-rows: .125fr, 1fr, 1fr, 1fr, 1fr, .25fr;
 }
 
-.AppLogo {
-  justify-self: flex-start;
-}
 .header {
   background-color: #495E57;
 grid-column-start: 1;
@@ -60,7 +57,7 @@ grid-column-end: 5;
 
 }
 
-.navbar {
+.nav {
 display: grid;
  grid-column-start: 1;
  grid-column-end: 5;
