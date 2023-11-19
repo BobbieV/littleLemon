@@ -28,6 +28,12 @@ button:focus-visible {
 
 .wrapper {
   display: grid;
+  grid-template-rows: 
+  [navbar] 2rem
+  [header] 4rem
+  [specials] 3rem
+  [testimonials] 3rem
+  [footer] 3rem;
 }
 
 .header {
@@ -68,7 +74,7 @@ button:focus-visible {
 
 .navtext {
   padding: 1rem;
-  margin-right: 25rem;
+  margin-right: 5rem;
 }
 
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
