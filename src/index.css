@@ -38,6 +38,25 @@ button:focus-visible {
   [footer] 10rem;
 }
 
+.nav {
+  padding: 3rem;
+  background-color: #EDEFEE;
+
+}
+
+.navbar {
+  display: inline;
+
+}
+
+.navtext {
+  padding: 1rem;
+}
+
+.navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
+  padding: 1rem;
+}
+
 .header {
   background-color: #495E57;
 }
@@ -67,25 +86,9 @@ button:focus-visible {
   word-wrap: 'break-word';
   width: 30%;
 }
-.nav {
-  padding: 3rem;
-  background-color: #EDEFEE;
-
+.heroImage {
+margin-right:7rem;
 }
-
-.navbar {
-  display: inline;
-
-}
-
-.navtext {
-  padding: 1rem;
-}
-
-.navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
-  padding: 1rem;
-}
-
 .footer {
   display: inline;
 }
