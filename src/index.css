@@ -30,7 +30,6 @@ button:focus-visible {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-template-rows:
   [navbar] 10rem
   [header] 20rem
@@ -87,7 +86,10 @@ button:focus-visible {
   word-wrap: 'break-word';
   width: 30%;
 }
-
+.heroImage {
+  width: fit-content;
+  justify-self: right;
+}
 
 .footer {
   display: inline;
