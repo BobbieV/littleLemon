@@ -51,16 +51,19 @@ button:focus-visible {
 
 
 }
-.text {
-  color: #EDEFEE;
+.h2text {
   font-size: 32;
   font-family: 'Karla';
   font-weight: '400';
-  word-wrap: 'break-word';
-
-
 }
-
+.text {
+  color: #EDEFEE;
+}
+.ptext {
+  font-size: 18;
+  font-family: 'Karla';
+  word-wrap: 'break-word';
+}
 .nav {
   display: grid;
   grid-auto-columns: 8;
