@@ -68,8 +68,6 @@ button:focus-visible {
   width: 30%;
 }
 .nav {
-  display: grid;
-  grid-auto-columns: 8;
   padding: 3rem;
   background-color: #EDEFEE;
 
@@ -82,7 +80,6 @@ button:focus-visible {
 
 .navtext {
   padding: 1rem;
-  margin-right: 5rem;
 }
 
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
