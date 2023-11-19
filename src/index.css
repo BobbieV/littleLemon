@@ -28,12 +28,12 @@ button:focus-visible {
 
 .wrapper {
   display: grid;
-  grid-template-rows: 
-  [navbar] 2rem
-  [header] 4rem
-  [specials] 3rem
-  [testimonials] 3rem
-  [footer] 3rem;
+  grid-template-rows:
+  [navbar] 5rem
+  [header] 8rem
+  [specials] 8rem
+  [testimonials] 6rem
+  [footer] 5rem;
 }
 
 .header {
