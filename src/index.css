@@ -69,7 +69,7 @@ button:focus-visible {
   margin-right: 5rem;
 }
 
-.navtext1 .navtext2 .navtext3 .navtext4 .navtext5 .navtext6 {
+.navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
   padding: 1rem;
 }
 
