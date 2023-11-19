@@ -10,7 +10,7 @@ function Navbar() {
       <section className="nav">
         <nav>
           <img style={{width: '8rem', height: '3rem'}} src="./assets/logo-19f49d27.png" className="AppLogo navbar"></img>
-        <ul classname="navtext">
+        <ul className="navtext">
           <li className="navbar navtext1">Home</li>
           <li className="navbar navtext2">About</li>
           <li className="navbar navtext3">Menu</li>
