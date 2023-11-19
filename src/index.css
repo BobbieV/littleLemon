@@ -54,6 +54,8 @@ button:focus-visible {
 }
 
 .nav {
+  display: grid;
+  grid-auto-columns: 8;
   padding: 3rem;
   background-color: #EDEFEE;
 
