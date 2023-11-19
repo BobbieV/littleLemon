@@ -48,6 +48,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
+  margin-left: 3rem;
 
 
 }
@@ -58,11 +59,13 @@ button:focus-visible {
 }
 .text {
   color: #EDEFEE;
+  margin-left: 3rem;
 }
 .ptext {
   font-size: 18;
   font-family: 'Karla';
   word-wrap: 'break-word';
+  width: 30%;
 }
 .nav {
   display: grid;
