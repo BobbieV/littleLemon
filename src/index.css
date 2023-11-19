@@ -32,7 +32,7 @@ button:focus-visible {
   display: grid;
   grid-template-rows:
   [navbar] 10rem
-  [header] 40rem
+  [header] 20rem
   [specials] 30rem
   [testimonials] 16rem
   [footer] 10rem;
