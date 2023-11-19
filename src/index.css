@@ -87,7 +87,7 @@ button:focus-visible {
   width: 30%;
 }
 .heroImage {
-position: relative;
+position: fixed;
 }
 .footer {
   display: inline;
