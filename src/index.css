@@ -60,7 +60,9 @@ height:3rem;
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
   padding: 1rem;
 }
-.appLogo
+.AppLogo{
+height:fit-content;
+}
 .header {
   background-color: #495E57;
 }
@@ -94,8 +96,6 @@ height:3rem;
   position: absolute;
   right: 15%;
   top: 15%;
-  height: 50%;
-  width: auto;
 }
 
 .footer {
