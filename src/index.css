@@ -46,7 +46,7 @@ button:focus-visible {
 
 .navbar {
   display: inline;
-height:2rem;
+height:3rem;
 }
 
 .navtext {
@@ -63,9 +63,6 @@ height:2rem;
 .appLogo
 .header {
   background-color: #495E57;
-  justify-items: right;
-  height:40rem;
-  width: 100%;
 }
 
 .title {
