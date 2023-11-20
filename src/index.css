@@ -46,7 +46,7 @@ button:focus-visible {
 
 .navbar {
   display: inline;
-
+height:2rem;
 }
 
 .navtext {
