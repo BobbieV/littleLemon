@@ -52,8 +52,8 @@ button:focus-visible {
 .navtext {
   padding: 1rem;
   position: absolute;
-  top: 2.5rem;
-  right: 3rem;
+  top: 2.75rem;
+  right: 1rem;
 }
 
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
