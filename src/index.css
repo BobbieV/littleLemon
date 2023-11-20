@@ -91,7 +91,7 @@ button:focus-visible {
   position: absolute;
   right: 15%;
   top: 15rem;
-  height: 15rem;
+  height: 50%;
   width: auto;
 }
 
