@@ -90,6 +90,7 @@ button:focus-visible {
 .heroImage {
   position: absolute;
   right: 10%;
+  top: 10%;
 }
 
 .footer {
