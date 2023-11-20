@@ -88,7 +88,7 @@ button:focus-visible {
   width: 30%;
 }
 .heroImage {
-  position: absolute;
+  position: relative;
   right: 15%;
   top: 15rem;
   height: 50%;
