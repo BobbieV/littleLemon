@@ -64,6 +64,8 @@ height:2rem;
 .header {
   background-color: #495E57;
   justify-items: right;
+  height:40rem;
+  width: 100%;
 }
 
 .title {
