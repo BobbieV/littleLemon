@@ -88,8 +88,7 @@ button:focus-visible {
   width: 30%;
 }
 .heroImage {
-  width: fit-content;
-  justify-self: right;
+  right: 10%;
 }
 
 .footer {
