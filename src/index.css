@@ -54,6 +54,7 @@ button:focus-visible {
   position: absolute;
   top: 2.75rem;
   right: 1rem;
+  width: 100%;
 }
 
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
@@ -85,7 +86,7 @@ button:focus-visible {
   margin-left: 3rem;
 }
 .ptext {
-  font-size: 18;
+  font-size: 1rem;
   font-family: 'Karla';
   word-wrap: 'break-word';
   width: 30%;
@@ -93,7 +94,7 @@ button:focus-visible {
 .heroImage {
   position: absolute;
   right: 15%;
-  top: 15rem;
+  top: 15%;
   height: 50%;
   width: auto;
 }
