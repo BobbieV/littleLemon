@@ -54,13 +54,13 @@ button:focus-visible {
   position: absolute;
   top: 2.75rem;
   right: 1rem;
-  width: 100%;
+
 }
 
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
   padding: 1rem;
 }
-
+.appLogo
 .header {
   background-color: #495E57;
   justify-items: right;
