@@ -34,14 +34,14 @@ button:focus-visible {
   width: 100%;
 }
 .AppLogo {
-  height:3rem;
+  height:3.5rem;
   display: inline;
   position: absolute;
-  left: 0;
+  left: 1rem;
 }
 .navtext {
   position: absolute;
-  right: 0;
+  right: 1rem;
 }
 .navtext li {
   display: inline;
