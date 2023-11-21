@@ -40,7 +40,10 @@ button:focus-visible {
   background-color: #EDEFEE;
 }
 .navtext {
-  display: inline;
+  float: left;
+}
+.AppLogo {
+  grid-row-start: auto;
 }
 
 .headerWrapper {
