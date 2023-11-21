@@ -33,7 +33,6 @@ button:focus-visible {
 .AppLogo {
   height: 3.25rem;
 }
-
 .navtext li {
   display: inline;
   padding: 1rem;
@@ -41,9 +40,14 @@ button:focus-visible {
   word-wrap: break-word;
   max-width: 100px;
 }
+
+
 .headerWrapper {
   background-color: #495E57;
   display: grid;
+  width: 100%;
+  grid-template-columns: 20% 80%;
+  height: 30rem;
 }
 .title {
   color:#F4CE14;
