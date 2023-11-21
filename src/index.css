@@ -36,7 +36,8 @@ button:focus-visible {
 .AppLogo {
   height:3rem;
   display: inline;
-  margin-right: 0;
+  position: absolute;
+  left: 0;
 }
 .navtext li {
   display: inline;
