@@ -31,11 +31,11 @@ button:focus-visible {
 .wrapper {
   display: grid;
   grid-template-columns:
-[navbar] 5rem
-[header] 40rem
-[specials] 30rem
-[testimonials] 25rem
-[footer] 10rem;
+[navbar] .5fr
+[header] 1.5fr
+[specials] 2fr
+[testimonials] 1.5fr
+[footer] 1fr;
   grid-gap: 2rem;
 }
 
