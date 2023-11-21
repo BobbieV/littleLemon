@@ -43,10 +43,6 @@ button:focus-visible {
   float: left;
 }
 
-.AppLogo {
-  grid-row-start: auto;
-}
-
 .headerWrapper {
   background-color: #495E57;
   display: grid;
