@@ -42,12 +42,7 @@ button:focus-visible {
   display: inline;
   margin-left: 0;
 }
-.navtext {
-  position:absolute;
-  margin-right: 0;
-  margin-left: 20%;
-  width: 80%;
-}
+
 .navtext li {
   display: inline;
   padding: 1rem;
