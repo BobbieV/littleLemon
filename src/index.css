@@ -37,11 +37,11 @@ button:focus-visible {
   height:3.25rem;
   display: inline;
   position: absolute;
-  left: 1rem;
+  left: 10%em;
 }
 .navtext {
   position: absolute;
-  right: 1rem;
+  right: 10%;
 }
 .navtext li {
   display: inline;
