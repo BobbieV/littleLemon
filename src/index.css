@@ -40,7 +40,7 @@ button:focus-visible {
   height: 3.5rem;
   display: inline;
   position: absolute;
-  left: 3;
+  left: 1;
 }
 .navtext {
   margin-right: 0;
