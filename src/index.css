@@ -47,11 +47,13 @@ button:focus-visible {
   display: grid;
   width: 100%;
   height: 27.5rem;
-  grid-template:
+  grid-template-areas:
   'title title title title'
   'h2text h2text heroImage heroImage'
   'ptext ptext heroImage heroImage'
-  'reserveATable reserveATable heroImage heroImage'
+  'reserveATable reserveATable heroImage heroImage';
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:max-content;
 }
 .title {
   color:#F4CE14;
