@@ -42,7 +42,7 @@ button:focus-visible {
 }
 
 
-.headerWrapper {
+#header {
   background-color: #495E57;
   display: grid;
   width: 100%;

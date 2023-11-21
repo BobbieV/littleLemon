@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <section className="headerWrapper">
-        <header>
+        <header id="header">
             <h1 className="title">Little Lemon</h1>
             <h2 className="h2text text">Chicago</h2>
             <p className="text ptext">We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
