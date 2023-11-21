@@ -35,9 +35,10 @@ button:focus-visible {
 }
 .AppLogo {
   height:3rem;
+  display: inline;
 }
 .navtext li {
-  display: inline-grid;
+  display: inline;
   padding: 2rem;
 }
 .headerWrapper {
