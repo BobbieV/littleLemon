@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <main className="wrapper">
+      <main className="appWrapper">
         <Navbar/>
         <Header/>
         <Specials/>

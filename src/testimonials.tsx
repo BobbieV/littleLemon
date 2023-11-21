@@ -7,7 +7,7 @@ function Testimonials() {
 
   return (
     <>
-      <div className="header">
+      <div className="testimonialsWrapper">
         <header>
             <h1 className="title">Testimonials</h1>
             <section></section>

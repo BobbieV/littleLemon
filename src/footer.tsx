@@ -7,8 +7,8 @@ function Footer() {
 
   return (
     <>
-      <div>
-        <header>
+      <div className="footerWrapper">
+        <footer>
             <ul>
                 <li>Doormat</li>
                 <li>Navigation</li>
@@ -29,7 +29,7 @@ function Footer() {
                 <li>Instagram</li>
                 <li>TikTok</li>
             </ul>
-            </header>
+            </footer>
         </div>
     </>
   )

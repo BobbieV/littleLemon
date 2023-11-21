@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <>
-      <section className="nav">
+      <section className="navWrapper">
         <nav>
           <img src="./assets/logo-19f49d27.png" className="AppLogo navbar"></img>
         <ul className="navtext">

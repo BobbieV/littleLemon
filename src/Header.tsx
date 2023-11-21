@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <>
-      <section className="header">
+      <section className="headerWrapper">
         <header>
             <h1 className="title">Little Lemon</h1>
             <h2 className="h2text text">Chicago</h2>

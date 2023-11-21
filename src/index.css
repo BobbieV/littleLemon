@@ -28,47 +28,30 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.wrapper {
+.navWrapper {
   display: grid;
-  grid-template-columns:
-[navbar] .5fr
-[header] 1.5fr
-[specials] 2fr
-[testimonials] 1.5fr
-[footer] 1fr;
-  grid-gap: 2rem;
 }
-
 .nav {
   padding: 3rem;
   background-color: #EDEFEE;
-
 }
-
-.navbar {
-
-grid-area: navbar;
-}
-
 .navtext {
   padding: 1rem;
   position: absolute;
   top: 2.75rem;
   right: 1rem;
-
 }
-
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
   padding: 1rem;
 }
 .AppLogo{
 grid-area: AppLogo;
 }
-.header {
-  background-color: #495E57;
-  grid-area: header;
-}
 
+.headerWrapper {
+  background-color: #495E57;
+  display: grid;
+}
 .title {
   color:#F4CE14;
   font-size: 4rem;
@@ -76,8 +59,6 @@ grid-area: AppLogo;
   font-weight: '400';
   word-wrap: 'break-word';
   margin-left: 3rem;
-
-
 }
 .h2text {
   font-size: 2rem;
@@ -100,12 +81,14 @@ grid-area: AppLogo;
   top: 15%;
 }
 
-.specials {
-  grid-area: specials;
+.specialsWrapper {
+  display: grid;
 }
-.footer {
-  display: inline;
-  grid-area: footer;
+.testimonialsWrapper {
+  display: grid;
+}
+.footerWrapper {
+  display: grid;
 }
 
 
