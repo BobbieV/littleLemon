@@ -39,11 +39,13 @@ button:focus-visible {
   position: absolute;
   left: 0;
 }
+.navtext {
+  position: absolute;
+  right: 0;
+}
 .navtext li {
   display: inline;
   padding: 2rem;
-  position: absolute;
-  right: 0;
 }
 .headerWrapper {
   background-color: #495E57;
