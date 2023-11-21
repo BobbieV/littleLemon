@@ -53,7 +53,7 @@ button:focus-visible {
   'ptext ptext heroImage heroImage'
   'reserveATable reserveATable heroImage heroImage';
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows:max-content;
+  grid-template-rows:.5fr .5fr 2fr .5fr;
 }
 .title {
   color:#F4CE14;
