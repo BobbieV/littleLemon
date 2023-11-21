@@ -30,12 +30,15 @@ button:focus-visible {
 
 .navWrapper {
   display: grid;
+  grid-template-columns: [logo] 2fr [home] 1fr [about] 1fr [Menu] 1fr [reservations] 1fr [orderonline] 1fr [login] 1fr;
+  grid-template-rows: [navmenu] 1fr;
 }
 .nav {
   padding: 3rem;
   background-color: #EDEFEE;
 }
 .navtext {
+  display: inline;
   padding: 1rem;
   position: absolute;
   top: 2.75rem;
@@ -43,9 +46,6 @@ button:focus-visible {
 }
 .navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
   padding: 1rem;
-}
-.AppLogo{
-grid-area: AppLogo;
 }
 
 .headerWrapper {
