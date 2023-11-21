@@ -39,7 +39,7 @@ button:focus-visible {
   padding: 1rem;
   font-size: .75rem;
   word-wrap: break-word;
-  max-width: 125px;
+  max-width: 100px;
 }
 .headerWrapper {
   background-color: #495E57;
