@@ -38,6 +38,8 @@ button:focus-visible {
   display: inline;
   padding: 1rem;
   font-size: .75rem;
+  word-wrap: break-word;
+  max-width: 125px;
 }
 .headerWrapper {
   background-color: #495E57;
