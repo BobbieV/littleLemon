@@ -33,9 +33,11 @@ button:focus-visible {
   height: 3rem;
   width: 100%;
 }
-.AppLogo {
-  height: auto;
+.AppLogoWrapper{
   width: 20%;
+}
+.AppLogo {
+  height: 3.5rem;
   display: inline;
   position: absolute;
   left: 3;

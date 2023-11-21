@@ -9,7 +9,9 @@ function Navbar() {
     <>
       <section className="navWrapper">
         <nav className="nav">
+          <div className="AppLogoWrapper">
           <img src="./assets/logo-19f49d27.png" className="AppLogo navbar"></img>
+          </div>
         <ul className="navtext">
           <li className="navbar navtext1">Home</li>
           <li className="navbar navtext2">About</li>
