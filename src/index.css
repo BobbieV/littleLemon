@@ -37,7 +37,7 @@ button:focus-visible {
   height:3rem;
 }
 .navtext li {
-  display: inline;
+  display: inline-grid;
   padding: 2rem;
 }
 .headerWrapper {
