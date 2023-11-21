@@ -47,7 +47,7 @@ button:focus-visible {
 }
 .navtext li {
   display: inline;
-  padding: 2rem;
+  padding: 1rem;
 }
 .headerWrapper {
   background-color: #495E57;
