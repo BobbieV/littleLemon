@@ -35,13 +35,6 @@ button:focus-visible {
     grid-column-gap: 5px;
     grid-row-gap: 0px;
     }
-    .AppLogo { grid-area: 1 / 1 / 2 / 2; }
-    .navtext1 { grid-area: 1 / 2 / 2 / 3; }
-    .navtext2 { grid-area: 1 / 3 / 2 / 4; }
-    .navtext3 { grid-area: 1 / 4 / 2 / 5; }
-    .navtext4 { grid-area: 1 / 5 / 2 / 6; }
-    .navtext5{ grid-area: 1 / 6 / 2 / 7; }
-    .navtext6 { grid-area: 1 / 7 / 2 / 8; }
 
 .nav {
   padding: 3rem;
