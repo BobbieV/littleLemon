@@ -31,17 +31,14 @@ button:focus-visible {
 .nav {
   padding: 3rem;
   background-color: #EDEFEE;
+  height: 3rem;
 }
 .AppLogo {
-  height:2rem;
-  grid-area: 1/2;
+  height:3rem;
 }
 .navtext li {
   display: inline;
   padding: 2rem;
-}
-.navtext {
-  grid-area: 3/8;
 }
 .headerWrapper {
   background-color: #495E57;
