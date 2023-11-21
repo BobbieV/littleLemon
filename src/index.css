@@ -34,7 +34,13 @@ button:focus-visible {
   display: inline;
   float: left;
 }
-
+.AppLogo {
+  height:2rem;
+  grid-area: 1/2;
+}
+.navtext {
+  grid-area: 3/8;
+}
 .headerWrapper {
   background-color: #495E57;
   display: grid;
