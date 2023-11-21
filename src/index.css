@@ -70,11 +70,6 @@ button:focus-visible {
   word-wrap: 'break-word';
   width: 30%;
 }
-.heroImage {
-  position: absolute;
-  right: 15%;
-  top: 15%;
-}
 
 .specialsWrapper {
   display: grid;
