@@ -31,12 +31,13 @@ button:focus-visible {
 .nav {
   padding: 3rem;
   background-color: #EDEFEE;
-  display: inline;
-  float: left;
 }
 .AppLogo {
   height:2rem;
   grid-area: 1/2;
+}
+.navtext li {
+  display: inline;
 }
 .navtext {
   grid-area: 3/8;
