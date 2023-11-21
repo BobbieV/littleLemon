@@ -31,12 +31,11 @@ button:focus-visible {
 .wrapper {
   display: grid;
   grid-template-rows:
-  "AppLogo navbar navbar navbar navbar navbar navbar navbar"
-  "header header header header header"
-  "specials specials specials"
-  "testimonials testimonials testimonials"
-  "footer footer footer";
-  grid-template-rows: 5rem 40rem 30rem 25rem 10rem;
+[navbar] 5rem
+[header] 40rem
+[specials] 30rem
+[testimonials] 25rem
+[footer] 10rem;
   grid-gap: 2rem;
 }
 
