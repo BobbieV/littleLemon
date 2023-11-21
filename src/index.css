@@ -47,14 +47,6 @@ button:focus-visible {
   padding: 3rem;
   background-color: #EDEFEE;
 }
-.navtext {
-  display: inline;
-  padding: 1rem;
-
-}
-.navtext1, .navtext2, .navtext3, .navtext4, .navtext5, .navtext6 {
-  padding: 1rem;
-}
 
 .headerWrapper {
   background-color: #495E57;
