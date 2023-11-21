@@ -51,6 +51,7 @@ button:focus-visible {
 }
 .textWrapper {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 
 
 }
