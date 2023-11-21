@@ -32,7 +32,7 @@ button:focus-visible {
   background-color: #EDEFEE;
   height: 3rem;
   width: 100%;
-  justify-items: center;
+  justify-content: center;
 }
 .AppLogo {
   height:3rem;
