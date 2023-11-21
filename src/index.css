@@ -38,7 +38,7 @@ button:focus-visible {
   width: 20%;
   display: inline;
   position: absolute;
-  left: 10%em;
+  left: 10%;
 }
 .navtext {
   position: absolute;
