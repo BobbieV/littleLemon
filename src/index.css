@@ -32,11 +32,11 @@ button:focus-visible {
   background-color: #EDEFEE;
   height: 3rem;
   width: 100%;
-  justify-content: center;
 }
 .AppLogo {
   height:3rem;
   display: inline;
+  margin-right: 0;
 }
 .navtext li {
   display: inline;
