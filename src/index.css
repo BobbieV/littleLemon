@@ -30,7 +30,7 @@ button:focus-visible {
 
 .wrapper {
   display: grid;
-  grid-template-rows:
+  grid-template-columns:
 [navbar] 5rem
 [header] 40rem
 [specials] 30rem
