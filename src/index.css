@@ -3,12 +3,6 @@ html {
   font-size: 18px;
 }
 
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -30,10 +24,8 @@ button:focus-visible {
 
 .navWrapper {
     display: grid;
-    height:3rem;
-    grid-template-columns: 2fr repeat(6, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 0px;
+    height: .25fr;
+    grid-template-columns: repeat(8, 1fr);
     }
 
 .nav {
