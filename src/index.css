@@ -24,7 +24,7 @@ button:focus-visible {
 
 .navWrapper {
     display: grid;
-    height: .25fr;
+    height: 3rem;
     grid-template-columns: repeat(8, 1fr);
     }
 
