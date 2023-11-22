@@ -7,7 +7,6 @@ function Header() {
   return (
     <>
         <header id="header">
-          <div className="headerWrapper">
             <section className="textWrapper"><h1 className="title">Little Lemon</h1>
             <h2 className="h2text text">Chicago</h2>
             <p className="text ptext">We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
@@ -18,7 +17,6 @@ function Header() {
             <section className="heroImageWrapper">
             <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/Hero%20Image.png?raw=true" className="heroImage"></img>
         </section>
-        </div>
         </header>
     </>
   )
