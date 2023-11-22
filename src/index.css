@@ -79,9 +79,12 @@ button:focus-visible {
   font-size: 1rem;
   font-family: 'Karla';
   word-wrap: 'break-word';
-  width: 50%;
+  width: 60%;
   margin-left: 6rem;
 
+}
+.reserveATableWrapper {
+  margin: auto auto;
 }
 .heroImageWrapper {
   margin: auto auto;
