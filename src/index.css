@@ -87,7 +87,9 @@ button:focus-visible {
   margin: auto auto;
 
 }
-
+.heroImage {
+  width: 90%;
+}
 
 .specialsWrapper {
   display: grid;
