@@ -84,6 +84,7 @@ button:focus-visible {
 
 }
 .heroImage {
+  width: 65%;
   margin: auto;
 }
 
