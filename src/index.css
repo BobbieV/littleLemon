@@ -63,6 +63,7 @@ button:focus-visible {
   word-wrap: 'break-word';
   margin-left: 3rem;
   margin-top: 0;
+  padding: 0;
 
 }
 .h2text {
@@ -89,7 +90,7 @@ button:focus-visible {
   margin: auto auto;
 }
 .heroImageWrapper {
-  margin: 1rem auto;
+  margin: 1.5rem auto;
 
 }
 .heroImage {
