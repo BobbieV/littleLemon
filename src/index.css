@@ -43,12 +43,16 @@ button:focus-visible {
 
 
 #header {
-  background-color: #495E57;
+
   display: grid;
-  width: 100%;
+
   max-width: 50rem;
   max-height: 20rem;
   grid-template-columns: 55% 35%;
+}
+.headerWrapper {
+  background-color: #495E57;
+  width: 100%;
 }
 .textWrapper {
   display: grid;
