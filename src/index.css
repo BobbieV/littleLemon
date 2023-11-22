@@ -52,7 +52,7 @@ button:focus-visible {
 .textWrapper {
   display: grid;
 
-  grid-template-rows: .25fr .25fr .25fr .25fr;
+  grid-template-rows: .125fr .125fr .25fr .125fr;
 
 }
 .title {
@@ -96,6 +96,7 @@ padding: 0;
 .heroImage {
   width: 100%;
 max-height: 17rem;
+max-width: 17rem;
 }
 
 .specialsWrapper {
