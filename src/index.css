@@ -52,7 +52,7 @@ button:focus-visible {
 .textWrapper {
   display: grid;
 
-  grid-template-rows: auto;
+  grid-template-rows: .5fr .5fr 1fr .5fr;
 
 }
 .title {
