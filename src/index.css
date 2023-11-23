@@ -27,7 +27,7 @@ button:focus-visible {
   background-color: #EDEFEE;
   display: grid;
     width: 100%;
-    grid-template-columns: 21% 79%;
+    grid-template-columns: 22% 78%;
     height: 4rem;
 }
 .AppLogo {
@@ -49,7 +49,7 @@ button:focus-visible {
   width: 100%;
   max-width: 75rem;
   max-height: 27.5rem;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 53% 47%;
   margin: auto;
 }
 .textWrapper {
