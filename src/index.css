@@ -35,7 +35,7 @@ button:focus-visible {
 }
 .navtext li {
   display: inline;
-  padding: 1rem;
+  padding: .75rem;
   font-size: .75rem;
   word-wrap: break-word;
   max-width: 100px;
