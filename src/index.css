@@ -99,6 +99,7 @@ button:focus-visible {
 
 height: auto;
 width: auto;
+min-width:fit-content;
 min-height: fit-content;
 max-height: 17rem;
 max-width: 17rem;
