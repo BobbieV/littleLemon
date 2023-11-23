@@ -62,7 +62,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: .5rem;
   padding: 0;
 
@@ -75,7 +75,7 @@ button:focus-visible {
 }
 .text {
   color: #EDEFEE;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: 1rem;
 }
 .ptext {
@@ -83,7 +83,7 @@ button:focus-visible {
   font-family: 'Karla';
   word-wrap: 'break-word';
   max-width: 15rem;
-  margin-left: 5rem;
+  margin-left: 4rem;
   margin-top: 2rem;
 
 }
@@ -92,6 +92,8 @@ button:focus-visible {
 }
 .heroImageWrapper {
   display: grid;
+  position: absolute;
+  align-content: center;
 
 }
 .heroImage {
