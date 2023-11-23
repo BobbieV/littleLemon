@@ -48,7 +48,7 @@ button:focus-visible {
   width: 100%;
   max-width: 75rem;
   max-height: 27.5rem;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   margin: auto;
 }
 .textWrapper {
@@ -63,7 +63,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-top: 1.5rem;
   padding: 0;
 
@@ -76,7 +76,7 @@ button:focus-visible {
 }
 .text {
   color: #EDEFEE;
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-top: 1rem;
 }
 .ptext {
