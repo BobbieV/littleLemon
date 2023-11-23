@@ -90,7 +90,14 @@ button:focus-visible {
 .reserveATableWrapper {
   margin: auto auto;
 }
+.heroImageWrapper {
+  display: grid;
 
+}
+.heroImage {
+  size: auto;
+
+}
 
 .specialsWrapper {
   display: grid;
