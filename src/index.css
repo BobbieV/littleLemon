@@ -39,6 +39,7 @@ button:focus-visible {
   font-size: .75rem;
   word-wrap: break-word;
   max-width: 100px;
+  margin: auto;
 }
 
 
