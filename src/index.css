@@ -91,16 +91,16 @@ button:focus-visible {
   margin: auto auto;
 }
 .heroImageWrapper {
-  margin: 2rem;
+align-content: center;
+justify-content: center;
 
 }
 .heroImage {
 
-height: auto;
-width: auto;
+height: 17rem;
+width: 17rem;
 
-
-margin: 2rem;}
+}
 
 .specialsWrapper {
   display: grid;
