@@ -96,6 +96,8 @@ button:focus-visible {
 }
 .heroImage {
 
+height: auto;
+width: auto;
 max-height: 17rem;
 max-width: 17rem;
 margin-right: 2rem;}
