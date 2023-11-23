@@ -98,7 +98,7 @@ button:focus-visible {
   width: 100%;
 max-height: 25rem;
 max-width: 25rem;
-}
+margin-right: 2rem;}
 
 .specialsWrapper {
   display: grid;
