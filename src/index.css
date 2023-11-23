@@ -46,9 +46,8 @@ button:focus-visible {
   background-color: #495E57;
   display: grid;
   width: 100%;
-  max-width: 75rem;
   max-height: 27.5rem;
-  grid-template-columns: 53% 47%;
+  grid-template-columns: 55% 45%;
   margin: auto;
 }
 .textWrapper {
