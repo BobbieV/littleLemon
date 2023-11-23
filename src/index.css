@@ -54,7 +54,7 @@ button:focus-visible {
 .textWrapper {
   display: grid;
  margin: auto;
-  grid-template-rows: 3rem 2rem 8rem 5rem;
+  grid-template-rows: 2.5rem 2rem 8rem 5rem;
 
 }
 .title {
@@ -64,7 +64,7 @@ button:focus-visible {
   font-weight: '400';
   word-wrap: 'break-word';
   margin-left: 2rem;
-  margin-top: 1.5rem;
+  margin-top: .5rem;
   padding: 0;
 
 }
