@@ -126,9 +126,8 @@ button:focus-visible {
   max-height: 8rem;
 }
 .label {
-  max-width: 10rem;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 .testimonialsWrapper {
