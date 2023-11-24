@@ -101,7 +101,7 @@ button:focus-visible {
 
 }
 
-.specialsWrapper {
+#specialsWrapper {
   display: grid;
   grid-template-rows: 3rem 27rem;
 }
