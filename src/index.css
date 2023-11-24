@@ -22,7 +22,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
+/* </Navbar> */
 .nav {
   background-color: #EDEFEE;
   display: grid;
@@ -41,7 +41,7 @@ button:focus-visible {
   max-width: 100px;
 }
 
-
+/* </Header> */
 #header {
   background-color: #495E57;
   display: grid;
@@ -50,6 +50,7 @@ button:focus-visible {
   grid-template-columns: 50% 50%;
   margin: auto;
 }
+/* left side (text) */
 .textWrapper {
   display: grid;
  margin: auto;
@@ -89,6 +90,7 @@ button:focus-visible {
 .reserveATableWrapper {
   margin: auto auto;
 }
+/* right side (image) */
 .heroImageWrapper {
   display: grid;
   justify-items: center;
@@ -101,10 +103,13 @@ button:focus-visible {
 
 }
 
+
+/* </Specials> */
 #specialsWrapper {
   display: grid;
   grid-template-rows: 3rem 27rem;
 }
+/* heading and button (top area) */
 .topWrapper {
   display: grid;
   grid-template-columns: auto auto;
@@ -120,12 +125,11 @@ line-height: normal;
 .buttonOM {
   margin: auto;
 }
+/* menu items (bottom area) */
 .bottomWrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items:auto;
-
-
 }
 .menuItem {
   max-width: 25%;
@@ -137,7 +141,7 @@ line-height: normal;
 .labelGroup {
   display: grid;
   grid-template-columns: 75% 25%;
-  font-size: 1rem;
+  font-size: .75rem;
 }
 .label {
   font-family: Markazi Text;
@@ -154,10 +158,14 @@ font-weight: 400;
 line-height: normal;
 }
 
+
+/* </Testimonials> */
 .testimonialsWrapper {
   display: grid;
 }
 
+
+/* </Footer> */
 .footerWrapper {
   display: grid;
 }
