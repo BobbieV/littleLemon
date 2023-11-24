@@ -19,7 +19,7 @@ function Specials() {
                 <p className="description descriptionGreekSalad"></p>
                 </article>
             <article className="menuItem bruschetta">
-                <img className="menuItemImage imgBruschetta" src="https://github.com/BobbieV/littleLemon/blob/90e6980f8559c03500120c4b290dd6482b8a16c9/src/assets/images/bruschetta.png"></img>
+                <img className="menuItemImage imgBruschetta" src="https://github.com/BobbieV/littleLemon/blob/90e6980f8559c03500120c4b290dd6482b8a16c9/src/assets/images/bruschetta.png?raw=true"></img>
                 <h2 className="label labelBruschetta">Bruschetta</h2>
                 <h2 className="price priceBruschetta">$5.99</h2>
                 <p className="description descriptionBruschetta"></p>
