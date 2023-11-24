@@ -13,7 +13,7 @@ function Specials() {
             </section>
             <section className="bottomWrapper">
               <article className="menuItem greekSalad">
-                <img className="menuItemImage imgGreekSalad" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/greek salad.jpg"></img>
+                <img className="menuItemImage imgGreekSalad" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/greek salad.jpg?raw=true"></img>
                 <h2 className="label labelGreekSalad">Greek Salad</h2>
                 <h2 className="price priceGreekSalad">$12.95</h2>
                 <p className="description descriptionGreekSalad"></p>
