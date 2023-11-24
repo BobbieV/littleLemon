@@ -119,6 +119,9 @@ button:focus-visible {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.menuItem {
+  max-width: 10rem;
+}
 .menuItemImage {
   max-width: 13rem;
 }
