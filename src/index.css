@@ -134,6 +134,7 @@ line-height: normal;
 .menuItem {
   /*max-width: 25%;*/
   margin: 1rem;
+  justify-items: center;
 }
 .menuItemImage {
   max-height: 6rem;
