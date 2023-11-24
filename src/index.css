@@ -92,6 +92,7 @@ button:focus-visible {
 }
 .heroImageWrapper {
   display: grid;
+  justify-self: center;
 
 }
 .heroImage {
