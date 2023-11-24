@@ -25,7 +25,7 @@ function Specials() {
                 <p className="description descriptionBruschetta"></p>
                 </article>
             <article className="menuItem lemonDessert ">
-                <img className="menuItemImage imageLemonDessert"></img>
+                <img className="menuItemImage imageLemonDessert" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/lemon dessert.jpg?raw=true"></img>
                 <h2 className="label labelLemonDessert">Lemon Dessert</h2>
                 <h2 className="price priceLemonDessert">$5.00</h2>
                 <p className="description descriptionLemonDessert"></p>
