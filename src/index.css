@@ -105,6 +105,11 @@ button:focus-visible {
   display: grid;
   grid-template-rows: 3rem 27rem;
 }
+.topWrapper {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 .testimonialsWrapper {
   display: grid;
 }
