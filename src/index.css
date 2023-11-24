@@ -122,6 +122,7 @@ button:focus-visible {
 }
 .menuItem {
   max-width: 10rem;
+  margin: 1rem;
 }
 .menuItemImage {
   max-height: 8rem;
