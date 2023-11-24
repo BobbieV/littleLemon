@@ -62,7 +62,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin: 1rem;
+  margin: auto;
   padding: 0;
 
 }
