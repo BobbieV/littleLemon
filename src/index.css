@@ -109,6 +109,9 @@ button:focus-visible {
   display: grid;
   grid-template-columns: auto auto;
 }
+.h1Specials {
+  margin: 1rem;
+}
 .buttonOM {
   margin: auto;
 }
