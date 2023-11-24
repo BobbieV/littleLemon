@@ -62,8 +62,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin-left: 1rem;
-  margin-top: .5rem;
+  margin: 1rem;
   padding: 0;
 
 }
@@ -98,6 +97,7 @@ button:focus-visible {
 .heroImage {
   height: 15rem;
   width: 15rem;
+  margin: 1rem;
 
 }
 
