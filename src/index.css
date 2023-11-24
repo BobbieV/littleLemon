@@ -103,6 +103,7 @@ button:focus-visible {
 
 .specialsWrapper {
   display: grid;
+  grid-template-rows: 3rem 27rem;
 }
 .testimonialsWrapper {
   display: grid;
