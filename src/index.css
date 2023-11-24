@@ -62,7 +62,7 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin: auto;
+  margin-left: 1rem;
   padding: 0;
 
 }
@@ -70,7 +70,6 @@ button:focus-visible {
   font-size: 1.5rem;
   font-family: 'Karla';
   font-weight: '400';
-  margin: auto;
   padding: 0;
 }
 .text {
