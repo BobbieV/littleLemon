@@ -128,11 +128,12 @@ button:focus-visible {
 .menuItemImage {
   max-height: 8rem;
 }
-.label {
+.labelGroup {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 1rem;
 }
+
 .price {
   color: #ee9972;
 }
