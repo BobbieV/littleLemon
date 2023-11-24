@@ -142,20 +142,21 @@ line-height: normal;
   display: grid;
   grid-template-columns: 50% 50%;
   font-size: .75rem;
+  justify-items: auto;
 }
 .label {
   font-family: Markazi Text;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .price {
   color: #ee9972;
   text-align: right;
-font-family: Markazi Text;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: Markazi Text;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 
