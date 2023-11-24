@@ -111,6 +111,11 @@ button:focus-visible {
 }
 .h1Specials {
   margin: 1rem;
+  font-family: Markazi Text;
+font-size: 4rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .buttonOM {
   margin: auto;
