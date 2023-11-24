@@ -132,7 +132,7 @@ line-height: normal;
   justify-items:auto;
 }
 .menuItem {
-  max-width: 25%;
+  /*max-width: 25%;*/
   margin: 1rem;
 }
 .menuItemImage {
