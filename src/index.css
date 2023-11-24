@@ -135,7 +135,7 @@ line-height: normal;
 }
 .labelGroup {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 75% 25%;
   font-size: 1rem;
 }
 .label {
