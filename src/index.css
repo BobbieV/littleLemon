@@ -125,6 +125,9 @@ button:focus-visible {
 .menuItemImage {
   max-height: 8rem;
 }
+.label {
+  max-width: 10rem;
+}
 
 .testimonialsWrapper {
   display: grid;
