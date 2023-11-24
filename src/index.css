@@ -82,8 +82,8 @@ button:focus-visible {
   font-size: 1rem;
   font-family: 'Karla';
   word-wrap: 'break-word';
-  max-width: 15rem;
-  margin-left: 4rem;
+  max-width: 14rem;
+  margin-left: 3rem;
   margin-top: 2rem;
 
 }
@@ -92,8 +92,8 @@ button:focus-visible {
 }
 .heroImageWrapper {
   display: grid;
-  justify-self: center;
-  align-self: center;
+  justify-items: center;
+  align-items: center;
 
 }
 .heroImage {
