@@ -107,7 +107,7 @@ button:focus-visible {
 }
 .topWrapper {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-columns: auto auto;
 }
 
 .testimonialsWrapper {
