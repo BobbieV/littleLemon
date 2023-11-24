@@ -115,6 +115,10 @@ button:focus-visible {
 .buttonOM {
   margin: auto;
 }
+.bottomWrapper{
+  display: grid;
+  grid-template-columns: 3;
+}
 
 .testimonialsWrapper {
   display: grid;
