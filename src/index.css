@@ -83,8 +83,7 @@ button:focus-visible {
   font-family: 'Karla';
   word-wrap: 'break-word';
   max-width: 14rem;
-  margin-left: 3rem;
-  margin-top: 2rem;
+  margin: 2rem;
 
 }
 .reserveATableWrapper {
