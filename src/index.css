@@ -128,11 +128,11 @@ line-height: normal;
 
 }
 .menuItem {
-  max-width: auto;
+  max-width: 25%;
   margin: 1rem;
 }
 .menuItemImage {
-  max-height: 4rem;
+  max-height: 6rem;
 }
 .labelGroup {
   display: grid;
