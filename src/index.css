@@ -107,13 +107,13 @@ button:focus-visible {
 /* </Specials> */
 #specialsWrapper {
   display: grid;
-  grid-template-rows: 4rem 23rem;
+  grid-template-rows: 3rem 27rem;
 }
 /* heading and button (top area) */
 .topWrapper {
   display: grid;
   grid-template-columns: auto auto;
-  max-height: 4rem;
+  max-height: 3rem;
 }
 .h1Specials {
   margin: 1rem;
@@ -131,7 +131,7 @@ button:focus-visible {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  max-height: 23rem;
+  max-height: 27rem;
   width: 100%;
 }
 .menuItem {
@@ -146,7 +146,7 @@ max-width: 13rem;
 }
 .labelGroup {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   font-size: .75rem;
   margin: 1rem;
   max-height: 2.5rem;
