@@ -215,6 +215,7 @@ max-width: 12rem;
 /* </Footer> */
 .footerWrapper {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 
