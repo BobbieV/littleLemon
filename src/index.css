@@ -185,7 +185,7 @@ max-width: 12rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 2rem;
   width: 100%;
-  height: 30rem;
+  height: 20rem;
   margin: 0 auto;
 }
 .testimonialContainer {
