@@ -107,7 +107,7 @@ button:focus-visible {
 /* </Specials> */
 #specialsWrapper {
   display: grid;
-  grid-template-rows: 3rem 27rem;
+  grid-template-rows: 5rem 27rem;
 }
 /* heading and button (top area) */
 .topWrapper {
