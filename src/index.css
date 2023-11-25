@@ -202,6 +202,7 @@ max-width: 12rem;
 .testimonialUserImage {
   max-height: 4rem;
   max-width: 4rem;
+  border-radius: 50%;
 }
 .name {
   font-size: 1rem;
