@@ -176,7 +176,7 @@ max-width: 12rem;
 /* </Testimonials> */
 #testimonialsWrapper {
   display: grid;
-  grid-template-rows: 5rem 20rem;
+  grid-template-rows: 5rem 15rem;
   background-color: #495E57;
   color:#F4CE14;
   width: 100%;
@@ -186,7 +186,7 @@ max-width: 12rem;
   grid-template-columns: 23% 23% 23% 23%;
   column-gap: 1rem;
   width: 100%;
-  height: 20rem;
+  height: 15rem;
   margin: 0 auto;
   overflow: scroll;
 }
