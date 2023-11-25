@@ -214,7 +214,7 @@ max-width: 12rem;
 }
 .userFeedback {
  width: 100%;
- grid-column: 1 / 2;
+ grid-column: span 2;
 }
 /* </Footer> */
 .footerWrapper {
