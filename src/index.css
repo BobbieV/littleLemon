@@ -178,6 +178,10 @@ max-width: 12rem;
   display: grid;
   grid-template-rows: 5rem 25rem;
 }
+.testimonialContainer {
+  max-height: 15rem;
+  max-width: 15rem;
+}
 
 
 /* </Footer> */
