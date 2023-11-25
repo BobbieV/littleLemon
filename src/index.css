@@ -191,8 +191,8 @@ max-width: 12rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 20%;
-    /* width:auto; */
+    height: auto;
+    width:auto;
     background-color: #EDEFEE;
     color: #495E57;
   border-radius: 1.5rem;
