@@ -128,12 +128,12 @@ button:focus-visible {
   margin: auto;
 }
 /* menu items (bottom area) */
-.bottomWrapper{
+.bottomWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   max-height: 27rem;
-  width: 75%;
+  width: 27rem;
 }
 .menuItem {
 margin: 0 auto;
