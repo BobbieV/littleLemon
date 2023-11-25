@@ -108,6 +108,7 @@ button:focus-visible {
 #specialsWrapper {
   display: grid;
   grid-template-rows: 7rem 27rem;
+  width: 100%;
 }
 /* heading and button (top area) */
 .topWrapper {
@@ -132,12 +133,11 @@ button:focus-visible {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   max-height: 27rem;
-  width: 100%;
+  width: 75%;
 }
 .menuItem {
 margin: 0 auto;
-/*max-width: 12rem;*/
-max-width: 75%;
+max-width: 12rem;
 
 }
 .menuItemImage {
