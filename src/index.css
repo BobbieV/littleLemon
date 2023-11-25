@@ -142,7 +142,7 @@ line-height: normal;
   display: grid;
   grid-template-columns: 50% 50%;
   font-size: .75rem;
-  justify-items: auto;
+  /*justify-items: auto;*/
   margin: 1rem;
 }
 .label {
