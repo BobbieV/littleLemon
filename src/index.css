@@ -178,11 +178,13 @@ max-width: 12rem;
   display: grid;
   grid-template-rows: 5rem 25rem;
 }
-.testimonialContainer {
+.testimonialContainersWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 2rem;
-  max-height: 15rem;
+}
+  .testimonialContainer {
+    max-height: 15rem;
   max-width: 15rem;
 }
 

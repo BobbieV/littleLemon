@@ -8,6 +8,7 @@ function Testimonials() {
   return (
     <>
         <header id="testimonialsWrapper">
+          <section className="testimonialContainersWrapper">
             <h1 className="h1Testimonials">Testimonials</h1>
             <section className="testimonialContainer testimonial1">
               <img className="testimonialUserImage testimonialUserImage1 testimonialUserImageJoan" src="https://github.com/BobbieV/littleLemon/blob/88e414dfd6b3636026a90dc465f15aaafc032289/src/assets/images/'Joan'%20Female%20Profile%20Pic%2075%20x%2075px.png?raw=true"></img>
@@ -40,6 +41,7 @@ function Testimonials() {
                 <h2 className="name name1">Jenna</h2>
               </hgroup>
               <p className="userFeedback userFeedback4">The food was good, but nothing stood out as exceptional. The service was okay, but a little inattentive. The atmosphere was cozy, but a bit cramped.</p>
+            </section>
             </section>
             </header>
     </>
