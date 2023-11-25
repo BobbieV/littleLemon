@@ -217,9 +217,6 @@ max-width: 12rem;
   display: grid;
   grid-template-columns: 49% 17% 17% 17%;
 }
-.footer {
-  display: inline;
-}
 
 
 @media (prefers-color-scheme: light) {
