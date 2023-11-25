@@ -189,7 +189,7 @@ max-width: 12rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 50%;
+    height: 75%;
     width: 50%;
     background-color: #EDEFEE;
     color: #495E57;
