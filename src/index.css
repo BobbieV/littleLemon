@@ -215,7 +215,7 @@ max-width: 12rem;
 /* </Footer> */
 .footerWrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 49% 17% 17% 17%;
 }
 .footer {
   display: inline;
