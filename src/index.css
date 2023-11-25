@@ -202,7 +202,7 @@ max-width: 12rem;
   font-size: 1rem;
 }
 .feedback {
-  grid-area: 1/2;
+  grid-column: 1/4;
 }
 /* </Footer> */
 .footerWrapper {
