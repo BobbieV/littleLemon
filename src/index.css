@@ -193,7 +193,7 @@ max-width: 12rem;
     width: 12.5rem;
     background-color: #EDEFEE;
     color: #495E57;
-    
+  border-radius: 1.5rem;
 }
 .testimonialUserImage {
   max-height: 4rem;
@@ -203,7 +203,7 @@ max-width: 12rem;
   font-size: 1rem;
 }
 .feedback {
-  grid-column: 1/4;
+  grid-column: 1 / 3;
 }
 /* </Footer> */
 .footerWrapper {
