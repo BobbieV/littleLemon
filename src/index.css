@@ -129,6 +129,7 @@ line-height: normal;
 .bottomWrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
   max-height: 30rem;
   margin: 0 auto;
 }
@@ -139,7 +140,7 @@ max-width: 13rem;
 }
 .menuItemImage {
   min-height: 7rem;
-  /*max-height: 12rem;*/
+  max-height: 9rem;
   padding: 1rem;
 
 }
