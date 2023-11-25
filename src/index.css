@@ -194,6 +194,8 @@ max-width: 12rem;
     background-color: #EDEFEE;
     color: #495E57;
   border-radius: 1.5rem;
+  align-items: center;
+  justify-items: center;
 }
 .testimonialUserImage {
   max-height: 4rem;
