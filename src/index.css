@@ -131,13 +131,13 @@ line-height: normal;
   grid-template-columns: 1fr 1fr 1fr;
   max-height: 30rem;
 }
-/*.menuItem {
+.menuItem {
+margin: 0 auto;
 
-
-}*/
+}
 .menuItemImage {
   max-height: 6rem;
-  margin: 0 auto;
+
 }
 .labelGroup {
   display: grid;
