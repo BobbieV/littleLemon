@@ -129,7 +129,7 @@ line-height: normal;
 .bottomWrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items:auto;
+  margin: auto auto;
 }
 .menuItem {
   /*max-width: 25%;*/
