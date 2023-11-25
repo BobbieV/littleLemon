@@ -176,7 +176,7 @@ max-width: 12rem;
 /* </Testimonials> */
 #testimonialsWrapper {
   display: grid;
-  grid-template-rows: repeat(4 1fr);
+  grid-template-columns: repeat(4 1fr);
 }
 
 
