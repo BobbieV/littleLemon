@@ -138,7 +138,6 @@ line-height: normal;
 }
 .menuItemImage {
   max-height: 6rem;
-  margin: auto auto;
 }
 .labelGroup {
   display: grid;

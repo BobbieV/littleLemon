@@ -18,7 +18,7 @@ function Specials() {
                   <h2 className="label labelGreekSalad">Greek Salad</h2>
                   <h2 className="price priceGreekSalad">$12.95</h2>
                   </hgroup>
-                <p className="description descriptionGreekSalad"></p>
+                <p className="description descriptionGreekSalad">Our classic Greek salad features fresh romaine lettuce, juicy tomatoes, crisp cucumbers, tangy feta cheese, and kalamata olives, all drizzled with a zesty lemon vinaigrette.</p>
                 </article>
             <article className="menuItem bruschetta">
                 <img className="menuItemImage imgBruschetta" src="https://github.com/BobbieV/littleLemon/blob/90e6980f8559c03500120c4b290dd6482b8a16c9/src/assets/images/bruschetta.png?raw=true"></img>
