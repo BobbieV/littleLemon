@@ -216,6 +216,7 @@ max-width: 12rem;
  width: 100%;
  grid-column: span 2;
  grid-row: 2;
+ overflow: scroll;
 }
 /* </Footer> */
 .footerWrapper {
