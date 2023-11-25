@@ -212,7 +212,7 @@ max-width: 12rem;
   font-size: 1rem;
 }
 .feedback {
-  grid-column: 1 / span 3;
+  grid-column: 1 / span 4;
 }
 /* </Footer> */
 .footerWrapper {
