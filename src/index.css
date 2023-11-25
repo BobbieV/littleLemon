@@ -192,7 +192,7 @@ max-width: 12rem;
 .testimonialContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40% 60%;
     height: 9rem;
     width: 9rem;
     background-color: #EDEFEE;
