@@ -179,6 +179,8 @@ max-width: 12rem;
   grid-template-rows: 5rem 25rem;
 }
 .testimonialContainer {
+  display: grid;
+  grid-template-columns: auto;
   max-height: 15rem;
   max-width: 15rem;
 }
