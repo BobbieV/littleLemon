@@ -134,7 +134,7 @@ line-height: normal;
 }
 .menuItem {
   max-height: 23rem;
-  margin: 1rem;
+  margin: auto;
 
 }
 .menuItemImage {
