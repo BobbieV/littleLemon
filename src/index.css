@@ -186,12 +186,15 @@ max-width: 12rem;
   column-gap: 2rem;
 }
   .testimonialContainer {
-    max-height: 15rem;
-  max-width: 15rem;
+    max-height: 12.5rem;
+  max-width: 12.5rem;
   background-color: #EDEFEE;
   color: #495E57;
 }
-
+.testimonialUserImage {
+  max-height: 4.5rem;
+  max-width: 4.5rem;
+}
 
 /* </Footer> */
 .footerWrapper {
