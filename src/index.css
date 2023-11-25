@@ -174,7 +174,7 @@ max-width: 12rem;
 
 
 /* </Testimonials> */
-.testimonialsWrapper {
+#testimonialsWrapper {
   display: grid;
 }
 
