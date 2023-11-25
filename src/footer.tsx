@@ -9,7 +9,7 @@ function Footer() {
     <>
       <div className="footerWrapper">
         <footer>
-            <ul>
+            <ul className="footer col1Footer">
                 <li>Doormat</li>
                 <li>Navigation</li>
                 <li>Home</li>
@@ -19,12 +19,12 @@ function Footer() {
                 <li>Order Online</li>
                 <li>Login</li>
             </ul>
-            <ul> Contact
+            <ul className="footer col2Footer"> Contact
                 <li>Address</li>
                 <li>Phone Number</li>
                 <li>Email</li>
             </ul>
-            <ul> Social Media
+            <ul className="footer col3Footer"> Social Media
                 <li>Facebook</li>
                 <li>Instagram</li>
                 <li>TikTok</li>
