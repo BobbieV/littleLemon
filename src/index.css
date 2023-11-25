@@ -130,7 +130,7 @@ line-height: normal;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 50% auto;
-  max-height: 50rem;
+  max-height: 30rem;
 }
 .menuItem {
   /*max-width: 25%;*/
