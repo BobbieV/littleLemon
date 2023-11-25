@@ -203,8 +203,8 @@ max-width: 12rem;
   justify-items: center;
 }
 .testimonialUserImage {
-  max-height: 4rem;
-  max-width: 4rem;
+  max-height: 3.5rem;
+  max-width: 3.5rem;
   border-radius: 50%;
 }
 .name {
