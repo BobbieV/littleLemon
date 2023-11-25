@@ -133,7 +133,7 @@ line-height: normal;
   max-height: 30rem;
 }
 .menuItem {
-  /*max-width: 25%;*/
+  max-height: 23rem;
   margin: 1rem;
   justify-items: center;
 }
