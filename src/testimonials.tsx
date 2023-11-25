@@ -8,8 +8,8 @@ function Testimonials() {
   return (
     <>
         <header id="testimonialsWrapper">
+          <h1 className="h1Testimonials">Testimonials</h1>
           <section className="testimonialContainersWrapper">
-            <h1 className="h1Testimonials">Testimonials</h1>
             <section className="testimonialContainer testimonial1">
               <img className="testimonialUserImage testimonialUserImage1 testimonialUserImageJoan" src="https://github.com/BobbieV/littleLemon/blob/88e414dfd6b3636026a90dc465f15aaafc032289/src/assets/images/'Joan'%20Female%20Profile%20Pic%2075%20x%2075px.png?raw=true"></img>
               <hgroup className="h2TestimonialText">
