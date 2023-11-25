@@ -26,7 +26,7 @@ function Specials() {
                   <h2 className="label labelBruschetta">Bruschetta</h2>
                   <h2 className="price priceBruschetta">$5.99</h2>
                 </hgroup>
-                <p className="description descriptionBruschetta"></p>
+                <p className="description descriptionBruschetta">Our version of the classic Italian appetizer consisting of grilled bread rubbed with garlic and topped with fresh tomatoes, basil, and olive oil.</p>
                 </article>
             <article className="menuItem lemonDessert ">
                 <img className="menuItemImage imageLemonDessert" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/lemon dessert.jpg?raw=true"></img>
@@ -34,7 +34,7 @@ function Specials() {
                   <h2 className="label labelLemonDessert">Lemon Dessert</h2>
                   <h2 className="price priceLemonDessert">$5.00</h2>
                 </hgroup>
-                <p className="description descriptionLemonDessert"></p>
+                <p className="description descriptionLemonDessert">This zesty and refreshing dessert will awaken your taste buds with its tangy lemon flavor and smooth, creamy texture. Perfect for any sweet tooth!</p>
                 </article>
             </section>
         </header>
