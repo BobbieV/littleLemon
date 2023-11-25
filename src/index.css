@@ -164,6 +164,9 @@ max-width: 13rem;
   font-weight: 400;
   line-height: normal;
 }
+.description {
+  margin: 1rem;
+}
 
 
 /* </Testimonials> */
