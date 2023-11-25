@@ -212,7 +212,7 @@ max-width: 12rem;
 }
 .feedback {
  width: 100%;
- grid-template-rows: none;
+ grid-column: 1 / 2;
 }
 /* </Footer> */
 .footerWrapper {
