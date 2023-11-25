@@ -113,7 +113,7 @@ button:focus-visible {
 .topWrapper {
   display: grid;
   grid-template-columns: auto auto;
-  max-height: 3rem;
+  max-height: 5rem;
 }
 .h1Specials {
   margin: 1rem;
