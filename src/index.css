@@ -134,7 +134,7 @@ button:focus-visible {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   max-height: 27rem;
-  width: 27rem;
+  width: 75%;
   margin: 0 auto;
 }
 .menuItem {
