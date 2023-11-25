@@ -177,6 +177,8 @@ max-width: 12rem;
 #testimonialsWrapper {
   display: grid;
   grid-template-rows: 5rem 25rem;
+  background-color: #495E57;
+  color:#F4CE14
 }
 .testimonialContainersWrapper {
   display: grid;
