@@ -149,6 +149,7 @@ max-width: 13rem;
   grid-template-columns: 50% 50%;
   font-size: .75rem;
   margin: 1rem;
+  max-height: 2.5rem;
 }
 .label {
   font-family: Markazi Text;
