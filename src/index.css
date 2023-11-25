@@ -215,8 +215,12 @@ max-width: 12rem;
 /* </Footer> */
 .footerWrapper {
   display: grid;
-  grid-template-columns: 49% 17% 17% 17%;
+  grid-template-columns: 46% 18% 18% 18%;
 }
+.footer {
+  display:inline;
+}
+
 
 
 @media (prefers-color-scheme: light) {
