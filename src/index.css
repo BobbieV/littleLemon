@@ -210,7 +210,7 @@ max-width: 12rem;
 .name {
   font-size: 1rem;
 }
-.feedback {
+.userFeedback {
  width: 100%;
  grid-column-start: 1;
  grid-column-end: 2;
