@@ -33,7 +33,7 @@ button:focus-visible {
   background-color: #EDEFEE;
   display: grid;
     width: 100vw;
-    grid-template-columns: 22% 78%;
+    /*grid-template-columns: 22% 78%;*/
     height: 3.25rem;
 margin-bottom: 0;
 }
