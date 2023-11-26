@@ -36,11 +36,12 @@ button:focus-visible {
     /*grid-template-columns: 22% 78%;*/
     height: 3.25rem;
 margin-bottom: 0;
+align-content: space-between;
 }
 .AppLogoWrapper {
   width: 20vw;
   height: 3.25rem;
-  justify-content: center;
+
 }
 .AppLogo {
   max-height: 3.25rem;
