@@ -47,9 +47,11 @@ margin-bottom: 0;
   margin: 0 auto;
 }
 .navTextWrapper {
+  position: absolute;
+  right: 0;
   width: 80vw;
   height: 3.25rem;
-  justify-items: right;
+/*  justify-items: right; */
 }
 
 .navtext {
