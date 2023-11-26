@@ -24,7 +24,7 @@ button:focus-visible {
 
 .appWrapper {
   display:grid;
-  height: 181rem;
+  height: 100rem;
   width: auto;
 }
 /* </Navbar> */
