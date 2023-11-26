@@ -48,6 +48,11 @@ button:focus-visible {
   width: 80vw;
   justify-items: end;
 }
+
+.navtext {
+  margin: 0 auto;
+
+}
 .navtext li {
   display: inline;
   padding: .5rem;
