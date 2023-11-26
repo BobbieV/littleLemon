@@ -29,13 +29,13 @@ button:focus-visible {
   margin: 0 auto;
 }
 /* </Navbar> */
-.nav {
+#nav {
   background-color: #EDEFEE;
   display: grid;
     width: 100vw;
     grid-template-columns: 22% 78%;
     height: 3.25rem;
-    margin-bottom: 0;
+margin-bottom: 0;
 }
 .AppLogoWrapper {
   width: 20vw;
