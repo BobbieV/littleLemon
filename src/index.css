@@ -47,7 +47,7 @@ margin-bottom: 0;
 }
 .navTextWrapper {
   width: 80vw;
-  justify-items: end;
+  justify-items: right;
 }
 
 .navtext {
