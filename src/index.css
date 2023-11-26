@@ -55,9 +55,7 @@ margin-bottom: 0;
 }
 
 .navtext {
-  margin: 0 auto;
-  justify-content: right;
-  align-content: center;
+  margin-right: 0;
 
 }
 .navtext li {
