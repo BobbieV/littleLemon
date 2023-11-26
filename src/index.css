@@ -217,9 +217,7 @@ max-width: 12rem;
   font-size: 1rem;
   margin-top: .5rem;
 }
-.feedbackWrapper {
-  width:fit-content;
-}
+
 .userFeedback {
  width: 90%;
  height:50%;
