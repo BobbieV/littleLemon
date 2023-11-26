@@ -35,6 +35,7 @@ button:focus-visible {
     width: 100vw;
     grid-template-columns: 22% 78%;
     height: 3.25rem;
+    margin-bottom: 0;
 }
 .AppLogoWrapper {
   width: 20vw;
