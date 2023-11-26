@@ -42,7 +42,7 @@ margin-bottom: 0;
   height: 3.25rem;
 }
 .AppLogo {
-  height: 3.25rem;
+  height: auto;
   margin: 0 auto;
 }
 .navTextWrapper {
