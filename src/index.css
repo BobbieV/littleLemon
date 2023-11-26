@@ -37,11 +37,11 @@ button:focus-visible {
     height: 3.25rem;
 }
 .AppLogoWrapper {
-  width: 100vw;
+  width: 20vw;
   height: 3.25rem;
 }
 .AppLogo {
-  width: 20vw;
+  height: 3.25rem;
   margin: 0 auto;
 }
 .navtext li {
