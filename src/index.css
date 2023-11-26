@@ -235,7 +235,7 @@ white-space: nowrap;
 #about {
   background-color: #999999;
   display: grid;
-  width: 1005;
+  width: 100%;
   max-height: 27.5rem;
   grid-template-columns: 50% 50%;
   margin: auto;
