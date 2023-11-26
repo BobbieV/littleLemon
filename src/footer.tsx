@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <>
-        <footer className="footerWrapper">
+        <footer id="#footer">
           <img className="footerLogo" src="https://github.com/BobbieV/littleLemon/blob/83cc181e5814ff2107709d62e23e2ad9f0119ef0/src/assets/images/logo.png?raw=true"></img>
             <ul className="footer col1Footer">
                 <li>Doormat</li>
