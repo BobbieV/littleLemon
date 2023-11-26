@@ -36,9 +36,12 @@ button:focus-visible {
     grid-template-columns: 22% 78%;
     height: 3.25rem;
 }
-.AppLogo {
+.AppLogoWrapper {
   width: 20vw;
-  height: 3.25rem;
+  height: auto;
+}
+.AppLogo {
+  margin: 0 auto;
 }
 .navtext li {
   display: inline;
