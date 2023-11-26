@@ -218,16 +218,15 @@ max-width: 12rem;
   margin-top: .5rem;
 }
 .feedbackWrapper {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width:fit-content;
 }
 .userFeedback {
  width: 90%;
  height:50%;
  grid-column: span 2;
  grid-row: 2;
- /* overflow: hidden;
- text-overflow: ellipsis;*/
+overflow: hidden;
+ text-overflow: ellipsis;
 }
 /* </Footer> */
 .footerWrapper {
