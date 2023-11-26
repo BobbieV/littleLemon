@@ -26,6 +26,7 @@ button:focus-visible {
   display:grid;
   height: 100rem;
   width: 45rem;
+  margin: 0 auto;
 }
 /* </Navbar> */
 .nav {
