@@ -31,7 +31,7 @@ button:focus-visible {
 .nav {
   background-color: #EDEFEE;
   display: grid;
-    width: 100%;
+    width: auto;
     grid-template-columns: 22% 78%;
     height: 3.25rem;
 }
