@@ -217,13 +217,17 @@ max-width: 12rem;
   font-size: 1rem;
   margin-top: .5rem;
 }
+.feedbackWrapper {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .userFeedback {
  width: 90%;
  height:50%;
  grid-column: span 2;
  grid-row: 2;
- overflow: hidden;
- text-overflow: ellipsis;
+ /* overflow: hidden;
+ text-overflow: ellipsis;*/
 }
 /* </Footer> */
 .footerWrapper {
