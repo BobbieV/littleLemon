@@ -53,6 +53,8 @@ margin-bottom: 0;
 
 .navtext {
   margin: 0 auto;
+  justify-content: right;
+  align-content: center;
 
 }
 .navtext li {
