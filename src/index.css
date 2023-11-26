@@ -245,6 +245,9 @@ white-space: nowrap;
   display: grid;
   width: 100%;
   height: 22.5625rem;
+}
+.footer {
+  display: grid;
   grid-template-columns: 46% 18% 18% 18%;
 
 }
