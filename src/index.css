@@ -208,7 +208,7 @@ max-width: 25vw;
   line-height: normal;
 }
 .description {
-  margin: 2rem 1rem;
+  /*margin: 2rem 1rem;*/
   color:#000;
   text-align: justify;
   width: 25vw;
