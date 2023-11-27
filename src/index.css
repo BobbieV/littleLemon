@@ -46,7 +46,7 @@ margin-bottom: 0;
 }
 .AppLogo {
   height: 3.25rem;
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   width: auto;
   left:0;
 }
@@ -65,7 +65,7 @@ margin-bottom: 0;
 }
 .navtext li {
   display: inline;
-  padding: 1vw;
+  padding: 1.5vw;
   font-size: .70rem;
   /*word-wrap: break-word;*/
   width: 80vw;
