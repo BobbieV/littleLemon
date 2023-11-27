@@ -44,7 +44,7 @@ margin-bottom: 0;
 
 }
 .AppLogo {
-  height: 3.25rem;
+  height: auto;
   /*margin: 0 auto;*/
   width: 20vw;
   left:0;
