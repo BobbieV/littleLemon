@@ -230,7 +230,7 @@ max-width: 12rem;
   justify-items: center;
 }
 .testimonialUserImage {
-  max-height: 47%;
+  max-height: 75%;
   max-width: auto;
   border-radius: 50%;
   margin-top: .5rem;
