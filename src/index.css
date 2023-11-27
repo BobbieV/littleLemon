@@ -159,7 +159,7 @@ margin-bottom: 0;
 .bottomWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  /*gap: 1rem;*/
   max-height: 27rem;
   width: 100vw;
   margin: 0 auto;
