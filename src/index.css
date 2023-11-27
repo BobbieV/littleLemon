@@ -63,6 +63,7 @@ justify-content: space-between;
   margin-right: 0;
   display: flex;
   justify-content: space-between ;
+  width: 80vw;
 
 }
 .navtext li {
@@ -70,7 +71,7 @@ justify-content: space-between;
   padding: 1.5vw;
   font-size: .70rem;
   /*word-wrap: break-word;*/
-  width: 13vw;
+  width: auto;
   height: 3.25rem;
   margin: auto;
 }
