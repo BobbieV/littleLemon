@@ -172,7 +172,7 @@ max-width: 12rem;
 .menuItemImage {
   width: 25vw;
   height: auto;
-  padding: .25rem;
+  /*padding: .25rem;*/
 
 }
 .labelGroup {
