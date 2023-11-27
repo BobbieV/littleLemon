@@ -44,8 +44,8 @@ margin-bottom: 0;
 
 }
 .AppLogo {
-  /*max-height: 3.25rem;
-  margin: 0 auto;*/
+  height: 3.25rem;
+  /*margin: 0 auto;*/
   width: 20vw;
   left:0;
 }
