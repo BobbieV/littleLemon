@@ -211,8 +211,8 @@ max-width: 12rem;
 }
 .testimonialContainersWrapper {
   display: grid;
-  /*grid-template-columns: 20% 20% 20% 20%;*/
-  column-gap: 1rem;
+  grid-template-columns: 20% 20% 20% 20%;
+  column-gap: auto;
   width: 100vw;
   /*margin: 0 auto;
   justify-items: center;*/
