@@ -208,6 +208,7 @@ max-width: 12rem;
   color:#F4CE14;
   width: 100vw;
   height: 41.25rem;
+  margin: 0 auto;
 }
 .testimonialContainersWrapper {
   display: grid;
