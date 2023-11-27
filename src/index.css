@@ -246,9 +246,10 @@ max-width: 12rem;
 
 .userFeedback {
  width: 18vw;
- height: auto;
+ height: 10vw;
  grid-column: span 2;
  grid-row: 2;
+ padding: .25rem;
 /*overflow: hidden;
 white-space: nowrap;
  text-overflow: ellipsis;*/
