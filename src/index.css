@@ -36,7 +36,7 @@ button:focus-visible {
     width: 100vw;
     height: auto;
 margin-bottom: 0;
-justify-content: flex-start;
+justify-content:space-evenly;
 }
 .AppLogoWrapper {
   width: 19vw;
@@ -48,8 +48,6 @@ justify-content: flex-start;
   height: 3.25rem;
   width: auto;
   max-width: fit-content;
-  margin: 0 auto;
-
 }
 .navTextWrapper {
   width: 80vw;
