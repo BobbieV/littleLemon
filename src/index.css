@@ -58,7 +58,7 @@ margin-bottom: 0;
   margin-right: 0;
   display: flex;
   justify-content: space-between ;
-  width: auto;
+  /*width: auto;*/
 
 }
 .navtext li {
