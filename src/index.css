@@ -56,16 +56,16 @@ margin-bottom: 0;
   top:0;
   width: 80vw;
   height: 3.25rem;
-  justify-items: right;*/
+  justify-items: right;
 }
-
+*/
 .navtext {
   margin-right: 0;
 
 }
 .navtext li {
   display: inline;
-  padding: .5rem
+  padding: .5rem;
   font-size: .70rem;
   /*word-wrap: break-word;*/
   width: 80vw;
