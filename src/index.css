@@ -142,7 +142,7 @@ margin-bottom: 0;
   display: grid;
   grid-template-columns: auto auto;
   max-height: 7rem;
-  width: 100%
+  width: 100vw;
 }
 .h1Specials {
   margin: 1rem;
@@ -161,7 +161,7 @@ margin-bottom: 0;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   max-height: 27rem;
-  width: 75%;
+  width: 75vw;
   margin: 0 auto;
 }
 .menuItem {
