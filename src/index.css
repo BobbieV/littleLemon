@@ -83,7 +83,7 @@ margin-bottom: 0;
 /* left side (text) */
 .textWrapper {
   display: grid;
- margin: auto;
+ margin: 0 auto;
   grid-template-rows: 2.5rem 2rem 8rem 5rem;
   width: 54vw;
 
@@ -129,8 +129,9 @@ margin-bottom: 0;
 /* right side (image) */
 .heroImageWrapper {
   display: grid;
-  justify-items: center;
-  align-items: center;
+  /*justify-items: center;
+  align-items: center;*/
+  margin: 0 auto;
 
 }
 .heroImage {
