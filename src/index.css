@@ -249,9 +249,9 @@ max-width: 12rem;
  height: auto;
  grid-column: span 2;
  grid-row: 2;
-overflow: hidden;
+/*overflow: hidden;
 white-space: nowrap;
- text-overflow: ellipsis;
+ text-overflow: ellipsis;*/
 }
 
 /* </About> */
