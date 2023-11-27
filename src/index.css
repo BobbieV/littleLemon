@@ -46,7 +46,7 @@ justify-content: flex-start;
 }
 .AppLogo {
   height: auto;
-  width: 17vw;
+  width: 19vw;
   margin: auto;
 
 }
@@ -54,11 +54,11 @@ justify-content: flex-start;
   width: 80vw;
 }
 
-.navtext {
+/*.navtext {
   display:inline-flex;
   width: 79vw;
 
-}
+}*/
 .navtext li {
   display: inline;
   padding: 1.5vw;
