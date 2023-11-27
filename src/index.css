@@ -197,6 +197,8 @@ max-width: 12rem;
 }
 .description {
   margin: 2rem 1rem;
+  width: 18vh;
+  height: auto;
 }
 
 
