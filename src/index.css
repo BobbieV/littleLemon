@@ -62,7 +62,7 @@ justify-content: flex-start;
 .navtext li {
   display: inline;
   padding: 1.5vw;
-  font-size: .65rem;
+  font-size: auto;
   /*word-wrap: break-word;*/
   width: 79vw;
   height: auto;
