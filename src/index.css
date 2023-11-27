@@ -59,7 +59,7 @@ justify-content: flex-start;
   width: 79vw;
 
 }
-.navbar {
+.navtext li {
   display: inline;
   padding: 1.5vw;
   font-size: .65rem;
