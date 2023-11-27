@@ -39,7 +39,8 @@ margin-bottom: 0;
 }
 .AppLogoWrapper {
   width: 20vw;
-  height: 3.25rem;
+  /*height: 3.25rem;*/
+  width: 25rem;
 
 }
 .AppLogo {
