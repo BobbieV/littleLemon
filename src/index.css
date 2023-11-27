@@ -125,6 +125,7 @@ margin-bottom: 0;
 }
 .heroImage {
   height: 50vw;
+  max-height: 17rem;
   width: 50vw;
 
 }
