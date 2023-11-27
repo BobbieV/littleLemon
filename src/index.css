@@ -35,6 +35,7 @@ button:focus-visible {
   flex-wrap: wrap;
     width: 100vw;
     height: auto;
+    margin: 0 auto;
 margin-bottom: 0;
 }
 .AppLogoWrapper {
@@ -45,7 +46,7 @@ margin-bottom: 0;
 }
 .AppLogo {
   height: 3.25rem;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   width: auto;
   left:0;
 }
