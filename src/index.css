@@ -234,8 +234,8 @@ max-width: 12rem;
   justify-items: center;*/
 }
 .testimonialUserImage {
-  height: 10vh;
-  width: auto;
+  height: auto;
+  width: 10vw;
   border-radius: 50%;
   margin-top: .5rem;
 }
@@ -245,8 +245,8 @@ max-width: 12rem;
 }
 
 .userFeedback {
- width: 90%;
- height: 90%;
+ width: 10vw;
+ height: auto;
  grid-column: span 2;
  grid-row: 2;
 overflow: hidden;
