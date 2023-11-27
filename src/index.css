@@ -50,13 +50,13 @@ margin-bottom: 0;
   width: auto;
   left:0;
 }
-.navTextWrapper {
+/*.navTextWrapper {
   position: absolute;
   right: 0;
   top:0;
   width: 80vw;
   height: 3.25rem;
-  justify-items: right;
+  justify-items: right;*/
 }
 
 .navtext {
