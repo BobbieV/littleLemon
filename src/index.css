@@ -109,12 +109,16 @@ margin-bottom: 0;
   font-size: 1rem;
   font-family: 'Karla';
   word-wrap: 'break-word';
-  max-width: 14rem;
+  max-width: 16rem;
   margin: 2rem;
 
 }
 .reserveATableWrapper {
   margin: auto auto;
+}
+.reserveATable {
+  width:30vw;
+  max-width: 13rem;
 }
 /* right side (image) */
 .heroImageWrapper {
@@ -153,9 +157,11 @@ margin-bottom: 0;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  color: #000;
 }
 .buttonOM {
   margin: auto;
+  color: #000;
 }
 /* menu items (bottom area) */
 .bottomWrapper {
@@ -191,6 +197,7 @@ max-width: 25vw;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  color:#000;
 }
 .price {
   color: #ee9972;
@@ -202,7 +209,7 @@ max-width: 25vw;
 }
 .description {
   margin: 2rem 1rem;
-
+  color:#000;
 }
 
 
