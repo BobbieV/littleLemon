@@ -32,6 +32,7 @@ button:focus-visible {
 #nav {
   background-color: #EDEFEE;
   display: flex;
+  flex-wrap: wrap;
     width: 100vw;
     grid-template-columns: 20% 80%;
     height: 3.25rem;
