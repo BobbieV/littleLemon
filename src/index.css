@@ -34,7 +34,6 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
     width: 100vw;
-    grid-template-columns: 20% 80%;
     height: auto;
 margin-bottom: 0;
 }
