@@ -64,9 +64,9 @@ margin-bottom: 0;
 }
 .navtext li {
   display: inline;
-  padding: .5rem;
+  /*padding: .5rem;*/
   font-size: .75rem;
-  word-wrap: break-word;
+  /*word-wrap: break-word;*/
   width: 80vw;
   height: 3.25rem;
   margin: auto;
