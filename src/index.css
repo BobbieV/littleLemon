@@ -49,8 +49,8 @@ margin-bottom: 0;
   width: 25vw;
 }
 .navTextWrapper {
-  position: absolute;
-  right: 0;
+  /*position: absolute;
+  right: 0;*/
   width: 80vw;
   height: 3.25rem;
 /*  justify-items: right; */
