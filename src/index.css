@@ -47,6 +47,7 @@ margin-bottom: 0;
   /*max-height: 3.25rem;
   margin: 0 auto;*/
   width: 20vw;
+  left:0;
 }
 .navTextWrapper {
   position: absolute;
