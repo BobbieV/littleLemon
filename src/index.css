@@ -33,7 +33,7 @@ button:focus-visible {
   background-color: #EDEFEE;
   display: flex;
   flex-wrap: wrap;
-  justify-items: center;
+  align-items: center;
     width: 100vw;
     height: auto;
 margin-bottom: 0;
