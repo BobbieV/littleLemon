@@ -34,7 +34,7 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
     width: 100vw;
-    height: 1rem;
+    height: auto;
 margin-bottom: 0;
 justify-content: space-evenly;
 }
