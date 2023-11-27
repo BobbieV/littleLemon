@@ -197,8 +197,7 @@ max-width: 12rem;
 }
 .description {
   margin: 2rem 1rem;
-  width: 18vh;
-  height: auto;
+
 }
 
 
@@ -247,7 +246,7 @@ max-width: 12rem;
 
 .userFeedback {
  width: 90%;
- height: 50%;
+ height: 90%;
  grid-column: span 2;
  grid-row: 2;
 overflow: hidden;
