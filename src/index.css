@@ -58,7 +58,7 @@ margin-bottom: 0;
   margin-right: 0;
   display: flex;
   justify-content: space-evenly;
-  width: auto;
+  width: 79vw;
 
 }
 .navtext li {
@@ -67,7 +67,7 @@ margin-bottom: 0;
   font-size: .70rem;
   /*word-wrap: break-word;*/
   width: auto;
-  height: 7vw;
+  height: auto;
   margin: auto;
 }
 
