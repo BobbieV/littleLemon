@@ -33,9 +33,9 @@ button:focus-visible {
   background-color: #EDEFEE;
   display: flex;
   flex-wrap: wrap;
+  justify-items: center;
     width: 100vw;
     height: auto;
-    margin: 0 auto;
 margin-bottom: 0;
 }
 .AppLogoWrapper {
