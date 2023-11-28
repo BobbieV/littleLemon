@@ -64,7 +64,10 @@ button:focus-visible {
   text-align: right;
   text-wrap: nowrap;
 }
-
+.navtext6 {
+  position: absolute;
+  right: 0;
+}
 /* </Header> */
 #header {
   background-color: #495E57;
@@ -90,8 +93,8 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin-left: 1rem;
-  margin-top: 1rem;
+  margin-left: .5rem;
+  margin-top: .5rem;
   padding: 0;
   width: 54vw'
 }
@@ -110,8 +113,8 @@ button:focus-visible {
   font-size: 1rem;
   font-family: 'Karla';
   word-wrap: 'break-word';
-  max-width: 16rem;
-  margin: 2rem;
+  max-width: 18rem;
+  margin: 1rem;
 
 }
 .reserveATableWrapper {
