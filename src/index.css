@@ -63,6 +63,7 @@ button:focus-visible {
   height: auto;
   margin: 0 auto;
   text-wrap: nowrap;
+  align-content: center;
 }
 
 /* </Header> */
