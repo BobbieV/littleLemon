@@ -55,14 +55,17 @@ button:focus-visible {
   display: flex;
   justify-content: space-evenly;
 }
-
+.navtext{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .navtext li {
   display: inline;
   padding: 1vw;
   font-size: 2vw;
   width: 13vw;
   height: auto;
-  text-align: right;
   text-wrap: nowrap;
 }
 
