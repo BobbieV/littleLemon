@@ -61,7 +61,7 @@ button:focus-visible {
   font-size: .65rem;
   width: auto;
   height: auto;
-  margin: auto;
+  margin: 0 auto;
   text-wrap: nowrap;
 }
 
