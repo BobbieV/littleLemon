@@ -59,7 +59,7 @@ margin-bottom: 0;
 }*/
 .navtext li {
   display: inline;
-  padding: auto;
+  padding: .5rem;
   font-size: .65rem;
   width: auto;
   height: auto;
