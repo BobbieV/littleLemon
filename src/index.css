@@ -64,10 +64,7 @@ button:focus-visible {
   text-align: right;
   text-wrap: nowrap;
 }
-.navtext6 {
-  position: absolute;
-  right: 0;
-}
+
 /* </Header> */
 #header {
   background-color: #495E57;
