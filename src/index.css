@@ -61,7 +61,7 @@ justify-content:space-evenly;
 .navtext li {
   display: inline;
   padding: 1.5vw;
-  font-size: auto;
+  font-size: .65rem;
   width: auto;
   height: auto;
   margin: auto;
