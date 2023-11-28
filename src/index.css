@@ -36,7 +36,6 @@ button:focus-visible {
     width: 100vw;
     height: auto;
 margin-bottom: 0;
-justify-content:space-evenly;
 }
 .AppLogoWrapper {
   width: 19vw;
