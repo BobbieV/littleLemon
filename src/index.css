@@ -52,6 +52,7 @@ margin-bottom: 0;
 .navTextWrapper {
   width: 80vw;
   right: 0;
+  margin: auto 0 auto 1;
 }
 
 /*.navtext {
