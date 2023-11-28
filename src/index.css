@@ -303,9 +303,10 @@ white-space: nowrap;
   display:inline-block;
   position: absolute;
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
-  bottom: 0;
+  right: 0;
+
 }
 
 
