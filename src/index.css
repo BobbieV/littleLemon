@@ -67,6 +67,7 @@ button:focus-visible {
   width: 13vw;
   height: auto;
   text-align: right;
+  justify-content: space-evenly;
 
 }
 
