@@ -44,7 +44,7 @@ button:focus-visible {
 
 }
 .AppLogo {
-  height: 3vh;
+  height: 10vw;
   margin: 0 auto;
 
   max-width: fit-content;
