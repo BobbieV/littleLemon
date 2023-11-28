@@ -62,10 +62,10 @@ justify-content:space-evenly;
   display: inline;
   padding: 1.5vw;
   font-size: auto;
-  /*word-wrap: break-word;*/
   width: auto;
   height: auto;
   margin: auto;
+  text-wrap: nowrap;
 }
 
 /* </Header> */
