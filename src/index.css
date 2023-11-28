@@ -59,11 +59,10 @@ button:focus-visible {
   display: inline;
   padding: .5rem;
   font-size: .65rem;
-  width: auto;
+  width: 80vw;
   height: auto;
   margin: 0 auto;
   text-wrap: nowrap;
-  align-content: center;
 }
 
 /* </Header> */
