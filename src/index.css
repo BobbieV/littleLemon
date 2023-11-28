@@ -37,29 +37,17 @@ button:focus-visible {
     height: auto;
     justify-content: space-evenly;
 }
-/*.AppLogoWrapper {
-  width: 19vw;
-  display: flex;
-  height: 3.25rem;
-
-
-}*/
 .AppLogo {
   height: 3.25rem;
   display: block;
   margin: 0 auto;
 }
-.navTextWrapper {
-  width: 80vw;
-}
 .navtext {
   list-style-type: none;
   margin: 0;
   padding: 2vw;
-
-
+  width: 80vw;
 }
-
 .navtext li {
   display: inline-block;
   font-size: 2vw;
@@ -144,7 +132,7 @@ button:focus-visible {
 
 
 /* </Specials> */
-#specialsWrapper {
+#specials {
   display: grid;
   grid-template-rows: 7rem 27rem;
   width: 100vw;
@@ -223,7 +211,7 @@ max-width: 25vw;
 
 
 /* </Testimonials> */
-#testimonialsWrapper {
+#testimonials {
   display: grid;
   grid-template-rows: 5rem 15rem;
   background-color: #495E57;

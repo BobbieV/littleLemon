@@ -7,7 +7,7 @@ function Testimonials() {
 
   return (
     <>
-        <header id="testimonialsWrapper">
+        <header id="testimonials">
           <h1 className="h1Testimonials">Testimonials</h1>
           <section className="testimonialContainersWrapper">
             <section className="testimonialContainer testimonial1">
