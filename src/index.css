@@ -51,12 +51,11 @@ button:focus-visible {
 }
 .navTextWrapper {
   width: 80vw;
-  padding-top: 1rem;
 }
 .navtext {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 3vw;
 
 
 }
@@ -302,7 +301,7 @@ white-space: nowrap;
 }
 .footer {
   display:inline-block;
-  align-content: space-between;
+  
   list-style-type: none;
   margin: auto;
   padding: 0;
