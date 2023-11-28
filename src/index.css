@@ -301,11 +301,10 @@ white-space: nowrap;
 }
 .footer {
   display:inline-block;
-  position: absolute;
+
   list-style-type: none;
   margin: auto;
   padding: 0;
-  right: 0;
 
 }
 
