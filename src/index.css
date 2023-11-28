@@ -301,7 +301,7 @@ white-space: nowrap;
 }
 .footer {
   display:inline-block;
-
+  justify-content: space-between;
   list-style-type: none;
   margin: auto;
   padding: 0;
