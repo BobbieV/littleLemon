@@ -54,10 +54,11 @@ button:focus-visible {
   margin: auto 0 auto 1;
 }
 
-/*.navtext {
-  margin: 0 auto;
+.navtext {
+  position: absolute;
+  right: 0;
 
-}*/
+}
 .navtext li {
   display: inline;
   padding: .5rem;
