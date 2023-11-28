@@ -61,7 +61,7 @@ button:focus-visible {
 }
 
 .navtext li {
-  display: block;
+  display: inline-block;
   padding: 1vw;
   font-size: 2vw;
   width: 13vw;
