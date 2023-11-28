@@ -46,9 +46,8 @@ button:focus-visible {
 }*/
 .AppLogo {
   width: 13vw;
-
-
-  left: 0;
+  display: block;
+  margin: 0 auto;
 }
 .navTextWrapper {
   width: 80vw;
