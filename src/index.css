@@ -33,6 +33,7 @@ button:focus-visible {
   background-color: #EDEFEE;
   display: flex;
   flex-wrap: wrap;
+  justify-content: stretch;
     width: 100vw;
     height: auto;
 }
