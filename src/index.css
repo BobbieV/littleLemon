@@ -54,9 +54,11 @@ button:focus-visible {
   margin: auto 0 auto 1;
 }
 
-.navtext {
-  position: absolute;
+.navbar {
+  position: fixed;
+  bottom: 3.25rem;
   right: 0;
+  width: 100vw;
 
 }
 .navtext li {
