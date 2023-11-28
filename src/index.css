@@ -48,10 +48,10 @@ justify-content:space-evenly;
   height: 3.25rem;
   width: auto;
   max-width: fit-content;
+  left: 0;
 }
 .navTextWrapper {
   width: 80vw;
-  margin: 0 auto;
 }
 
 /*.navtext {
