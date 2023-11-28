@@ -52,9 +52,11 @@ button:focus-visible {
 }
 .navTextWrapper {
   width: 80vw;
-  right: 0;
-  margin: auto 0 auto 1;
-  align-content: flex-end;
+  /*right: 0;
+  margin: auto 0 auto 1;*/
+  display: grid;
+  grid-template-columns: auto;
+
 }
 
 .navtext li {
