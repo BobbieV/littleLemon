@@ -52,8 +52,6 @@ button:focus-visible {
 }
 .navTextWrapper {
   width: 80vw;
-  display: flex;
-  align-content: end;
 }
 .navtext{
   list-style-type: none;
