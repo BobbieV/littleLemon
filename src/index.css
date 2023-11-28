@@ -53,11 +53,10 @@ justify-content:space-evenly;
   width: 80vw;
 }
 
-/*.navtext {
-  display:inline-flex;
-  width: 79vw;
+.navtext {
+  margin: 0 auto;
 
-}*/
+}
 .navtext li {
   display: inline;
   padding: 1.5vw;
