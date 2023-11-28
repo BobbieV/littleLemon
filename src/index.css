@@ -33,7 +33,6 @@ button:focus-visible {
   background-color: #EDEFEE;
   display: flex;
   flex-wrap: wrap;
-  justify-content: stretch;
     width: 100vw;
     height: auto;
 }
@@ -55,6 +54,7 @@ button:focus-visible {
   width: 80vw;
   right: 0;
   margin: auto 0 auto 1;
+  align-content: flex-end;
 }
 
 .navtext li {
