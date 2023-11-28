@@ -63,7 +63,7 @@ justify-content:space-evenly;
   padding: 1.5vw;
   font-size: auto;
   /*word-wrap: break-word;*/
-  width: 13.25vw;
+  width: auto;
   height: auto;
   margin: auto;
 }
