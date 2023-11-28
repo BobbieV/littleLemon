@@ -51,12 +51,13 @@ justify-content:space-evenly;
 }
 .navTextWrapper {
   width: 80vw;
+  margin: 0 auto;
 }
 
-.navtext {
+/*.navtext {
   margin: 0 auto;
 
-}
+}*/
 .navtext li {
   display: inline;
   padding: 1.5vw;
