@@ -38,8 +38,6 @@ button:focus-visible {
     justify-content: space-evenly;
 }
 .AppLogo {
-  width: min-content;
-  height: 3.25rem;
   display: block;
   margin: 0 auto;
 }
