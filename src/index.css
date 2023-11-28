@@ -48,7 +48,6 @@ button:focus-visible {
   width: 10vw;
   margin: 0 auto;
 
-  max-width: fit-content;
   left: 0;
 }
 .navTextWrapper {
