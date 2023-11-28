@@ -39,6 +39,7 @@ button:focus-visible {
 }
 .AppLogoWrapper {
   width: 19vw;
+  display: flex;
   /*height: 3.25rem;*/
 
 
