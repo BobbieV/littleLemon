@@ -300,7 +300,10 @@ white-space: nowrap;
   height: 5rem;
 }
 .footer {
-  display:inline;
+  display:inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 
