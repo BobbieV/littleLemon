@@ -72,6 +72,7 @@ button:focus-visible {
   width: 100vw;
   max-height: 27.5rem;
   grid-template-columns: 55% 45%;
+  margin: auto;
 
 }
 /* left side (text) */
