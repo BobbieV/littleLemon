@@ -36,13 +36,13 @@ button:focus-visible {
     width: 100vw;
     height: auto;
 }
-.AppLogoWrapper {
+/*.AppLogoWrapper {
   width: 19vw;
   display: flex;
-  /*height: 3.25rem;*/
+  height: 3.25rem;
 
 
-}
+}*/
 .AppLogo {
   height: auto;
   width: auto;
