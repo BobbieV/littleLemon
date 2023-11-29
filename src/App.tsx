@@ -14,7 +14,8 @@ function App() {
 
   return (
     <>
-      <main className="appWrapper">
+      <main id="app" style={{width: 1440, height: 2900, paddingTop: 10, paddingBottom: 10, background: '#EDEFEE'}} />
+      /*<main id="app">*/
         <Navbar/>
         <Header/>
         <Specials/>
