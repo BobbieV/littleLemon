@@ -31,10 +31,10 @@ function Specials() {
             <article className="menuItem lemonDessert">
                 <img className="menuItemImage imageLemonDessert" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/lemon dessert.jpg?raw=true" style={{width: 301, height: 230, borderTopLeftRadius: 25, borderTopRightRadius: 25}}></img>
                 <hgroup className="labelGroup">
-                  <h2 className="label labelLemonDessert">Lemon Dessert</h2>
-                  <h2 className="price priceLemonDessert">$5.00</h2>
+                  <h2 className="label labelLemonDessert" style={{width: '100%', height: '100%', color: '#333333', fontSize: 30, fontFamily: 'Markazi Text', fontWeight: '500', wordWrap: 'break-word'}}>Lemon Dessert</h2>
+                  <h2 className="price priceLemonDessert" style={{width: 107, height: 50, textAlign: 'right', color: '#EE9972', fontSize: 30, fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}}>$5.00</h2>
                 </hgroup>
-                <p className="description descriptionLemonDessert">This zesty and refreshing dessert will awaken your taste buds with its tangy lemon flavor and smooth, creamy texture. Perfect for any sweet tooth!</p>
+                <p className="description descriptionLemonDessert" style={{width: '100%', height: '100%', color: 'black', fontSize: 24, fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>This zesty and refreshing dessert will awaken your taste buds with its tangy lemon flavor and smooth, creamy texture. Perfect for any sweet tooth!</p>
                 </article>
             </section>
         </header>
