@@ -46,7 +46,7 @@ height: fit-content;
   list-style-type: none;
 }
 .navtext li {
-  display: list-item;
+  display: inline;
   font-size: 2vw;
   width: 13vw;
   /*height: auto;*/
