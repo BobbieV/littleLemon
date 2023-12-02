@@ -134,7 +134,7 @@ button:focus-visible {
   display: grid;
   grid-template-rows: 7rem 27rem;
   width: 100vw;
-  height:50rem;
+  height:30rem;
 }
 /* heading and button (top area) */
 .topWrapper {
