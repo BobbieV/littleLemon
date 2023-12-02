@@ -274,7 +274,7 @@ white-space: nowrap;
   margin: auto;
 }
 /* </Footer> */
-/*#footer {
+#footer {
   display: grid;
   width: 100vw;
   height: 22rem;
@@ -310,4 +310,3 @@ white-space: nowrap;
     background-color: #F4CE14;
   }
 }
-*/
