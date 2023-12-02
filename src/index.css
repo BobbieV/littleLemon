@@ -58,7 +58,7 @@ button:focus-visible {
 }
 
 /* </Header> */
-/*#header {
+#header {
   background-color: #495E57;
   display: grid;
   width: 100vw;
@@ -68,7 +68,7 @@ button:focus-visible {
 
 }
 /* left side (text) */
-/*.textWrapper {
+.textWrapper {
   display: grid;
  margin: 0 auto;
   grid-template-rows: 2.5rem 2rem 8rem 5rem;
@@ -114,11 +114,11 @@ button:focus-visible {
   max-width: 13rem;
 }
 /* right side (image) */
-/*.heroImageWrapper {
+.heroImageWrapper {
   display: grid;
-  /*justify-items: center;
-  align-items: center;*/
-  /*margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
 
 }
 .heroImage {
@@ -131,14 +131,14 @@ button:focus-visible {
 
 
 /* </Specials> */
-/*#specials {
+#specials {
   display: grid;
   grid-template-rows: 7rem 27rem;
   width: 100vw;
   height:50rem;
 }
 /* heading and button (top area) */
-/*.topWrapper {
+.topWrapper {
   display: grid;
   grid-template-columns: auto auto;
   max-height: 7rem;
@@ -158,11 +158,11 @@ button:focus-visible {
   color: #000;
 }
 /* menu items (bottom area) */
-/*.bottomWrapper {
+.bottomWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /*gap: 1rem;*/
-  /*max-height: 27rem;
+  gap: 1rem;
+  max-height: 27rem;
   width: 100vw;
   margin: 0 auto;
 }
@@ -174,16 +174,15 @@ max-width: 25vw;
 .menuItemImage {
   width: 25vw;
   height: 18vw;
-  /*margin: 1rem;*/
-  /*padding: .25rem;*/
-
-/*}
+  margin: 1rem;
+  padding: .25rem;
+}
 .labelGroup {
   display: grid;
   grid-template-columns: 65% 35%;
   font-size: .75rem;
-  /*margin: 1rem;*/
-  /*max-height: 2.5rem;
+  margin: 1rem;
+  max-height: 2.5rem;
   width: 25vw;
 }
 .label {
@@ -202,15 +201,15 @@ max-width: 25vw;
   line-height: normal;
 }
 .description {
-  /*margin: 2rem 1rem;*/
-  /*color:#000;
+  margin: 2rem 1rem;
+  color:#000;
   text-align: justify;
   width: 25vw;
 }
 
 
 /* </Testimonials> */
-/*#testimonials {
+#testimonials {
   display: grid;
   grid-template-rows: 5rem 15rem;
   background-color: #495E57;
@@ -237,10 +236,10 @@ max-width: 25vw;
     background-color: #EDEFEE;
     color: #495E57;
   border-radius: 1.5rem;
-  /*margin: 0 auto;
+  margin: 0 auto;
   align-items: center;
-  justify-items: center;*/
-/*}
+  justify-items: center;
+}
 .testimonialUserImage {
   height: auto;
   width: 10vw;
@@ -258,13 +257,13 @@ max-width: 25vw;
  grid-column: span 2;
  grid-row: 2;
  padding: .25rem;
-/*overflow: hidden;
+overflow: hidden;
 white-space: nowrap;
- text-overflow: ellipsis;*/
-/*}
+ text-overflow: ellipsis;
+}
 
 /* </About> */
-/*#about {
+#about {
   background-color: #999999;
   display: grid;
   width: 100vw;
