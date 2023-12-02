@@ -36,6 +36,7 @@ button:focus-visible {
     width: 100vw;
     height: 3.25rem;
     justify-content: space-evenly;
+    top: 0;
 }
 .AppLogo {
   display: block;
