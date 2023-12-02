@@ -30,7 +30,7 @@ button:focus-visible {
 /* </Navbar> */
 #nav {
   background-color: #EE9972;
-  display: inline-flex;
+  display: inline;
   flex-wrap: wrap;
     width: 100vw;
     height: 3.25rem;
