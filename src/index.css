@@ -29,7 +29,7 @@ button:focus-visible {
 }
 /* </Navbar> */
 #nav {
-  background-color: #EDEFEE;
+  background-color: #EE9972;
   display: inline-flex;
   flex-wrap: wrap;
     width: 100vw;
@@ -82,7 +82,7 @@ button:focus-visible {
   margin-left: .5rem;
   margin-top: .5rem;
   padding: 0;
-  width: 54vw'
+  /*width: 54vw;*/
 }
 .h2text {
   font-size: 1.5rem;
