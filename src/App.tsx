@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <section>
-        <section id="app" style={{width: 1440, height: 2900, /*paddingTop: 10, paddingBottom: 10,*/ background: '#EDEFEE'}} />
+        <section id="app" style={{width: 1440, /*height: 2900, paddingTop: 10, paddingBottom: 10,*/ background: '#EDEFEE'}} />
           <Navbar/>
           <Header/>
           <Specials/>
