@@ -43,15 +43,12 @@ button:focus-visible {
 }
 .navtext {
   list-style-type: none;
-  /*margin: 0;*/
-  padding: 2vw;
-  /*width: 80vw;*/
 }
 .navtext li {
   display: inline;
   font-size: 2vw;
   width: 13vw;
-  height: auto;
+  /*height: auto;*/
   margin: 0 auto;
   max-height: 3rem;
 
