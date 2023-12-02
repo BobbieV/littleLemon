@@ -7,7 +7,7 @@ import Testimonials from './testimonials.tsx'
 import Footer from './footer.tsx'
 
 
-/*import './index.css'*/
+import './index.css'
 
 function App() {
 
