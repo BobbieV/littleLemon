@@ -37,15 +37,15 @@ button:focus-visible {
     justify-content: space-evenly;
 }
 .AppLogo {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   height: 3.25rem;
 }
 .navtext {
   list-style-type: none;
-  margin: 0;
+  /*margin: 0;*/
   padding: 2vw;
-  width: 80vw;
+  /*width: 80vw;*/
 }
 .navtext li {
   display: inline-block;
