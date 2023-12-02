@@ -45,7 +45,7 @@ button:focus-visible {
   list-style-type: none;
 }
 .navtext li {
-  display: inline;
+  display: list-item;
   font-size: 2vw;
   width: 13vw;
   /*height: auto;*/
