@@ -22,12 +22,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-#app {
+/*#app {
   display:grid;
   height: 155.5rem;
   width: 100vw;
   margin: 0 auto;
-}
+}*/
 /* </Navbar> */
 #nav {
   background-color: #EDEFEE;
