@@ -51,6 +51,7 @@ button:focus-visible {
   /*height: auto;*/
   margin: 0 auto;
   max-height: 3rem;
+  background-color: red;
 
 }
 
