@@ -28,7 +28,7 @@ button:focus-visible {
   margin: 0 auto;
 }
 /* </Navbar> */
-/*#nav {
+#nav {
   background-color: #EDEFEE;
   display: inline-flex;
   flex-wrap: wrap;
