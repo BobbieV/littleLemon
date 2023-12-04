@@ -95,7 +95,7 @@ button:focus-visible {
   /*width: 54vw;*/
 }
 .h2text {
-  font-size: 1.5rem;
+  font-size: 6dvw;
   font-family: 'Karla';
   font-weight: '400';
   padding: 0;
@@ -106,7 +106,7 @@ button:focus-visible {
   margin-top: 1rem;
 }
 .ptext {
-  font-size: 1rem;
+  font-size: 1.75dvw;
   font-family: 'Karla';
   word-wrap: 'break-word';
   max-width: 18rem;
