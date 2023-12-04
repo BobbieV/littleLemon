@@ -89,7 +89,7 @@ button:focus-visible {
   grid-template-rows: 2.5rem 2rem 8rem 5rem;
   width: fit-content;
   max-width: 26rem;
-  align-content: center;
+  justify-items: center;
 
 }
 .title {
