@@ -121,7 +121,7 @@ button:focus-visible {
 }
 /* right side (image) */
 .heroImageWrapper {
-  display: block;
+  display: flex;
   justify-items: center;
   align-items: center;
   margin: 0 auto;
