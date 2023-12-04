@@ -86,7 +86,7 @@ button:focus-visible {
 .textWrapper {
   display: inline-block;
  margin: 0 auto;
-  grid-template-rows: 2.5rem 2rem 8rem 5rem;
+  /*grid-template-rows: 2.5rem 2rem 8rem 5rem;*/
   width: fit-content;
   max-width: 26rem;
   justify-items: center;
@@ -121,6 +121,7 @@ button:focus-visible {
   word-wrap: 'break-word';
   /*max-width: 18rem;*/
   margin: 1rem;
+
 
 }
 .reserveATableWrapper {
