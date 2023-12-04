@@ -89,8 +89,9 @@ button:focus-visible {
   font-family: 'Markazi Text';
   font-weight: '400';
   word-wrap: 'break-word';
-  margin-left: .5rem;
-  margin-top: .5rem;
+  /*margin-left: .5rem;
+  margin-top: .5rem;*/
+  margin:auto;
   padding: 0;
   /*width: 54vw;*/
 }
