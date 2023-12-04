@@ -84,7 +84,7 @@ button:focus-visible {
 }
 /* left side (text) */
 .textWrapper {
-  display: block;
+  display: inline-block;
  margin: 0 auto;
   grid-template-rows: 2.5rem 2rem 8rem 5rem;
   width: fit-content;
