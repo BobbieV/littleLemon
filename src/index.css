@@ -65,6 +65,18 @@ button:focus-visible {
 /* </Header> */
 #header {
   background-color: #495E57;
+  display: block;
+  width: 100dvh;
+  height: fit-content;
+ /* grid-template-columns: 55% 45%;*/
+ position:relative;
+ /*align-content:space-evenly;
+ justify-content: center;
+ margin: 0 auto;*/
+
+}
+.headerBackground {
+  background-color: #495E57;
   display: inline-flex;
   width: fit-content;
   height: fit-content;
@@ -73,7 +85,6 @@ button:focus-visible {
  align-content:space-evenly;
  justify-content: center;
  margin: 0 auto;
-
 }
 /* left side (text) */
 .textWrapper {
