@@ -67,7 +67,7 @@ button:focus-visible {
   background-color: #495E57;
   display: grid;
   width: 100dvw;
-  height: 28rem /*27.5rem*/;
+  height: 27.5rem;
   grid-template-columns: 55% 45%;
   align-content: space-evenly;
 
