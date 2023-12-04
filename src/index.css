@@ -121,7 +121,8 @@ button:focus-visible {
   font-size: 1rem;
   font-family: 'Karla';
   word-wrap: 'break-word';
-  max-width: 18rem;
+  width:fit-content;
+  /*max-width: 18rem;*/
   margin: 1rem;
 
 }
