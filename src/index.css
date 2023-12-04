@@ -69,7 +69,8 @@ button:focus-visible {
   width: 100dvw;
   height: 27.5rem;
  /* grid-template-columns: 55% 45%;*/
-  align-content: center;
+ position:relative;
+ align-content: center;
 
 }
 /* left side (text) */
