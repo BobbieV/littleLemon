@@ -30,7 +30,6 @@ button:focus-visible {
 }
 /* </Navbar> */
 #nav {
-  background-color: #EE9972;
   display: inline-flex;
   float: right;
   flex-wrap: nowrap;
@@ -46,7 +45,7 @@ button:focus-visible {
 }
 .navtext {
   list-style-type: none;
-  width: 100%;
+  /*width: 100%;*/
   position: relative;
   right: 0;
   display: block;
@@ -59,7 +58,6 @@ button:focus-visible {
   /*height: auto;*/
   margin: auto auto;
   /*max-height: 3rem;*/
-  background-color: red;
   padding: 0 1dvw;
 
 }
