@@ -32,7 +32,7 @@ button:focus-visible {
 #nav {
   background-color: #EE9972;
   display: inline;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
     width: 100vw;
     height: 3.25rem;
     justify-content: space-evenly;
