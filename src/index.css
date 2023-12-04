@@ -46,6 +46,7 @@ button:focus-visible {
 }
 .navtext {
   list-style-type: none;
+  width: 100%;
 }
 .navtext li {
   display: inline;
