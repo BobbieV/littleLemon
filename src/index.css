@@ -66,7 +66,7 @@ button:focus-visible {
 #header {
   background-color: #495E57;
   display: inline-flex;
-  width: 100dvw;
+  width: fit-content;
   height: fit-content;
  /* grid-template-columns: 55% 45%;*/
  position:relative;
