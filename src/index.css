@@ -49,7 +49,7 @@ button:focus-visible {
   position: relative;
   right: 0;
   display: block;
-  margin-left: 0;
+  margin: 0 auto;
 }
 .navtext li {
   display: inline;
