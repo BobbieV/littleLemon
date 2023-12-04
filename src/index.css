@@ -89,6 +89,7 @@ button:focus-visible {
   width: fit-content;
   max-width: 26rem;
   justify-items: center;
+  padding: auto;
 
 }
 .title {
