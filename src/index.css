@@ -48,7 +48,7 @@ button:focus-visible {
 }
 .navtext li {
   display: inline;
-  font-size: 2dvw;
+  font-size: 1.75dvw;
   width: 13dvw;
   /*height: auto;*/
   margin: auto auto;
