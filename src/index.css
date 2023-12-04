@@ -43,6 +43,7 @@ button:focus-visible {
   /*margin: 0 auto;*/
   height: 10dvh;
   min-height: 3.25rem;
+  padding-left: 1dvw;
 }
 .navtext {
   list-style-type: none;
