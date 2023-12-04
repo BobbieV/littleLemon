@@ -91,7 +91,7 @@ button:focus-visible {
   display: grid;
  margin: 0 auto;
   grid-template-rows: 2.5rem 2rem 8rem 5rem;
-  width: 54dvw;
+  width: fit-content;
 
 }
 .title {
@@ -121,7 +121,6 @@ button:focus-visible {
   font-size: 1rem;
   font-family: 'Karla';
   word-wrap: 'break-word';
-  width:fit-content;
   /*max-width: 18rem;*/
   margin: 1rem;
 
