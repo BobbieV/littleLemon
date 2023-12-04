@@ -39,8 +39,8 @@ button:focus-visible {
     /*justify-content: space-evenly;*/
 }
 .AppLogo {
-  display: inline;
-  margin: 0 auto;
+  display: inline-flex;
+  /*margin: 0 auto;*/
   height: 3.25rem;
 }
 .navtext {
