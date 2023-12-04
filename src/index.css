@@ -90,7 +90,7 @@ button:focus-visible {
   width: fit-content;
   max-width: 26rem;
   justify-items: center;
-  padding: 2rem;
+  padding: 1rem;
 
 }
 .title {
@@ -129,7 +129,7 @@ button:focus-visible {
   display:flex;
   justify-content: center;
   align-content: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 .reserveATable {
   width:30dvw;
@@ -141,7 +141,7 @@ button:focus-visible {
   justify-items: center;
   align-items: center;
   margin: 0 auto;
-padding: 2rem;
+padding: 1rem;
 }
 .heroImage {
   height: 44dvw;
