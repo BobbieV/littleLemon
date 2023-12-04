@@ -64,7 +64,6 @@ button:focus-visible {
 
 /* </Header> */
 #header {
-  background-color: #495E57;
   display: block;
   width: 100dvw;
   height:min-content;
