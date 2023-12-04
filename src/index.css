@@ -119,13 +119,13 @@ button:focus-visible {
   max-width: 13rem;
 }
 /* right side (image) */
-.heroImageWrapper {
+/*.heroImageWrapper {
   display: grid;
   justify-items: center;
   align-items: center;
   margin: 0 auto;
 
-}
+}*/
 .heroImage {
   height: 44dvw;
   max-height: 17rem;
