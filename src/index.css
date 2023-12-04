@@ -48,7 +48,7 @@ button:focus-visible {
   /*width: 100%;*/
   position: relative;
   right: 0;
-  display: block;
+  display: flex;
   margin: 0 auto;
 }
 .navtext li {
