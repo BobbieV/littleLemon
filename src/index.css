@@ -124,7 +124,7 @@ button:focus-visible {
 
 }
 .reserveATableWrapper {
-  display:block;
+  display:flex;
   justify-content: center;
   align-content: center;
 }
