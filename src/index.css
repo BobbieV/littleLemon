@@ -70,21 +70,17 @@ button:focus-visible {
   height:auto;
  /* grid-template-columns: 55% 45%;*/
  /*position:relative;*/
- align-content:space-evenly;
- justify-content: center;
+
 
 
 }
 .headerBackground {
   background-color: #495E57;
   display: inline-flex;
-  width: max-content;
+  width: fit-content;
   height: fit-content;
  /* grid-template-columns: 55% 45%;*/
- position:relative;
- align-content:space-evenly;
- justify-content: center;
- margin: 0 auto;
+
 }
 /* left side (text) */
 .textWrapper {
