@@ -138,8 +138,9 @@ button:focus-visible {
 
 /* </Specials> */
 #specials {
-  display: grid;
-  grid-template-rows: 7rem 27rem;
+  /*display: grid;
+  grid-template-rows: 7rem 27rem;*/
+  display: inline-block;
   width: 100dvw;
   height:50rem;
 }
