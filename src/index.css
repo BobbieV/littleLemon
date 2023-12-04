@@ -51,10 +51,10 @@ button:focus-visible {
   font-size: 2dvw;
   width: 13dvw;
   /*height: auto;*/
-  margin: 0 auto;
+  margin: auto auto;
   /*max-height: 3rem;*/
   background-color: red;
-  padding: auto;
+  padding: 0 1dvw;
 
 }
 
