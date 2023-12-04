@@ -42,7 +42,7 @@ button:focus-visible {
   display: inline;
   /*margin: 0 auto;*/
   height: 10dvh;
-  max-height: 3.25rem;
+  min-height: 3.25rem;
 }
 .navtext {
   list-style-type: none;
