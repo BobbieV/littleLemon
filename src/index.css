@@ -50,6 +50,7 @@ button:focus-visible {
   position: relative;
   right: 0;
   display: inline-block;
+  margin-left: 0;
 }
 .navtext li {
   display: inline;
