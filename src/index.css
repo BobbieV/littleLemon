@@ -41,7 +41,8 @@ button:focus-visible {
 .AppLogo {
   display: inline;
   /*margin: 0 auto;*/
-  height: 13dvh;
+  height: 10dvh;
+  max-height: 3.25rem;
 }
 .navtext {
   list-style-type: none;
