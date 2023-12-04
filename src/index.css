@@ -71,8 +71,8 @@ button:focus-visible {
  /* grid-template-columns: 55% 45%;*/
  position:relative;
  /*align-content:space-evenly;
- justify-content: center;
- margin: 0 auto;*/
+ justify-content: center;*/
+ margin: 0 auto;
 
 }
 .headerBackground {
