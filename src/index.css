@@ -208,7 +208,8 @@ width:auto;
   font-size: .75rem;
   margin: 1rem;
   max-height: 2.5rem;
-  width: 25dvw;
+  /*width: 25dvw;*/
+  width: 100%;
 }
 .label {
   font-family: Markazi Text;
