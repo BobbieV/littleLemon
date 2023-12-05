@@ -199,7 +199,7 @@ width:auto;
 .menuItemImage {
   /*width: 25dvw;*/
   height: 18dvw;
-  width:auto;
+  width: 100%;
   margin: 1rem;
   padding: .25rem;
 }
