@@ -182,7 +182,9 @@ padding: 1rem;
 }
 /* menu items (bottom area) */
 .bottomWrapper {
-  display: block;
+  display: inline-flex;
+  flex-direction:row;
+  flex-wrap: wrap;
   /*grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;*/
   /*max-height: 27rem;*/
