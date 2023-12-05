@@ -40,7 +40,7 @@ button:focus-visible {
 .AppLogo {
   display: inline;
   /*margin: 0 auto;*/
-  height: 3.25rem;
+  height: 3rem;
   padding-left: 1dvw;
 }
 .navtext {
