@@ -234,7 +234,7 @@ width:auto;
   margin: 2rem 1rem;
   color:#000;
   text-align: justify;
-  width: fit-content /*25dvw*/;
+  width: inherit /*25dvw*/;
 }
 
 
