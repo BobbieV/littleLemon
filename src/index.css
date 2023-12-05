@@ -89,7 +89,7 @@ button:focus-visible {
   display: flexbox;
   /*grid-template-rows: 2.5rem 2rem 8rem 5rem;*/
   width: fit-content;
-  max-width: 26rem;
+  max-width: 27rem;
   justify-items: center;
   padding: 1rem;
 
