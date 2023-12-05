@@ -182,9 +182,9 @@ padding: 1rem;
 }
 /* menu items (bottom area) */
 .bottomWrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  display: inline-flex;
+  /*grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;*/
   max-height: 27rem;
   width: 100dvw;
   margin: 0 auto;
