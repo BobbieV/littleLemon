@@ -195,7 +195,7 @@ padding: 1rem;
 }
 .menuItem {
 margin: 0 auto;
-width:fit-content;
+width: min-content;;
 
 }
 .menuItemImage {
@@ -234,7 +234,7 @@ width:fit-content;
   margin: 2rem 1rem;
   color:#000;
   text-align: justify;
-  width: inherit /*25dvw*/;
+  width: auto;  /*25dvw*/;
 }
 
 
