@@ -57,9 +57,9 @@ button:focus-visible {
   font-size: 18;
   /*width: 13dvw;*/
   /*height: auto;*/
-  margin: auto auto;
+  /*margin: auto auto;*/
   /*max-height: 3rem;*/
-  padding: 0 1dvw;
+  padding: 0 .75dvw;
 
 }
 
