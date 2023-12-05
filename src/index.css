@@ -200,6 +200,7 @@ width:auto;
   /*width: 25dvw;*/
   height: 18dvw;
   width: 100%;
+  max-width: 17rem;
   margin: 1rem;
   padding: .25rem;
 }
