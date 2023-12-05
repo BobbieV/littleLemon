@@ -80,7 +80,7 @@ button:focus-visible {
   display: inline-flex;
   width: fit-content;
   height: fit-content;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
  /* grid-template-columns: 55% 45%;*/
 
 }
