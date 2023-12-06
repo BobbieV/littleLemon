@@ -299,8 +299,9 @@ width: max-content;
 }
 
 .userFeedback {
- width: inherit;
- height: 10vw;
+ width: auto;
+ max-width: 15rem;
+ height: fit-content;
  grid-column: span 2;
  grid-row: 2;
  padding: .25rem;
