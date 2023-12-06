@@ -200,7 +200,7 @@ width: min-content;
 }
 .menuItemImage {
   /*width: 25dvw;*/
-  height: auto;
+  height: 17dvh;
   width: 100%;
   max-width: 17rem;
   margin: 1rem;
