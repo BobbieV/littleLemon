@@ -208,8 +208,6 @@ width: max-content;
 .menuItemImage {
   /*width: 25dvw;*/
   min-height: fit-content;
-max-height: max-content;
-  height: auto;
   width: 100%;
   max-width: 17rem;
   margin: 1rem;
