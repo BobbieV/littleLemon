@@ -137,7 +137,7 @@ button:focus-visible {
   padding: 1rem;
 }
 .reserveATable {
-  width:30vw;
+  width: max-content/*30vw*/;
   max-width: 13rem;
 
 }
