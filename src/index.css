@@ -279,7 +279,7 @@ width: max-content;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 47% 53%;
     height: auto;
-    width: auto;
+    width: min-content;
     background-color: #EDEFEE;
     color: #495E57;
   border-radius: 1.5rem;
