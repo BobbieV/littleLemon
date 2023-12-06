@@ -255,7 +255,7 @@ width: max-content;
   background-color: #495E57;
   color:#F4CE14;
   width: 100vw;
-  height: auto;
+  height: fit-content;
   margin: 0 auto;
 }
 .testimonialContainersWrapper {
