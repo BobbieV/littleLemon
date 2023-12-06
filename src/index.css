@@ -327,8 +327,8 @@ white-space: nowrap;
   height: 22rem;
 }
 .footer {
-  display: grid;
-  grid-template-columns: 46% 18% 18% 18%;
+  display: inline-flex;
+  /*grid-template-columns: 46% 18% 18% 18%;*/
 
 }
 .footerLogo {
