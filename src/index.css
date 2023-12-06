@@ -176,10 +176,12 @@ padding: 1rem;
   font-weight: 500;
   line-height: normal;
   color: #000;
+  width: fit-content;
 }
 .buttonOM {
   margin: auto;
   color: #000;
+  width: fit-content;
 }
 /* menu items (bottom area) */
 .bottomWrapper {
