@@ -214,7 +214,7 @@ width: max-content;
   margin: 1rem;
   max-height: 2.5rem;
   /*width: 25dvw;*/
-  width: inherit;
+  width: 100%;
 }
 .label {
   font-family: Markazi Text;
