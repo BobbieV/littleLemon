@@ -216,6 +216,7 @@ width: max-content;
   max-height: 2.5rem;
   /*width: 25dvw;*/
   width: 100%;
+  max-width: 17rem;
 }
 .label {
   font-family: Markazi Text;
@@ -237,6 +238,7 @@ width: max-content;
   color:#000;
   text-align: justify;
   width: auto;  /*25dvw*/;
+  max-width: 17rem;
 }
 
 
