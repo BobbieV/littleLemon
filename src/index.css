@@ -46,8 +46,8 @@ button:focus-visible {
 }
 .AppLogo {
   display: flex;
-  align-self: flex-start;
-  justify-self: center;
+  align-self: center;
+  justify-self: left;
   /*margin: 0 auto;*/
   height: 2.25rem;
   margin-left: 1dvw;
