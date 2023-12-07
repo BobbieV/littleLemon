@@ -330,6 +330,7 @@ white-space: nowrap;
 }
 .footer {
   display: inline-flex;
+  width:fit-content;
   /*grid-template-columns: 46% 18% 18% 18%;*/
 
 }
@@ -343,7 +344,7 @@ white-space: nowrap;
 
   list-style-type: none;
   margin: auto;
-  padding: 0;
+  padding: 1rem;
 
 }
 
