@@ -271,7 +271,7 @@ width: max-content;
 
   display: inline-flex;
   flex-direction:row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   height: max-content;
   width: 100vw;
   margin: 0 auto;
@@ -291,7 +291,6 @@ width: max-content;
   margin: 0 auto;
   align-items: center;
   justify-items: center;
-  gap: 1rem;
 }
 .testimonialUserImage {
   height: 100%;
