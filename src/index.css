@@ -59,8 +59,8 @@ button:focus-visible {
   right: 0;
   display: flex;
   /*margin: 0 auto;*/
-  justify-content: flex-start;
-  align-content: center;
+  justify-self: flex-start;
+  align-self: center;
 }
 .navtext li {
   display: inline;
