@@ -55,6 +55,7 @@ button:focus-visible {
   list-style-type: none;
   display: flex;
   align-self: center;
+  justify-self: right;
 }
 .navtext li {
   display: inline;
