@@ -292,8 +292,8 @@ width: max-content;
   justify-items: center;
 }
 .testimonialUserImage {
-  height: 5rem;
-  width: 5rem;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
   margin-top: .5rem;
 }

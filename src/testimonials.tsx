@@ -35,7 +35,7 @@ function Testimonials() {
               <p className="userFeedback userFeedback3" style={{/*width: '100%', height: '100%',*/ color: 'black', fontSize: 18, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>The food was great, but the service was a bit slow. The atmosphere was nice, but a little noisy. Still, a solid choice for a night out.</p>
             </section>
             <section className="testimonialContainer testimonial4" style={{/*width: '100%', height: '100%',*/ background: '#EDEFEE', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 25}}>
-            <img className="testimonialUserImage testimonialUserImage4 testimonialUserImageJenna" src="https://github.com/BobbieV/littleLemon/blob/88e414dfd6b3636026a90dc465f15aaafc032289/src/assets/images/'Jenna'%20Female%20Profile%20Pic%2075%20x%2075px.png?raw=true" style={{width: '100%', height: '100%'}}></img>
+            <img className="testimonialUserImage testimonialUserImage4 testimonialUserImageJenna" src="https://github.com/BobbieV/littleLemon/blob/88e414dfd6b3636026a90dc465f15aaafc032289/src/assets/images/'Jenna'%20Female%20Profile%20Pic%2075%20x%2075px.png?raw=true" /*style={{width: '100%', height: '100%'}}*/></img>
               <hgroup className="h2TestimonialText">
                 <h2 className="rating rating4" style={{color: 'black', fontSize: 18, fontFamily: 'Markazi Text', fontWeight: '500', wordWrap: 'break-word'}}>8/10</h2>
                 <h2 className="name name4" style={{/*width: '100%', height: '100%',*/ color: 'black', fontSize: 20, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Jenna</h2>
