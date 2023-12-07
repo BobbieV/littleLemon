@@ -268,7 +268,7 @@ width: max-content;
   align-items: center;
   justify-items: center;*/
 
-  display: inline-flex;
+  display: flex;
   flex-direction:row;
   flex-wrap:wrap;
   height: max-content;
