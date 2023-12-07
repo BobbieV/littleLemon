@@ -42,7 +42,7 @@ button:focus-visible {
     width: 100vw;
     height: 3.25rem;
     /*align-content: baseline;*/
-    /*justify-content: space-evenly;*/
+    justify-content: space-evenly;
 }
 .AppLogo {
   display: flex;
