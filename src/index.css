@@ -115,7 +115,7 @@ button:focus-visible {
   font-weight: '400';
   width: max-content;
   /*margin: 0;*/
-  padding-left: 2rem;
+  padding-left: 1rem;
   /*width: 54vw;*/
 }
 .h2text {
