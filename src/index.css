@@ -252,7 +252,7 @@ width: max-content;
 /* </Testimonials> */
 #testimonials {
   display: grid;
-  grid-template-rows: 5rem 15rem;
+  grid-template-rows: 5rem auto;
   background-color: #495E57;
   color:#F4CE14;
   width: 100vw;
@@ -324,7 +324,7 @@ white-space: nowrap;
 }
 /* </Footer> */
 #footer {
-  display: grid;
+  display: inline-flex;
   width: 100vw;
   height: 22rem;
 }
