@@ -79,6 +79,7 @@ button:focus-visible {
   display: inline-flex;
   width: 100vw;
   height: auto;
+  justify-content: center;
  /* grid-template-columns: 55% 45%;*/
  /*position:relative;*/
 
@@ -90,7 +91,6 @@ button:focus-visible {
   display: inline-flex;
   width: fit-content;
   height: fit-content;
-  justify-self: center;
   /*margin: 0 auto;*/
  /* grid-template-columns: 55% 45%;*/
 
