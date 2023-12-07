@@ -155,7 +155,7 @@ button:focus-visible {
   justify-items: center;
   align-items: center;
   margin: 0 auto;
-padding: 1rem;
+/*padding: 1rem;*/
 }
 .heroImage {
   height: 44vw;
