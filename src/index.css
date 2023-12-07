@@ -308,9 +308,9 @@ width: max-content;
  grid-column: span 2;
  grid-row: 2;
  padding: .25rem;
-overflow: hidden;
+/*overflow: hidden;
 white-space: nowrap;
- text-overflow: ellipsis;
+ text-overflow: ellipsis;*/
 }
 
 /* </About> */
