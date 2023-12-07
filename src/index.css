@@ -53,14 +53,8 @@ button:focus-visible {
 }
 .navtext {
   list-style-type: none;
-  width: 100%;
-  position: relative;
-  right: 0;
   display: flex;
-  margin: 0 auto;
-
   align-self: center;
-  /*margin-right: 0;*/
 }
 .navtext li {
   display: inline;
