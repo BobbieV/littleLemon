@@ -141,7 +141,7 @@ button:focus-visible {
 .reserveATableWrapper {
   display:flex;
   justify-content: center;
-  align-content: center;
+  align-content:space-evenly;
   padding: 1rem;
 }
 .reserveATable {
