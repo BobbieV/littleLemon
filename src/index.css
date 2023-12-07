@@ -271,7 +271,7 @@ width: max-content;
 
   display: inline-flex;
   flex-direction:row;
-  flex-wrap: nowrap;
+  flex-wrap:wrap-reverse;
   height: max-content;
   width: 100vw;
   margin: 0 auto;
