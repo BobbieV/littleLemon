@@ -105,7 +105,7 @@ button:focus-visible {
   padding: 1rem;
   justify-self: center;
   max-height: 23rem;
-
+ align-content: space-evenly;
 }
 .title {
   color:#F4CE14;
