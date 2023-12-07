@@ -41,7 +41,7 @@ button:focus-visible {
   flex-wrap: nowrap;
     width: 100vw;
     height: 3.25rem;
-    justify-content:center;
+    justify-content: auto;
 }
 .AppLogo {
   display: flex;
