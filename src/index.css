@@ -60,6 +60,7 @@ button:focus-visible {
   display: flex;
   /*margin: 0 auto;*/
   justify-content: flex-start;
+  align-content: baseline;
 }
 .navtext li {
   display: inline;
