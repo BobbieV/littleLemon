@@ -55,15 +55,16 @@ button:focus-visible {
   list-style-type: none;
   display: flex;
   align-self: center;
+  width: fit-content
 }
 .navtext li {
   display: inline;
   font-size: 18;
-  /*width: 13dvw;*/
+  width: fit-content;
   /*height: auto;*/
   /*margin: auto auto;*/
   /*max-height: 3rem;*/
-  padding: 0 auto;
+  padding: 0 0.75dvw;
 
 }
 
