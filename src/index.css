@@ -318,7 +318,7 @@ white-space: nowrap;
   background-color: #999999;
   display: grid;
   width: 100vw;
-  max-height: 27.5rem;
+  height: fit-content;
   grid-template-columns: 50% 50%;
   margin: auto;
 }
