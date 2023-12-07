@@ -271,7 +271,7 @@ width: max-content;
   display: inline-flex;
   flex-direction:row;
   flex-wrap: wrap;
-  height: fit-content;
+  height: max-content;
   width: 100vw;
   margin: 0 auto;
   background-color: chartreuse;
