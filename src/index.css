@@ -316,10 +316,10 @@ white-space: nowrap;
 /* </About> */
 #about {
   background-color: #999999;
-  display: grid;
+  display: inline-flex;
   width: 100vw;
   height: fit-content;
-  grid-template-columns: 50% 50%;
+  /*grid-template-columns: 50% 50%;*/
   margin: auto;
 }
 /* </Footer> */
