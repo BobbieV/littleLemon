@@ -61,7 +61,7 @@ button:focus-visible {
   /*margin: 0 auto;*/
   /*justify-self: end;*/
   align-self: center;
-  margin-right: 0;
+  /*margin-right: 0;*/
 }
 .navtext li {
   display: inline;
