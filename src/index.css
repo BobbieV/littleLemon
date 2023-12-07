@@ -268,10 +268,10 @@ width: max-content;
   align-items: center;
   justify-items: center;*/
 
-  display: flex;
+  display: inline-flex;
   flex-direction:row;
-  flex-wrap: nowrap;
-  height: fit-content;
+  flex-wrap:wrap;
+  height: max-content;
   width: 100vw;
   margin: 0 auto;
   background-color: chartreuse;
