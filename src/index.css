@@ -340,7 +340,7 @@ white-space: nowrap;
   width: 15%;
 }
 .footer {
-  display: flex;
+  display: block;
   width: fit-content;
   list-style-type: none;
   margin: auto;
