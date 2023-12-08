@@ -326,6 +326,8 @@ white-space: nowrap;
   margin: 0 auto;
   align-items: center;
   justify-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .aboutImage {
   width: auto;
