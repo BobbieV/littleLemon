@@ -330,9 +330,10 @@ white-space: nowrap;
 #footer {
   display: inline-flex;
   float: right;
+  flex-wrap: nowrap;
   width: 100vw;
   height: 22rem;
-  justify-content: space-evenly;
+  justify-content: auto;
 
 }
 .footerLogo {
