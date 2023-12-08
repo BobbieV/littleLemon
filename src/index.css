@@ -357,7 +357,7 @@ white-space: nowrap;
   width: 100vw;
   height: fit-content;
  justify-content: flex-end;
- align-items:start;
+ /* qhy isn't this working? align-items:start;*/
 }
 .footerLogo {
   display: inline-block;
