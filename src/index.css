@@ -344,7 +344,7 @@ white-space: nowrap;
   width: min-content;
 }
 .footer {
-  display: inline-block;
+  display: inline-flex;
   width: fit-content;
   list-style-type: none;
   margin: 0 auto;
