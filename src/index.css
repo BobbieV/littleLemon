@@ -336,9 +336,9 @@ white-space: nowrap;
 
 }
 .footerLogo {
-  display:flex;
+  display: flex;
   height: auto;
-  width: 20%;
+  width: 15%;
 }
 .footer {
   display: flex;
