@@ -333,7 +333,8 @@ white-space: nowrap;
   flex-wrap: nowrap;
   width: 100vw;
   height: 22rem;
-  justify-content: auto;
+  justify-items: baseline;
+  align-content: space-evenly;
 
 }
 .footerLogo {
