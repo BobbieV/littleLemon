@@ -350,7 +350,7 @@ white-space: nowrap;
 }
 .footer li {
   display: flex;
-  align-self: first baseline;
+  justify-self:right;
 
 }
 
