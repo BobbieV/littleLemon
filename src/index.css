@@ -332,7 +332,7 @@ white-space: nowrap;
 }
 .aboutTextWrapper {
   display: flex;
-  width: 100%;
+  width: fit-content;
 }
 .aboutPText {
   font-size: 1rem;
