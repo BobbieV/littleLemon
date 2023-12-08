@@ -329,7 +329,7 @@ white-space: nowrap;
 }
 .aboutImage {
   width: auto;
-  height: 13rem;
+  height: fit-content;
   display: inline-flex;
   justify-self: flex-start;
 }
