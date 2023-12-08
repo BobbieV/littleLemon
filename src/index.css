@@ -341,6 +341,7 @@ white-space: nowrap;
 }
 .footer {
   display: flex;
+  float: right;
   width: fit-content;
   list-style-type: none;
   margin: auto;
