@@ -336,10 +336,10 @@ white-space: nowrap;
 .footerLogo {
   display:flex;
   height: auto;
-  width: fit-content;
+  width: 20%;
 }
 .footer {
-  display: flex;
+  display: inline;
   width: fit-content;
   list-style-type: none;
   margin: auto;
