@@ -356,8 +356,8 @@ white-space: nowrap;
   flex-wrap: nowrap;
   width: 100vw;
   height: 22rem;
- justify-content: space-evenly;
- align-items: center;
+ justify-content: flex-end;
+ align-items: flex-start;
 }
 .footerLogo {
   display: inline-block;
