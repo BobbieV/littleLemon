@@ -351,7 +351,7 @@ white-space: nowrap;
 .footer li {
   display: flex;
   justify-self:right;
-
+float:inline-start
 }
 
 
