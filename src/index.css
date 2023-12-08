@@ -330,12 +330,7 @@ white-space: nowrap;
   display: inline-flex;
   width: 100vw;
   height: 22rem;
-  justify-items: auto;
-}
-.footer {
-  display: inline-flex;
-  width:fit-content;
-  /*grid-template-columns: 46% 18% 18% 18%;*/
+  justify-items: baseline;
 
 }
 .footerLogo {
@@ -344,8 +339,8 @@ white-space: nowrap;
   width: min-content;
 }
 .footer {
-  display:inline-block;
-
+  display: inline-flex;
+  width: fit-content;
   list-style-type: none;
   margin: auto;
   padding: 1rem;
