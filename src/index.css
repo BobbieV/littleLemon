@@ -328,7 +328,8 @@ white-space: nowrap;
 }
 /* </Footer> */
 #footer {
-  display: inline-block;
+  display: inline-flex;
+  float: right;
   width: 100vw;
   height: 22rem;
   justify-content: space-evenly;
