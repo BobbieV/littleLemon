@@ -337,12 +337,12 @@ white-space: nowrap;
 
 }
 .footerLogo {
-  display: block;
+  display: inline-block;
   height: auto;
   width: 15%;
 }
 .footer {
-  display: block;
+  display: inline-block;
   width: fit-content;
   list-style-type: none;
   margin: auto;
