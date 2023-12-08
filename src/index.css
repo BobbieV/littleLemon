@@ -330,6 +330,13 @@ white-space: nowrap;
   flex-wrap: wrap;
   padding: 2rem;
 }
+.aboutPText {
+  font-size: 1rem;
+  font-family: 'Karla';
+  word-wrap: 'break-word';
+ width: fit-content;
+  margin: 2rem;
+}
 .aboutImage {
   width: auto;
   height: fit-content;
