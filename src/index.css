@@ -346,7 +346,7 @@ white-space: nowrap;
   display: inline-block;
   width: fit-content;
   list-style-type: none;
-  margin: auto;
+  margin: 0 auto;
   padding: 1rem;
 
 }
