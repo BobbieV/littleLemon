@@ -333,6 +333,7 @@ white-space: nowrap;
 .aboutTextWrapper {
   display: flex;
   width: fit-content;
+  max-width: 23rem;
 }
 .aboutPText {
   font-size: 1rem;
