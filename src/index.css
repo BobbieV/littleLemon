@@ -330,6 +330,7 @@ white-space: nowrap;
   display: inline-flex;
   width: 100vw;
   height: 22rem;
+  justify-items: auto;
 }
 .footer {
   display: inline-flex;
