@@ -336,7 +336,7 @@ white-space: nowrap;
 .footerLogo {
   display:flex;
   height: auto;
-  width: min-content;
+  width: fit-content;
 }
 .footer {
   display: inline-flex;
