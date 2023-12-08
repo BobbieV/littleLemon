@@ -327,6 +327,10 @@ white-space: nowrap;
   align-items: center;
   justify-items: center;
 }
+.aboutImage {
+  width: auto;
+  height: 13rem;
+}
 /* </Footer> */
 #footer {
   display: inline-flex;

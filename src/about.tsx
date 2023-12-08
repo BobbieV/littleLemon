@@ -13,7 +13,7 @@ function About() {
             <p className="text ptext" style={{/*width: '100%', height: '100%',*/ color: 'white', fontSize: 18, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Little Lemon Mediterranean is a family-owned restaurant in the heart of Chicago, serving delicious and authentic Mediterranean cuisine. Come visit us and taste the difference of homemade food made with love.</p>
             </section>
             <section className="heroImageWrapper">
-            <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/LittleLemonChef.jpeg?raw=true" className="heroImage" /*style={{width: '100%', height: '100%'}}*/></img>
+            <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/LittleLemonChef.jpeg?raw=true" className="aboutImage" /*style={{width: '100%', height: '100%'}}*/></img>
         </section>
         </header>
     </>
