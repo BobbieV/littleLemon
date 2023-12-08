@@ -327,7 +327,7 @@ white-space: nowrap;
 }
 /* </Footer> */
 #footer {
-  display: flex;
+  display: inline-flex;
   width: 100vw;
   height: 22rem;
   justify-items: baseline;
