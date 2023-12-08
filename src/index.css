@@ -334,7 +334,7 @@ white-space: nowrap;
   width: 100vw;
   height: 22rem;
   /*justify-items:first baseline;*/
-  align-content: first baseline;
+  align-items:first baseline;
 
 }
 .footerLogo {
