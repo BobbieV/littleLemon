@@ -339,7 +339,7 @@ white-space: nowrap;
   width: fit-content;
 }
 .footer {
-  display: inline-flex;
+  display: flex;
   width: fit-content;
   list-style-type: none;
   margin: auto;
