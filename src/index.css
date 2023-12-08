@@ -355,7 +355,7 @@ white-space: nowrap;
   /*float: right;*/
   flex-wrap: nowrap;
   width: 100vw;
-  height: 22rem;
+  height: fit-content;
  justify-content: flex-end;
  align-items: flex-start;
 }
