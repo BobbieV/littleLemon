@@ -331,7 +331,7 @@ white-space: nowrap;
   display: inline-flex;
   width: 100vw;
   height: 22rem;
-  justify-items: baseline;
+  justify-items:stretch;
 
 }
 .footerLogo {
