@@ -344,12 +344,11 @@ white-space: nowrap;
   width: min-content;
 }
 .footer {
-  display: inline-flex;
+  display: inline-block;
   width: fit-content;
   list-style-type: none;
   margin: 0 auto;
   padding: 1rem;
-  align-self: self-start;
 }
 
 
