@@ -362,6 +362,7 @@ white-space: nowrap;
 .footerLogo {
   display: inline-block;
   height: auto;
+  max-height:13rem;
   width: min-content;
   max-width: 25%;
 }
