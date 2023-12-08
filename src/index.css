@@ -354,12 +354,12 @@ white-space: nowrap;
   display: inline-block;
   width: fit-content;
   list-style-type: none;
-  margin-top: 0;
+
   padding: 1rem;
 }
 .footer li {
   display: flex;
-  justify-self:right;
+  margin-top: 0;
 }
 
 
