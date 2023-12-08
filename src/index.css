@@ -349,12 +349,13 @@ white-space: nowrap;
   display: inline-block;
   height: auto;
   width: min-content;
+  max-width: 25%;
 }
 .footer {
   display: inline-block;
   width: fit-content;
   list-style-type: none;
-
+  max-width: 25%;
   padding: 1rem;
 }
 .footer li {
