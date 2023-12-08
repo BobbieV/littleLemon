@@ -324,6 +324,7 @@ white-space: nowrap;
   /*grid-template-columns: 50% 50%;*/
   margin: 0 auto;
   align-items: center;
+  justify-items: center;
 }
 /* </Footer> */
 #footer {
