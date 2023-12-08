@@ -349,6 +349,7 @@ white-space: nowrap;
   list-style-type: none;
   margin: 0 auto;
   padding: 1rem;
+  align-self: self-start;
 }
 
 
