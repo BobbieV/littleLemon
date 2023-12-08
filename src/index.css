@@ -321,6 +321,7 @@ white-space: nowrap;
   display: inline-flex;
   width: 100vw;
   height: fit-content;
+  min-height: 27.5rem;
   /*grid-template-columns: 50% 50%;*/
   margin: auto;
 }
