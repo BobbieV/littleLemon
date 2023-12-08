@@ -341,7 +341,7 @@ white-space: nowrap;
 .footerLogo {
   display: inline-block;
   height: auto;
-  width: 15%;
+  width: min-content;
 }
 .footer {
   display: inline-block;
