@@ -318,7 +318,7 @@ white-space: nowrap;
 /* </About> */
 #about {
   background-color: #999999;
-  display: inline-flex;
+  display: flex;
   width: 100vw;
   height: fit-content;
   min-height: 27.5rem;
