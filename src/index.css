@@ -57,7 +57,7 @@ button:focus-visible {
   align-self: center;
   justify-self: right;
 }
-.navtext li {
+.navtext a {
   display: inline;
   font-size: 18;
   width: fit-content;
