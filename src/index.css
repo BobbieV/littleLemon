@@ -102,11 +102,8 @@ button:focus-visible {
  align-content: space-evenly;
 }
 .title {
-  color:#F4CE14;
   font-size: 2.25rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: 'Markazi Text';
-  font-weight: '400';
   width: max-content;
   /*margin: 0;*/
   padding-left: 1rem;
@@ -114,8 +111,6 @@ button:focus-visible {
 }
 .h2text {
   font-size: 2rem;
-  font-family: 'Karla';
-  font-weight: '400';
   padding: 0;
 }
 .text {
@@ -124,8 +119,6 @@ button:focus-visible {
 }
 .ptext {
   font-size: 1rem;
-  font-family: 'Karla';
-  word-wrap: 'break-word';
   /*max-width: 18rem;*/
   margin: 2rem;
 
