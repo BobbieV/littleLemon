@@ -376,10 +376,10 @@ white-space: nowrap;
   height:auto;
   /*margin: 0 auto;*/
 }
-/*.footer li {
+.footer a {
   display: flex;
   margin-top: 0;
-}*/
+}
 
 
 @media (prefers-color-scheme: light) {
