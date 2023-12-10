@@ -1,4 +1,4 @@
-import DatePicker from './datePicker.tsx';
+import DatePicker from react-DatePicker;
 import "index.css";
 import "logo.png";
 
