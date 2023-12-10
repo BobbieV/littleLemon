@@ -1,4 +1,4 @@
-import React, {useState} from React;
+import DatePicker from '.datePicker.tsx';
 import "index.css";
 import "logo.png";
 
@@ -8,7 +8,8 @@ function Availability() {
     <>
     <nav><img src="logo.png"></img></nav>
     <header>Check For Availability</header>
-    <input type="<DatePicker"></input>
+    <DatePicker>
+    </DatePicker>
     </>
     )
 }
