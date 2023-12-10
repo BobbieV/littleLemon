@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DatePicker from 'react-date-picker';
 
-const DatePickerExample = () => {
+const DatePicker = () => {
   const [startDate, setStartDate] = useState(new Date());
 
   return (

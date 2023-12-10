@@ -1,4 +1,4 @@
-import DatePicker from '.datePicker.tsx';
+import DatePicker from './datePicker.tsx';
 import "index.css";
 import "logo.png";
 
