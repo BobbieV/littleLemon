@@ -6,8 +6,8 @@ function Availability() {
 
     return (
     <>
-    <nav><img src="logo.png"></img></nav>
-    <header>Check For Availability</header>
+    <nav className="availabilityNav"><img src="logo.png" className="availabilityLogo"></img></nav>
+    <header className="availabilityHeader" style={{background: '#EDEFEE'}}>Check For Availability</header>
     <DatePicker>
     </DatePicker>
     </>

@@ -12,8 +12,8 @@ function Header() {
               <h2 className="h2text text" style={{color: '#EDEFEE', fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>Chicago</h2>
               <p className="text ptext" style={{color: '#EDEFEE', fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
               <div className="reserveATableWrapper">
-                <button className="reserveATable" style={{textAlign: 'center', color: '#333333', fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}} 
-                  onClick={() => {<Availability/>;
+                <button className="reserveATable" style={{textAlign: 'center', color: '#333333', fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}}
+                  onClick={() => {<Availability/>
 }}>Reserve a Table</button>
               </div>
             </section>
