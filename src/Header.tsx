@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <>
-      <header id="header" style={{/*width: 1440, height: 440,*/ background: '#495E57'}}>
+      <header id="header" /*style={{background: '#495E57'}}*/>
           <main className="headerBackground">
             <section className="textWrapper"><h1 className="title" style={{/*width: 341, height: 131, textAlign: 'center',*/ color: '#F4CE14', /*fontSize: 72,*/ fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}}>Little Lemon</h1>
               <h2 className="h2text text" style={{/*textAlign: 'center',*/ color: '#EDEFEE', /*fontSize: 40,*/ fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>Chicago</h2>

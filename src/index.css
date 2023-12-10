@@ -60,7 +60,6 @@ button:focus-visible {
 }
 .navtext a {
   display: inline;
-  font-size: 18;
   width: fit-content;
   /*height: auto;*/
   /*margin: auto auto;*/
@@ -71,7 +70,6 @@ button:focus-visible {
 
 /* </Header> */
 #header {
-  background-color: #ee9972;
   display: inline-flex;
   width: 100vw;
   height: auto;
