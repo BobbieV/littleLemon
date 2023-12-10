@@ -26,9 +26,9 @@ function Footer() {
                 <a>Email</a>
             </ul>
             <ul className="footer col3Footer" style={{/*width: '100%', height: '100%',*/ color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Social Media
-                <a href="www.facebook.com">Facebook</a>
-                <a href="www.instagram.com">Instagram</a>
-                <a href="www.tiktok.com">TikTok</a>
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.instagram.com">Instagram</a>
+                <a href="https://www.tiktok.com">TikTok</a>
             </ul>
             </footer>
     </>

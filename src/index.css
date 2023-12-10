@@ -379,6 +379,7 @@ white-space: nowrap;
 .footer a {
   display: flex;
   margin-top: 0;
+  text-decoration: none;
 }
 
 
