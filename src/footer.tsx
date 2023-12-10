@@ -16,8 +16,8 @@ function Footer() {
                 <a href="#nav">About</a>
                 <a href="#specials">Menu</a>
                 <a href="#header">Reservations</a>
-                <a onClick={() => alert('This feature is coming soon!')}>Order Online</a>
-                <a onClick={() => alert('This feature is coming soon!')}>Login</a>
+                <a >Order Online</a>
+                <a >Login</a>
             </ul>
             <ul className="footer col2Footer" style={{/*width: '100%', height: '100%',*/ color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>
                 Contact
