@@ -12,7 +12,9 @@ function Header() {
               <h2 className="h2text text" style={{/*textAlign: 'center',*/ color: '#EDEFEE', /*fontSize: 40,*/ fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>Chicago</h2>
               <p className="text ptext" style={{/*width: 486, height: 143,*/ color: '#EDEFEE', /*fontSize: 32,*/ fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
               <div className="reserveATableWrapper">
-                <button className="reserveATable" style={{/*width: 299, height: 99,*/ textAlign: 'center', color: '#333333', /*fontSize: 32,*/ fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}}>Reserve a Table</button>
+                <button className="reserveATable" style={{/*width: 299, height: 99,*/ textAlign: 'center', color: '#333333', /*fontSize: 32,*/ fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}} onClick={() => {
+  alert('You clicked me!');
+}}>Reserve a Table</button>
               </div>
             </section>
             <section className="heroImageWrapper">
