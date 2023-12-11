@@ -3,7 +3,8 @@ import  Availability from './availability.tsx';
 
 export default function reserveATableButton() {
     function handleClick() {
-        return (<Availability />)
+        return (
+        <card>{<Availability/>}</card>)
     }
 
     return (
