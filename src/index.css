@@ -26,9 +26,9 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+/* App */
 #app {
-  display:grid;
+  display: grid;
   height: fit-content;
   width: 100vw;
   background-color: purple;

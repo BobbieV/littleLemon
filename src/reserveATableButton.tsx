@@ -5,11 +5,12 @@ import "./index.css";
 export default function reserveATableButton() {
     function handleClick() {
         return (
-            <Availability/>)
+           <alert>This feature is coming soon!</alert>
+           )
     }
 
     return (
-      <button onClick={handleClick}>
+      <button className="button reserveATableButton" onClick={handleClick}>
         Reserve a Table
       </button>
     );
