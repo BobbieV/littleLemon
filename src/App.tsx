@@ -5,8 +5,6 @@ import Specials from './specials.tsx'
 import About from './about.tsx'
 import Testimonials from './testimonials.tsx'
 import Footer from './footer.tsx'
-
-
 import './index.css'
 
 function App() {
@@ -14,8 +12,7 @@ function App() {
 
   return (
     <>
-      <section>
-        <section id="app" />
+        <section id="app">
           <Navbar/>
           <Header/>
           <Specials/>
