@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
         <footer id="#footer">
-          <img className="footerLogo" src="https://github.com/BobbieV/littleLemon/blob/83cc181e5814ff2107709d62e23e2ad9f0119ef0/src/assets/images/logo.png?raw=true" /*style={{width: '100%', height: '100%'}}*/></img>
+          <img className="footerLogo" src="https://github.com/BobbieV/littleLemon/blob/83cc181e5814ff2107709d62e23e2ad9f0119ef0/src/assets/images/logo.png?raw=true" alt="A lemon icon next to the words 'Little Lemon'"></img>
             <ul className="footer col1Footer" style={{color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>
                 <a>Doormat</a>
                 <a href="#nav">Navigation</a>

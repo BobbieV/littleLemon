@@ -16,7 +16,7 @@ function Header() {
               </div>
             </section>
             <section className="heroImageWrapper">
-            <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/Hero%20Image.png?raw=true" className="heroImage" style={{borderRadius: 25}}></img>
+            <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/Hero%20Image.png?raw=true" className="heroImage" style={{borderRadius: 25}} alt="Four different varieties of bruschetta being held on a slate tray"></img>
         </section>
         </main>
         </header>

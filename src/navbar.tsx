@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
         <nav id="nav">
-          <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo navbar"></img>
+          <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo navbar" alt='A lemon icon followed by the words "Little Lemon"'></img>
           <ul className="navtext">
             <a className="navbar navtextHome" href="#nav" style={{textAlign: 'justify', color: '#495E57', fontSize: 12, fontFamily: 'Markazi Text', fontWeight: '500', wordWrap: 'break-word'}}>Home</a>
             <a className="navbar navtextAbout" href="#about" style={{textAlign: 'justify', color: '#495E57', fontSize: 12, fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}}>About</a>

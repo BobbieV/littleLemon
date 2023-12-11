@@ -31,7 +31,6 @@ button:focus-visible {
   display:grid;
   height: fit-content;
   width: 100vw;
-  /*margin: 0 auto;*/
   background-color: purple;
 }
 /* </Navbar> */
@@ -47,7 +46,6 @@ button:focus-visible {
   display: flex;
   align-self: center;
   justify-self: left;
-  /*margin: 0 auto;*/
   height: 2.25rem;
   margin-left: 1dvw;
 }
@@ -61,9 +59,6 @@ button:focus-visible {
 .navtext a {
   display: inline;
   width: fit-content;
-  /*height: auto;*/
-  /*margin: auto auto;*/
-  /*max-height: 3rem;*/
   padding: 0 0.75dvw;
   text-decoration: none;
 }
@@ -75,24 +70,15 @@ button:focus-visible {
   height: auto;
   justify-content: center;
   background-color: #495E57;
- /* grid-template-columns: 55% 45%;*/
- /*position:relative;*/
-
-
-
 }
 .headerBackground {
   display: inline-flex;
   width: fit-content;
   height: fit-content;
-  /*margin: 0 auto;*/
- /* grid-template-columns: 55% 45%;*/
-
 }
 /* left side (text) */
 .textWrapper {
   display: flexbox;
-  /*grid-template-rows: 2.5rem 2rem 8rem 5rem;*/
   width: fit-content;
   max-width: 27rem;
   justify-items: center;
@@ -105,9 +91,7 @@ button:focus-visible {
   font-size: 2.25rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: max-content;
-  /*margin: 0;*/
   padding-left: 1rem;
-  /*width: 54vw;*/
 }
 .h2text {
   font-size: 2rem;
@@ -119,7 +103,6 @@ button:focus-visible {
 }
 .ptext {
   font-size: 1rem;
-  /*max-width: 18rem;*/
   margin: 2rem;
 
 
@@ -131,7 +114,7 @@ button:focus-visible {
   padding: 1rem;
 }
 .reserveATable {
-  width: max-content/*30vw*/;
+  width: max-content;
   max-width: 13rem;
 
 }
@@ -141,7 +124,6 @@ button:focus-visible {
   justify-items: center;
   align-items: center;
   margin: 0 auto;
-/*padding: 1rem;*/
 }
 .heroImage {
   height: 44vw;
@@ -187,9 +169,6 @@ button:focus-visible {
   display: inline-flex;
   flex-direction:row;
   flex-wrap: wrap;
-  /*grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;*/
-  /*max-height: 27rem;*/
   height: fit-content;
   width: 100vw;
   margin: 0 auto;
@@ -201,8 +180,6 @@ width: max-content;
 
 }
 .menuItemImage {
-  /*width: 25dvw;*/
-  /*min-height: fit-content;*/
   width: 100%;
   max-width: 17rem;
   margin: 1rem;
@@ -214,7 +191,6 @@ width: max-content;
   font-size: .75rem;
   margin: 1rem;
   max-height: 2.5rem;
-  /*width: 25dvw;*/
   width: 100%;
   max-width: 17rem;
 }
@@ -237,7 +213,7 @@ width: max-content;
   margin: 2rem 1rem;
   color:#000;
   text-align: justify;
-  width: auto;  /*25dvw*/;
+  width: auto;
   max-width: 17rem;
 }
 
@@ -253,14 +229,6 @@ width: max-content;
   margin: 0 auto;
 }
 .testimonialContainersWrapper {
-  /*display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  column-gap: 1rem;
-  width: 100vw;
-  margin: 0 auto;
-  align-items: center;
-  justify-items: center;*/
-
   display: inline-flex;
   flex-direction:row;
   flex-wrap:wrap-reverse;
@@ -270,13 +238,13 @@ width: max-content;
   padding: 1rem;
 }
 .testimonialContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 47% 53%;
-    height: 17rem;
-    width: 17rem;
-    background-color: #EDEFEE;
-    color: #495E57;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 47% 53%;
+  height: 17rem;
+  width: 17rem;
+  background-color: #EDEFEE;
+  color: #495E57;
   border-radius: 1.5rem;
   padding: 1rem;
   margin: 0 auto;
@@ -302,9 +270,6 @@ width: max-content;
  grid-column: span 2;
  grid-row: 2;
  padding: .25rem;
-/*overflow: hidden;
-white-space: nowrap;
- text-overflow: ellipsis;*/
 }
 
 /* </About> */
@@ -314,7 +279,6 @@ white-space: nowrap;
   width: 100vw;
   height: fit-content;
   min-height: 27.5rem;
-  /*grid-template-columns: 50% 50%;*/
   margin: 0 auto;
   align-items: center;
   justify-items: center;
@@ -344,12 +308,9 @@ white-space: nowrap;
 /* </Footer> */
 #footer {
   display: inline-flex;
-  /*float: right;*/
   flex-wrap: nowrap;
   width: 100vw;
   height: fit-content;
- /*justify-content: flex-end;*/
- /* qhy isn't this working? align-items:start;*/
 }
 .footerLogo {
   display: inline-block;
@@ -365,7 +326,6 @@ white-space: nowrap;
   max-width: 33%;
   padding: 1rem;
   height:auto;
-  /*margin: 0 auto;*/
 }
 .footer a {
   display: flex;
