@@ -319,6 +319,10 @@ width: max-content;
   width: min-content;
   max-width: 25%;
 }
+.footerTextGroup {
+  display: flex;
+  flex-wrap: nowrap;
+}
 .footer {
   display: inline-block;
   width: fit-content;

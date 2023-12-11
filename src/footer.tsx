@@ -19,7 +19,8 @@ function Footer() {
                 <a >Order Online</a>
                 <a >Login</a>
             </ul>
-            <ul className="footer col2Footer" style={{color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>
+            <textarea className="footerTextGroup">
+              <ul className="footer col2Footer" style={{color: 'black', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>
                 Contact
                 <a>Address</a>
                 <a>Phone Number</a>
@@ -30,6 +31,7 @@ function Footer() {
                 <a href="https://www.instagram.com">Instagram</a>
                 <a href="https://www.tiktok.com/explore">TikTok</a>
             </ul>
+            </textarea>
             </footer>
     </>
   )
