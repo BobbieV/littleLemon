@@ -13,7 +13,8 @@ function Header() {
               <p className="text ptext" style={{color: '#EDEFEE', fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
               <div className="reserveATableWrapper">
                 <button className="reserveATable" style={{textAlign: 'center', color: '#333333', fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}}
-                  onClick={() => {<Availability/>
+                  onClick={() => {
+                    return <Availability/>
 }}>Reserve a Table</button>
               </div>
             </section>
