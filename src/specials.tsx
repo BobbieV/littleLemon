@@ -9,7 +9,7 @@ function Specials() {
         <header id="#specials" style={{background: '#EDEFEE'}}>
           <section className="topWrapper">
             <h1 className="h1Specials" style={{color: '#333333', fontSize: 30, fontFamily: 'Markazi Text', fontWeight: '500', wordWrap: 'break-word'}}>This week's specials!</h1>
-            <button className="buttonOM" style={{textAlign: 'center', color: '#333333', /*fontSize: 28,*/ fontFamily: 'Markazi Text', fontWeight: '500', wordWrap: 'break-word'}} onClick={() => alert('This feature is coming soon!')}>Online Menu</button>
+            <button className="buttonOM" style={{textAlign: 'center', color: '#333333', fontFamily: 'Markazi Text', fontWeight: '500', wordWrap: 'break-word'}} onClick={() => alert('This feature is coming soon!')}>Online Menu</button>
             </section>
             <section className="bottomWrapper">
               <article className="menuItem greekSalad">
