@@ -5,7 +5,7 @@ import "./index.css";
 export default function reserveATableButton() {
     function handleClick() {
         return (
-            <alert>{<Availability/>}</alert>)
+            <Availability/>)
     }
 
     return (
