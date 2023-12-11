@@ -1,4 +1,4 @@
-import reserveATableButton from './reserveATableButton.tsx'
+import ReserveATableButton from './reserveATableButton.tsx'
 
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
               <h2 className="h2text text" style={{color: '#EDEFEE', fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>Chicago</h2>
               <p className="text ptext" style={{color: '#EDEFEE', fontFamily: 'Karla', fontWeight: '400', wordWrap: 'break-word'}}>We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
               <div className="reserveATableWrapper">
-                <reserveATableButton/>
+                <ReserveATableButton/>
               </div>
             </section>
             <section className="heroImageWrapper">
