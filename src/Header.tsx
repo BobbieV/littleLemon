@@ -1,4 +1,4 @@
-import Availability from './availability.tsx'
+import reserveATableButton from './reserveATableButton.tsx'
 
 
 function Header() {
