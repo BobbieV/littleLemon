@@ -5,7 +5,7 @@ export default function reserveATableButton() {
    const navigate = useNavigate();
 
     function handleClick() {
-        navigate(<Availability />, { replace: true });
+        navigate("/makeReservation",<Availability />);
     }
 
     return (
