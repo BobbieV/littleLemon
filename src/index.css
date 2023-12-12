@@ -338,12 +338,26 @@ width: max-content;
   width: fit-content;
   max-width: 23rem;
 }
+.aboutTitle {
+  font-size: 40;
+  font-family: Markazi Text;
+  font-weight: 400;
+}
+.abouth2text {
+  color: white;
+  font-size: 32;
+  font-family: Inter;
+  font-weight: 400;
+}
 .aboutPText {
-  font-size: 1rem;
-  font-family: 'Karla';
-  word-wrap: 'break-word';
- width: fit-content;
+  font-size: 18 /*1rem*/;
+  font-family: Inter;
+  word-wrap: break-word;
+  width: fit-content;
   margin: 2rem;
+  font-weight: 400;
+  color: white;
+
 }
 .aboutImage {
   width: auto;
