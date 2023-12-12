@@ -38,9 +38,9 @@ button:focus-visible {
   display: inline-flex;
   float: right;
   flex-wrap: nowrap;
-    width: 100vw;
-    height: 3.25rem;
-    justify-content: auto;
+  width: 100vw;
+  height: 3.25rem;
+  justify-content: auto;
 }
 .navbar {
   text-align: justify;
