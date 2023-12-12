@@ -42,6 +42,13 @@ button:focus-visible {
     height: 3.25rem;
     justify-content: auto;
 }
+.navbar {
+  text-align: justify;
+  color: #495E57; font-size: 12;
+  font-family: Markazi Text;
+  font-weight: 500;
+  word-wrap: break-word;
+}
 .AppLogo {
   display: flex;
   align-self: center;
@@ -61,6 +68,9 @@ button:focus-visible {
   width: fit-content;
   padding: 0 0.75dvw;
   text-decoration: none;
+}
+.navtextLogin {
+  color:#333333;
 }
 
 /* </Header> */
@@ -92,6 +102,10 @@ button:focus-visible {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: max-content;
   padding-left: 1rem;
+  color: #F4CE14;
+  font-family: Markazi Text;
+  font-weight: 400;
+  word-wrap: 'break-word';
 }
 .h2text {
   font-size: 2rem;
@@ -100,6 +114,8 @@ button:focus-visible {
 .text {
   color: #EDEFEE;
   margin-left: 1rem;
+  font-family: Karla;
+  font-weight: 400;
 }
 .ptext {
   font-size: 1rem;
@@ -130,7 +146,7 @@ button:focus-visible {
   max-height: 17rem;
   max-width: 17rem;
   width: 44vw;
-
+  border-radius: 25;
 
 }
 

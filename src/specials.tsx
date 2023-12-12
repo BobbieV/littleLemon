@@ -13,7 +13,7 @@ function Specials() {
             </section>
             <section className="bottomWrapper">
               <article className="menuItem greekSalad">
-                <img className="menuItemImage imgGreekSalad" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/greek salad.jpg?raw=true" alt="a fork in a greek salad" style={{borderTopLeftRadius: 25, borderTopRightRadius: 25}}></img>
+                <img className="menuItemImage imgGreekSalad" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/greeksalad.jpg?raw=true" alt="a fork in a greek salad" style={{borderTopLeftRadius: 25, borderTopRightRadius: 25}}></img>
                 <hgroup className="labelGroup">
                   <h2 className="label labelGreekSalad" style={{color: '#333333', fontSize: 30, fontFamily: 'Markazi Text', fontWeight: '500', wordWrap: 'break-word'}}>Greek Salad</h2>
                   <h2 className="price priceGreekSalad" style={{textAlign: 'right', color: '#EE9972', fontSize: 30, fontFamily: 'Markazi Text', fontWeight: '400', wordWrap: 'break-word'}}>$12.95</h2>
