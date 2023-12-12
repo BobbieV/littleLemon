@@ -8,24 +8,6 @@ html {
   font-size: 18px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #F4CE14;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #495E57;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 /* App */
 #app {
   display: grid;
@@ -33,6 +15,7 @@ button:focus-visible {
   width: 100vw;
   background-color: purple;
 }
+
 /* </Navbar> */
 #nav {
   display: inline-flex;
@@ -44,7 +27,8 @@ button:focus-visible {
 }
 .navbar {
   text-align: justify;
-  color: #495E57; font-size: 12;
+  color: #495E57;
+  font-size: 12;
   font-family: Markazi Text;
   font-weight: 500;
   word-wrap: break-word;
@@ -120,8 +104,6 @@ button:focus-visible {
 .ptext {
   font-size: 1rem;
   margin: 2rem;
-
-
 }
 .reserveATableWrapper {
   display:flex;
@@ -132,7 +114,6 @@ button:focus-visible {
 .reserveATable {
   width: max-content;
   max-width: 13rem;
-
 }
 /* right side (image) */
 .heroImageWrapper {
@@ -147,9 +128,7 @@ button:focus-visible {
   max-width: 17rem;
   width: 44vw;
   border-radius: 25;
-
 }
-
 
 /* </Specials> */
 #specials {
@@ -197,7 +176,6 @@ button:focus-visible {
 .menuItem {
 margin: 0 auto;
 width: max-content;
-
 }
 .menuItemImage {
   width: 100%;
@@ -243,7 +221,6 @@ width: max-content;
   font-size: 24;
   font-weight: 400;
 }
-
 
 /* </Testimonials> */
 #testimonials {
@@ -304,7 +281,6 @@ width: max-content;
   font-family: Inter;
   font-weight: 400;
 }
-
 .userFeedback {
  width: auto;
  max-width: 15rem;
@@ -366,6 +342,7 @@ width: max-content;
   justify-self: flex-start;
   max-height: 13rem;
 }
+
 /* </Footer> */
 #footer {
   display: inline-flex;
@@ -402,16 +379,25 @@ width: max-content;
   text-decoration: none;
 }
 
-
-/* Availability */
-
-#availabilityBody {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: #ee9972;
+/*buttons*/
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #F4CE14;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
-
+button:hover {
+  border-color: #495E57;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #495E57;
