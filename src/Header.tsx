@@ -13,7 +13,7 @@ function Header() {
               <h2 className="h2text text">Chicago</h2>
               <p className="text ptext">We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
               <div className="reserveATableWrapper">
-                <ReserveATableButton/>
+                {<ReserveATableButton />}
               </div>
             </section>
             <section className="heroImageWrapper">
