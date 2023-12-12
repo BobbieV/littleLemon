@@ -1,14 +1,14 @@
-import "./index.css";
+import { useNavigate } from "react-router-dom"
 
 export default function reserveATableButton() {
-  /*  function handleClick() {
-        return (
-           <alert>This feature is coming soon!</alert> <---- alert can't go here but also I can't seem to navigate to <Availability />
-           );
-    }*/
+   const navigate = useNavigate();
+
+    function handleClick() {
+        navigate(<Availability />);
+    }
 
     return (
-      <button className="button reserveATableButton" /*onClick={alert('This feature is coming soon!')}*/>
+      <button className="button reserveATableButton" onClick={handleClick}>
         Reserve a Table
       </button>
     );
