@@ -156,7 +156,8 @@ button:focus-visible {
   display: grid;
   grid-template-rows: 7rem 27rem;
   width: 100vw;
-  height:50rem;
+  height: 50rem;
+  background-color: #EDEFEE;
 }
 /* heading and button (top area) */
 .topWrapper {
@@ -168,7 +169,7 @@ button:focus-visible {
 .h1Specials {
   margin: 1rem;
   font-family: Markazi Text;
-  font-size: 2.5rem;
+  font-size: 30;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -177,8 +178,11 @@ button:focus-visible {
 }
 .buttonOM {
   margin: auto;
-  color: #000;
+  color: #333333;
   width: fit-content;
+  text-align: center;
+  font-weight: 500;
+  font-family: Markazi Text;
 }
 /* menu items (bottom area) */
 .bottomWrapper {
@@ -200,6 +204,8 @@ width: max-content;
   max-width: 17rem;
   margin: 1rem;
   padding: .25rem;
+  border-top-right-radius: 25;
+  border-bottom-right-radius: 25;
 }
 .labelGroup {
   display: grid;
@@ -215,7 +221,8 @@ width: max-content;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  color:#000;
+  color:#333333;
+  font-size: 30;
 }
 .price {
   color: #ee9972;
@@ -224,13 +231,17 @@ width: max-content;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-size: 30;
 }
 .description {
   margin: 2rem 1rem;
-  color:#000;
+  color:#333333;
   text-align: justify;
   width: auto;
   max-width: 17rem;
+  font-family: Karla;
+  font-size: 24;
+  font-weight: 400;
 }
 
 
