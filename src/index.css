@@ -254,6 +254,10 @@ width: max-content;
   width: 100vw;
   height: fit-content;
   margin: 0 auto;
+  text-align: center;
+  font-size: 32;
+  font-family: Markazi Text;
+  font-weight: 500;
 }
 .testimonialContainersWrapper {
   display: inline-flex;
@@ -272,12 +276,13 @@ width: max-content;
   width: 17rem;
   background-color: #EDEFEE;
   color: #495E57;
-  border-radius: 1.5rem;
+  border-radius: 25 /*1.5rem*/;
   padding: 1rem;
   margin: 0 auto;
   align-items: center;
   justify-items: center;
   gap: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .testimonialUserImage {
   height: 100%;
@@ -285,9 +290,19 @@ width: max-content;
   border-radius: 50%;
   margin-top: .5rem;
 }
+.rating {
+  color: #333333;
+  font-size: 18;
+  font-family: Markazi Text;
+  font-weight:500;
+}
 .name {
   font-size: 1rem;
   margin-top: .5rem;
+  color: #333333;
+  font-size: 20;
+  font-family: Inter;
+  font-weight: 400;
 }
 
 .userFeedback {
@@ -297,6 +312,11 @@ width: max-content;
  grid-column: span 2;
  grid-row: 2;
  padding: .25rem;
+ color: #333333;
+ font-size: 18;
+ font-family: Inter;
+ font-weight: 400;
+
 }
 
 /* </About> */
