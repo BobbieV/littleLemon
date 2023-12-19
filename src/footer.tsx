@@ -13,6 +13,7 @@ function Footer() {
             src="https://github.com/BobbieV/littleLemon/blob/83cc181e5814ff2107709d62e23e2ad9f0119ef0/src/assets/images/logo.png?raw=true"
             alt="A lemon icon next to the words 'Little Lemon'">
             </img>
+          <div className="footerTextGroup">
             <ul className="footer">
               <li>Doormat</li>
               <li>
@@ -33,7 +34,6 @@ function Footer() {
               <li>Order Online</li>
               <li>Login</li>
             </ul>
-            <textarea className="footerTextGroup">
               <ul className="footer">
                 Contact
                 <li>Address</li>
@@ -51,7 +51,7 @@ function Footer() {
                 <a href="https://www.tiktok.com/explore">TikTok</a>
               </li>
             </ul>
-            </textarea>
+            </div>
             </footer>
     </>
   )
