@@ -71,7 +71,7 @@ html {
 }
 /* left side (text) */
 .textWrapper {
-  display: flexbox;
+  display: flex;
   width: fit-content;
   max-width: 27rem;
   justify-items: center;
@@ -126,7 +126,7 @@ html {
   max-height: 17rem;
   max-width: 17rem;
   width: 44vw;
-  border-radius: 25;
+  border-radius: 25px;
 }
 
 /* </Specials> */
