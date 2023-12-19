@@ -14,9 +14,7 @@ function Footer() {
             alt="A lemon icon next to the words 'Little Lemon'">
             </img>
             <ul className="footer">
-              <li>
-                <a>Doormat</a>
-              </li>
+              <li>Doormat</li>
               <li>
                 <a href="#nav">Navigation</a>
               </li>
@@ -32,25 +30,15 @@ function Footer() {
               <li>
                 <a href="#header">Reservations</a>
               </li>
-              <li>
-                <a >Order Online</a>
-              </li>
-              <li>
-                <a >Login</a>
-            </li>
+              <li>Order Online</li>
+              <li>Login</li>
             </ul>
             <textarea className="footerTextGroup">
               <ul className="footer">
                 Contact
-                <li>
-                  <a>Address</a>
-                </li>
-                <li>
-                  <a>Phone Number</a>
-                </li>
-                <li>
-                  <a>Email</a>
-                </li>
+                <li>Address</li>
+                <li>Phone Number</li>
+                <li>Email</li>
             </ul>
             <ul className="footer">Social Media
               <li>
