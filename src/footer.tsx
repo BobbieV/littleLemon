@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <>
-        <footer id="#footer">
+        <footer id="footer">
           <img
             className="footerLogo"
             src="https://github.com/BobbieV/littleLemon/blob/83cc181e5814ff2107709d62e23e2ad9f0119ef0/src/assets/images/logo.png?raw=true"
