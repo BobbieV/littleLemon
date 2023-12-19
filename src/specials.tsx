@@ -6,7 +6,7 @@ function Specials() {
 
   return (
     <>
-        <header id="#specials">
+        <header id="specials">
           <section className="topWrapper">
             <h1 className="h1Specials">This week's specials!</h1>
             <button className="buttonOM" /*onClick={() => alert('This feature is coming soon!')}*/>Online Menu</button>
