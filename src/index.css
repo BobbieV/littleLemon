@@ -348,7 +348,7 @@ width: max-content;
 .aboutImage {
   width: auto;
   height: fit-content;
-  display: inline-flex;
+  display: /*inline-*/flex;
   justify-self: flex-start;
   max-height: 13rem;
 }
