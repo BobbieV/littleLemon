@@ -230,8 +230,8 @@ width: max-content;
 
 /* </Testimonials> */
 #testimonials {
-  display: grid;
-  grid-template-rows: 5rem auto;
+  display: block;/*grid;
+  grid-template-rows: 5rem auto;*/
   background-color: #495E57;
   color:#F4CE14;
   width: 100vw;
