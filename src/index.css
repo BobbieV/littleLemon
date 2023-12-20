@@ -141,6 +141,8 @@ html {
   max-width: 15rem;
   width: /*44vw*/ fit-content;
   border-radius: 25px;
+  justify-self: center;
+  padding: 1rem;
 }
 
 /* </Specials> */
