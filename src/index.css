@@ -11,7 +11,7 @@ html {
 /* App */
 #app {
   display: grid;
-  height: fit-content;
+  height: max-content;
   width: 100%;
 }
 
