@@ -66,9 +66,9 @@ html {
   flex-wrap: wrap;
 }
 .headerBackground {
-  display: inline-flex;
+  display: inline-block /*inline-flex*/;
   width: fit-content;
-  height: fit-content;
+  height: max-content;
 }
 /* left side (text) */
 .textWrapper {
