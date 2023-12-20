@@ -130,8 +130,8 @@ html {
 }
 .heroImage {
   height: /*44vw*/ fit-content;
-  /*max-height: 17rem;
-  max-width: 17rem;*/
+  max-height: 95%/*17rem*/;
+  max-width: /*17rem;*/ 95%;
   width: /*44vw*/ fit-content;
   border-radius: 25px;
 }
