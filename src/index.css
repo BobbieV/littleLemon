@@ -10,7 +10,7 @@ html {
 
 /* App */
 #app {
-  display: grid;
+  display: /*grid*/ block;
   height: max-content;
   width: 100%;
 }
