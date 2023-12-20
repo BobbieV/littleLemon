@@ -78,7 +78,8 @@ html {
   justify-items: center;
   padding: 1rem;
   justify-self: center;
-  max-height: 23rem;
+  /*max-height: 23rem;*/
+  height: fit-content;
  align-content: space-evenly;
 }
 .title {
