@@ -9,8 +9,8 @@ function Header() {
       <header id="header">
           <main className="headerBackground">
             <section className="textWrapper">
-              <h1 className="title">Little Lemon</h1>
-              <h2 className="h2text text">Chicago</h2>
+              <h1 className="title titleBlock">Little Lemon</h1>
+              <h2 className="h2text titleBlock text">Chicago</h2>
               <p className="text ptext">We are a family-owned Mediterranean restaurant, focused on traditional recipes, served with a modern twist.</p>
               <div className="reserveATableWrapper">
                 <ReserveATableButton />

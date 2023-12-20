@@ -83,7 +83,9 @@ html {
   /*max-height: 23rem;*/
   height: fit-content;
  align-content: space-evenly;
- text-align: center;
+}
+.titleBlock {
+  text-align: left;
 }
 .title {
   font-size: 2.25rem;
@@ -109,6 +111,7 @@ html {
   font-size: 1rem;
   /*margin: 2rem;*/
   max-width: 50%;
+  text-align: center;
 }
 .reserveATableWrapper {
   display:flex;
