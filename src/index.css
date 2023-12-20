@@ -63,6 +63,7 @@ html {
   height: auto;
   justify-content: center;
   background-color: #495E57;
+  flex-wrap: wrap;
 }
 .headerBackground {
   display: inline-flex;
