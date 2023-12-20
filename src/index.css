@@ -159,6 +159,7 @@ html {
   margin: auto;
   color: #333333;
   width: fit-content;
+  max-width: 13rem;
   text-align: center;
   font-weight: 500;
   font-family: Markazi Text;
