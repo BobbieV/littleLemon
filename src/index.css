@@ -360,8 +360,7 @@ width: max-content;
   display: inline-block;
   height: auto;
   max-height: 3.5rem;
-  width: min-content;
-  max-width: 25%;
+  width: auto;
 }
 .footerTextGroup {
   display: flex;
