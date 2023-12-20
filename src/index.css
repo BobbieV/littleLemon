@@ -135,7 +135,7 @@ html {
   display: grid;
   grid-template-rows: 7rem 27rem;
   width: 100%;
-  height: 50rem;
+  height: fit-content;
   background-color: #EDEFEE;
 }
 /* heading and button (top area) */
