@@ -115,7 +115,7 @@ html {
 }
 .reserveATable {
   width: max-content;
-  max-width: 13rem;
+  /*max-width: 13rem;*/
 }
 .reserveATableButton {
   color:#333333;
