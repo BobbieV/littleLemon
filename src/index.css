@@ -74,7 +74,7 @@ html {
 .textWrapper {
   display: block;
   width: fit-content;
-  /*max-width: 27rem;*/
+  max-width: 50%
   justify-items: center;
   padding: 1rem;
   justify-self: center;
