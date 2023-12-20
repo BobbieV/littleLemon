@@ -77,7 +77,7 @@ html {
   width: fit-content;
   /*max-width: 48%;*/
   justify-items: /*center*/ stretch;
-  /*padding: 1rem;*/
+  padding: 1rem;
   /*justify-self: center;*/
   justify-content: center;
   /*max-height: 23rem;*/
@@ -109,7 +109,7 @@ html {
 }
 .ptext {
   font-size: 1rem;
-  /*margin: 2rem;*/
+  margin: 2rem;
   max-width: 75%;
   text-align: center;
 }
@@ -117,7 +117,7 @@ html {
   display:flex;
   justify-content: center;
   align-content:space-evenly;
-  /*padding: 1rem;*/
+  padding: 1rem;
 }
 .reserveATable {
   width: max-content;
