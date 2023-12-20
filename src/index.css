@@ -130,7 +130,7 @@ html {
 /* right side (image) */
 .heroImageWrapper {
   display: flex;
-  justify-items: center;
+  justify-content/*items*/: center;
   align-items: center;
   /*margin: 0 auto;*/
   /*max-width: 45%;*/
@@ -141,7 +141,7 @@ html {
   max-width: 15rem;
   width: /*44vw*/ fit-content;
   border-radius: 25px;
-  justify-self: center;
+  /*justify-self: center;*/
   padding: 1rem;
 }
 
