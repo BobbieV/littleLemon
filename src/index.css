@@ -130,9 +130,9 @@ html {
 /* right side (image) */
 .heroImageWrapper {
   display: flex;
-  justify-content/*items*/: center;
+  /*justify-content items: center;*/
   align-items: center;
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   /*max-width: 45%;*/
 }
 .heroImage {
