@@ -379,7 +379,7 @@ width: max-content;
   font-family: Inter;
   font-weight: 400;
 }
-.footer a {
+.footer li {
   display: flex;
   margin-top: 0;
   text-decoration: none;
