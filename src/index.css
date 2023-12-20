@@ -46,7 +46,7 @@ html {
   justify-self: right;
 
 }
-.navtext a {
+.navtext li/*a*/ {
   display: inline;
   width: fit-content;
   padding: 0 0.75vw;
