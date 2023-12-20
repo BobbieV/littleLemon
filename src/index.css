@@ -76,7 +76,7 @@ html {
   display: block;
   width: fit-content;
   /*max-width: 48%;*/
-  justify-items: center;
+  justify-items: /*center*/ stretch;
   /*padding: 1rem;*/
   justify-self: center;
   /*max-height: 23rem;*/
