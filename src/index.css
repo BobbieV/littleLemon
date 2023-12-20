@@ -72,7 +72,7 @@ html {
 }
 /* left side (text) */
 .textWrapper {
-  display: flex;
+  display: block;
   width: fit-content;
   max-width: 27rem;
   justify-items: center;
