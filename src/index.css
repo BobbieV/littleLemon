@@ -106,7 +106,7 @@ html {
 .ptext {
   font-size: 1rem;
   margin: 2rem;
-  max-width: /*fit-content*/ 100%;
+  max-width: 50%;
 }
 .reserveATableWrapper {
   display:flex;
@@ -346,7 +346,7 @@ width: max-content;
 
 }
 .aboutImage {
-  width: auto;
+  width: 75%;
   height: fit-content;
   display: /*inline-*/flex;
   justify-self: flex-start;
