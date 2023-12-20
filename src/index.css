@@ -77,7 +77,7 @@ html {
   width: fit-content;
   /*max-width: 48%;*/
   justify-items: center;
-  padding: 1rem;
+  /*padding: 1rem;*/
   justify-self: center;
   /*max-height: 23rem;*/
   height: fit-content;
@@ -87,7 +87,7 @@ html {
   font-size: 2.25rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: max-content;
-  padding-left: 1rem;
+  /*padding-left: 1rem;*/
   color: #F4CE14;
   font-family: Markazi Text;
   font-weight: 400;
@@ -95,24 +95,24 @@ html {
 }
 .h2text {
   font-size: 2rem;
-  padding: 0;
+  /*padding: 0;*/
 }
 .text {
   color: #EDEFEE;
-  margin-left: 1rem;
+  /*margin-left: 1rem*/
   font-family: Karla;
   font-weight: 400;
 }
 .ptext {
   font-size: 1rem;
-  margin: 2rem;
+  /*margin: 2rem;*/
   max-width: 50%;
 }
 .reserveATableWrapper {
   display:flex;
   justify-content: center;
   align-content:space-evenly;
-  padding: 1rem;
+  /*padding: 1rem;*/
 }
 .reserveATable {
   width: max-content;
@@ -126,7 +126,7 @@ html {
   display: flex;
   justify-items: center;
   align-items: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   /*max-width: 45%;*/
 }
 .heroImage {
