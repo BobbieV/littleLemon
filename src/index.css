@@ -234,7 +234,7 @@ width: max-content;
   grid-template-rows: 5rem auto;*/
   background-color: #495E57;
   color:#F4CE14;
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   margin: 0 auto;
   text-align: center;
