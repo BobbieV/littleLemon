@@ -58,7 +58,7 @@ html {
 
 /* </Header> */
 #header {
-  display: inline-flex;
+  display: /*inline-*/flex;
   width: 100%;
   height: max-content;
   justify-content: center;
