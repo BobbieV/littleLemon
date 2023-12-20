@@ -350,7 +350,7 @@ width: max-content;
   height: fit-content;
   display: /*inline-*/flex;
   justify-self: flex-start;
-  max-height: 13rem;
+  /*max-height: 13rem;*/
 }
 
 /* </Footer> */
