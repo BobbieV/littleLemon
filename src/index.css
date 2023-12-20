@@ -355,6 +355,7 @@ width: max-content;
   flex-wrap: wrap;
   width: 100%;
   height: fit-content;
+  justify-content: center;
 }
 .footerLogo {
   display: inline-block;
