@@ -135,8 +135,8 @@ html {
 
 /* </Specials> */
 #specials {
-  display: grid;
-  grid-template-rows: 7rem 27rem;
+  display: block;
+  /*grid-template-rows: 7rem 27rem;*/
   width: 100%;
   height: max-content;
   background-color: #EDEFEE;
@@ -178,6 +178,7 @@ html {
   align-items: baseline;
 }
 .menuItem {
+display: inline;
 margin: 0 auto;
 width: max-content;
 }
