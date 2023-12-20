@@ -143,8 +143,8 @@ html {
 }
 /* heading and button (top area) */
 .topWrapper {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: block;
+  /*grid-template-columns: auto auto;*/
   max-height: 7rem;
   width: 100%;
 }
