@@ -115,6 +115,9 @@ html {
   width: max-content;
   max-width: 13rem;
 }
+.reserveATableButton {
+  color:#333333;
+}
 /* right side (image) */
 .heroImageWrapper {
   display: flex;
