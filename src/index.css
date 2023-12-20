@@ -74,7 +74,7 @@ html {
 .textWrapper {
   display: block;
   width: fit-content;
-  max-width: 50%;
+  max-width: 48%;
   justify-items: center;
   padding: 1rem;
   justify-self: center;
@@ -126,12 +126,12 @@ html {
   justify-items: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 45%;
+  /*max-width: 45%;*/
 }
 .heroImage {
   height: /*44vw*/ fit-content;
-  max-height: 95%/*17rem*/;
-  max-width: /*17rem;*/ auto;
+  max-height: auto/*17rem*/;
+  max-width: /*17rem;*/ 50%;
   width: /*44vw*/ fit-content;
   border-radius: 25px;
 }
