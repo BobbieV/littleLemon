@@ -69,6 +69,7 @@ html {
   display: /*inline-block inline-*/flex;
   width: fit-content;
   height: max-content;
+  flex-wrap: wrap-reverse;
 }
 /* left side (text) */
 .textWrapper {
@@ -127,7 +128,6 @@ html {
   align-items: center;
   margin: 0 auto;
   max-width: 45%;
-  flex-wrap: wrap;
 }
 .heroImage {
   height: /*44vw*/ fit-content;
