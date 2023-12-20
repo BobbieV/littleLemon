@@ -126,7 +126,7 @@ html {
   justify-items: center;
   align-items: center;
   margin: 0 auto;
-  max-width: /*50%*/ max-content;
+  max-width: 45%;
 }
 .heroImage {
   height: 44vw;
