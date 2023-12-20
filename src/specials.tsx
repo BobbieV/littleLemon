@@ -29,7 +29,7 @@ function Specials() {
                 <p className="description descriptionBruschetta">Our version of the classic Italian appetizer consisting of grilled bread rubbed with garlic and topped with fresh tomatoes, basil, and olive oil.</p>
                 </article>
             <article className="menuItem lemonDessert">
-                <img className="menuItemImage imageLemonDessert" src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/lemondessert.jpg?raw=true" alt="a fork lying in front of a lemon dessert with lemons in the distance"></img>
+                <img className="menuItemImage imageLemonDessert" src="https://github.com/BobbieV/littleLemon/blob/d67b21bdb5846d15787b2748880ac05f01440d19/src/assets/images/lemon%20dessert.jpg?raw=true" alt="a fork lying in front of a lemon dessert with lemons in the distance"></img>
                 <hgroup className="labelGroup">
                   <h2 className="label labelLemonDessert">Lemon Dessert</h2>
                   <h2 className="price priceLemonDessert">$5.00</h2>
