@@ -72,6 +72,8 @@ html {
   width: fit-content;
   height: max-content;
   flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-content: center;
 }
 /* left side (text) */
 .textWrapper {
@@ -90,7 +92,6 @@ html {
  width: fit-content;
  max-width: 25rem;
  justify-self: center;
- align-items: center;
  margin: 0 auto;
 }
 .titleBlock {
