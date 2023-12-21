@@ -148,6 +148,7 @@ html {
   justify-self:stretch;
   padding: 1rem;
   display: block;
+  position: absolute;
 }
 
 /* </Specials> */
