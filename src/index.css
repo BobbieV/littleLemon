@@ -123,7 +123,7 @@ html {
 }
 .reserveATableWrapper {
   display:flex;
-  justify-content: center;
+  justify-content: left;
   align-content:space-evenly;
   padding: 1rem;
 }
