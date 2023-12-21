@@ -120,7 +120,7 @@ html {
   max-width: 50%;
   text-align: left;
   display:flex;
-  justify-self /*content*/: center;
+  /*justify-self /*content: center;*/
 }
 .reserveATableWrapper {
   display:flex;
