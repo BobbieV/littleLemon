@@ -62,7 +62,7 @@ html {
   display: /*inline-*/flex;
   width: 100%;
   height: max-content;
-  justify-content: center;
+  justify-items: center;
   background-color: #495E57;
   flex-wrap: wrap;
 
@@ -118,7 +118,7 @@ html {
   font-size: 1rem;
   margin: 2rem;
   max-width: 50%;
-  text-align: justify;
+  text-align: center;
   display:flex;
   justify-self /*content*/: center;
 }
