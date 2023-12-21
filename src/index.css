@@ -366,6 +366,8 @@ width: max-content;
 .aboutImage {
   width: 75%;
   height: 75%;
+  max-height: 20rem;
+  max-width: auto;
   /*display: inline-flex;*/
   /*justify-self: flex-start;/*
   /*max-height: 13rem;*/
