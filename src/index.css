@@ -147,7 +147,7 @@ html {
   border-radius: 25px;
   /*justify-self:;*/
   padding: 1rem;
-  display: block;
+  display: flex;
   margin: 0 auto;
 }
 
