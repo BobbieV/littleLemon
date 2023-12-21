@@ -134,7 +134,7 @@ html {
 /* right side (image) */
 .heroImageWrapper {
   display: flex;
-  /*justify-content items: center;*/
+  justify-content:center;
   align-items: center;
   /*margin: 0 auto;*/
   max-width: 100%/*fit-content*/ /*50%*/;
