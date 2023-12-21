@@ -359,7 +359,7 @@ width: max-content;
   width: 75%;
   height: 75%;
   display: /*inline-*/flex;
-  justify-self: flex-start;
+  /*justify-self: flex-start;/*
   /*max-height: 13rem;*/
 }
 
