@@ -62,7 +62,7 @@ html {
   display: /*inline-*/flex;
   width: 100%;
   height: max-content;
-  justify-items: stretch;
+  justify-content: center;
   background-color: #495E57;
   flex-wrap: wrap;
 
