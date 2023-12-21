@@ -65,15 +65,13 @@ html {
   justify-content: center;
   background-color: #495E57;
   flex-wrap: wrap;
-
+  align-content: center;
 }
 .headerBackground {
   display: /*inline-block inline-*/flex;
   width: fit-content;
   height: max-content;
   flex-wrap: wrap-reverse;
-  justify-content: center;
-  align-content: center;
 }
 /* left side (text) */
 .textWrapper {
