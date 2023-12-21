@@ -111,7 +111,7 @@ html {
 .ptext {
   font-size: 1rem;
   margin: 2rem;
-  max-width: 60%;
+  max-width: 50%;
   text-align: center;
   display:flex;
   justify-self /*content*/: center;
