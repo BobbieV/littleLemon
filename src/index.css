@@ -135,7 +135,7 @@ html {
   /*justify-content items: center;*/
   align-items: center;
   margin: 0 auto;
-  /*max-width: 45%;*/
+  max-width: 50%;
 }
 .heroImage {
   height: /*44vw*/ fit-content;
