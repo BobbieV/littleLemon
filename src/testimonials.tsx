@@ -15,7 +15,7 @@ function Testimonials() {
                 src="https://github.com/BobbieV/littleLemon/blob/88e414dfd6b3636026a90dc465f15aaafc032289/src/assets/images/'Joan'%20Female%20Profile%20Pic%2075%20x%2075px.png?raw=true">
                 </img>
               <hgroup className="h2TestimonialText">
-                <h2 className="rating">Rating 9/10</h2>
+                <h2 className="rating">9/10</h2>
                 <h2 className="name">Joan</h2>
               </hgroup>
               <p className="userFeedback">The food was outstanding and the atmosphere was lovely. The service was great too, but it was a little pricey. Overall, a fantastic experience.</p>
