@@ -75,16 +75,20 @@ html {
 }
 /* left side (text) */
 .textWrapper {
-  display: block;
+ /* display: block;
   width: fit-content;
   /*max-width: 48%;*/
-  padding: 1rem;
+  /*padding: 1rem;
   justify-self: center;
   justify-content: center;
   /*max-height: 23rem;*/
-  height: fit-content;
+ /* height: fit-content;
  /*align-content: space-evenly;*/
- margin: 0 auto;
+ /*margin: 0 auto;*/
+
+ display: flexbox;
+ width: fit-content;
+ max-width: 23rem;
 }
 .titleBlock {
   text-align: left;
