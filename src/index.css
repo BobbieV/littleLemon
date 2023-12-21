@@ -88,7 +88,7 @@ html {
 
  display: flexbox;
  width: fit-content;
- max-width: 23rem;
+ max-width: 25rem;
  justify-self: center;
 }
 .titleBlock {
