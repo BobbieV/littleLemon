@@ -112,7 +112,7 @@ html {
   font-size: 1rem;
   margin: 2rem;
   max-width: 60%;
-  text-align: justify;
+  text-align: right;
   display:flex;
   justify-content: center;
 }
