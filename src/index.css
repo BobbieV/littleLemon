@@ -83,7 +83,7 @@ html {
   justify-content: center;
   /*max-height: 23rem;*/
   height: fit-content;
- align-content: space-evenly;
+ /*align-content: space-evenly;*/
 }
 .titleBlock {
   text-align: left;
