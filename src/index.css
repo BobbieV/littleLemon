@@ -116,7 +116,6 @@ html {
 }
 .ptext {
   font-size: 1rem;
-  margin: 2rem;
   max-width: 55%;
   text-align: left;
   display:flex;
