@@ -263,6 +263,7 @@ width: max-content;
   text-align: center;
   font-family: Markazi Text;
   font-weight: 500;
+  padding: 1rem;
 }
 .testimonialContainersWrapper {
   display: inline-flex;
