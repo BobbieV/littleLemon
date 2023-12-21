@@ -89,6 +89,7 @@ html {
  display: flexbox;
  width: fit-content;
  max-width: 23rem;
+ justify-self: center;
 }
 .titleBlock {
   text-align: left;
