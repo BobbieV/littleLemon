@@ -137,7 +137,7 @@ html {
   /*justify-content:center;
   align-items: center;*/
   /*margin: 0 auto;*/
-  width: 50%;
+  width: fit-content;
 }
 .heroImage {
   height: /*44vw*/ fit-content;
