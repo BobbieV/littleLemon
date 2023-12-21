@@ -86,8 +86,7 @@ html {
  /*align-content: space-evenly;*/
  /*margin: 0 auto;*/
 
- display: flex/*box
- */;
+ display: flexbox;
  width: fit-content;
  max-width: 25rem;
  justify-self: center;
