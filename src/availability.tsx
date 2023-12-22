@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-  import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 
 
 function Availability() {
@@ -22,7 +22,7 @@ function Availability() {
         <div className ="availInput inputNumGuestsWrapper">
                 <input type="number" className="inputNumGuests" required min="1" max="8">
                 </input>
-                <FontAwesomeIcon icon={faCoffee} className="fa icon" aria-hidden="true" onMouseOver={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={ faQuestion } className="fa icon" aria-hidden="true" onMouseOver={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
             </div>
     </main>
     </>
