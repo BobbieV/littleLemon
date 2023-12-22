@@ -471,7 +471,7 @@ button:focus-visible {
   color: #EDEFEE;
   font-size: x-large;
 }
-..availInput {
+.availInput {
   display: block;
   height: 3rem;
   width: 75%;
