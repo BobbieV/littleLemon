@@ -476,4 +476,6 @@ button:focus-visible {
   height: 3rem;
   width: 75%;
   border: solid 3px #F4CE14;
+  border-radius: 16px;
+  padding: 3rem;
 }
