@@ -13,8 +13,14 @@ function Availability() {
         <header className="availabilityHeader">
             <h2 className="availH2">Check For Availability</h2>
         </header>
-        <input type="date"></input>
-        <input type="number"></input>
+        <div className="inputDateWrapper">
+            <input type="datetime-local" className="inputDateTime" required>
+            </input>
+        </div>
+        <div className ="inputNumGuestsWrapper">
+                <input type="number" className="inputNumGuests" required>
+                </input>
+            </div>
     </main>
     </>
     )
