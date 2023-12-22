@@ -9,7 +9,7 @@ function Specials() {
         <header id="specials">
           <section className="topWrapper">
             <h1 className="h1Specials">This week's specials!</h1>
-            <button className="buttonOM" onClick={() => alert('This feature is coming soon!')}>Online Menu</button>
+            <button className="buttonOM button" onClick={() => alert('This feature is coming soon!')}>Online Menu</button>
             </section>
             <section className="bottomWrapper">
               <article className="menuItem greekSalad">
