@@ -17,7 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: "availability",
-    element: <Availability />
+    element: <Availability />,
   }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
