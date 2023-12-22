@@ -4,6 +4,10 @@ import './index.css';
 import Root from './routes/root.tsx';
 import ErrorPage from './error-page.tsx';
 import Availability from './routes/availability.tsx';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
