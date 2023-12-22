@@ -433,6 +433,7 @@ width: max-content;
   background-color: #F4CE14;
   cursor: pointer;
   transition: border-color 0.25s;
+  text-decoration: none;
 }
 button:hover {
   border-color: #495E57;
