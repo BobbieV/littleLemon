@@ -14,16 +14,20 @@ function Availability() {
         <header className="availabilityHeader">
             <h2 className="availH2">Check For Availability</h2>
         </header>
-        <div className="availInput inputDateWrapper">
-            <input type="datetime-local" className="inputDateTime" required>
+        <form>
+            <div className="availInput inputDateWrapper">
+            <label>Date & Time of Reservation:</label>
+                <input type="datetime-local" className="inputDateTime" required>
 
-            </input>
-        </div>
-        <div className ="availInput inputNumGuestsWrapper">
+                </input>
+            </div>
+            <div className ="availInput inputNumGuestsWrapper">
+                <label>Number of Guests:</label>
                 <input type="number" className="inputNumGuests" required min="1" max="8">
                 </input>
                 <FontAwesomeIcon icon={ faQuestion } className="fa icon" aria-hidden="true" onMouseOver={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
             </div>
+        </form>
     </main>
     </>
     )
