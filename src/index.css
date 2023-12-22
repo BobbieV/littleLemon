@@ -477,5 +477,6 @@ button:focus-visible {
   width: 75%;
   border: solid 3px #F4CE14;
   border-radius: 16px;
-  padding: 3rem;
+  padding: 1rem;
+  align-self: flex-end;
 }
