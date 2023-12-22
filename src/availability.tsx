@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+  import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
 function Availability() {
 
@@ -12,13 +15,14 @@ function Availability() {
             <h2 className="availH2">Check For Availability</h2>
         </header>
         <div className="availInput inputDateWrapper">
-            <input type="datetime-local" className="inputDateTime" required min="1" max="8" onMouseOver={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}>
+            <input type="datetime-local" className="inputDateTime" required>
 
             </input>
         </div>
         <div className ="availInput inputNumGuestsWrapper">
-                <input type="number" className="inputNumGuests" required>
+                <input type="number" className="inputNumGuests" required min="1" max="8">
                 </input>
+                <FontAwesomeIcon icon={faCoffee} className="fa icon" aria-hidden="true" onMouseOver={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
             </div>
     </main>
     </>
