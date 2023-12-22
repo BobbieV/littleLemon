@@ -1,8 +1,22 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
+import  DatePickerComponent from './DatePicker.tsx'
+import { useState } from 'react';
 
 
 function Availability() {
+
+    const [startDate, setStartDate] = useState<Date | null>(new Date());
+
+    const handleDateSelect = (date: Date | null) => {
+      if (date) {
+        setStartDate(date);
+      }
+    };
+
+    const handleChange = (date: Date | null) => {
+        setStartDate(date)
+    }
 
     return (
     <>
@@ -15,12 +29,11 @@ function Availability() {
             <h2 className="availH2">Check For Availability</h2>
         </header>
         <form>
-            <div className="availInput inputDateWrapper">
-            <label>Date & Time of Reservation:</label>
-                <input type="datetime-local" className="inputDateTime" required>
-
-                </input>
-            </div>
+           {< DatePickerComponent
+                selectedDate={startDate}
+                handleDateSelect={handleDateSelect}
+                onChange={handleChange}
+                />}
             <div className ="availInput inputNumGuestsWrapper">
                 <label>Number of Guests:</label>
                 <input type="number" className="inputNumGuests" required min="1" max="8">
