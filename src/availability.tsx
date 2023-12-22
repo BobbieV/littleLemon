@@ -11,8 +11,10 @@ function Availability() {
                 className="availabilityLogo" />
         </nav>
         <header className="availabilityHeader">
-            <h2>Check For Availability</h2>
+            <h2 className="availH2">Check For Availability</h2>
         </header>
+        <input type="date"></input>
+        <input type="number"></input>
     </main>
     </>
     )

@@ -418,10 +418,6 @@ width: max-content;
   text-decoration: none;
 }
 
-#availability {
-  background-color: #F4CE14;
-}
-
 /*buttons*/
 .button {
   border-radius: 8px;
@@ -453,4 +449,19 @@ button:focus-visible {
   button {
     background-color: #F4CE14;
   }
+}
+
+
+/* <Availability /> */
+#availability {
+  background-color: #EDEFEE;
+}
+
+.availabilityHeader {
+  width: 85%;
+  height: fit-content;
+  background-color: #495E57;
+}
+.availH2 {
+  color: #EDEFEE
 }
