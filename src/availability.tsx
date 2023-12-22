@@ -1,6 +1,4 @@
 
-
-
 function Availability() {
 
     return (
@@ -14,7 +12,7 @@ function Availability() {
             <h2 className="availH2">Check For Availability</h2>
         </header>
         <div className="inputDateWrapper">
-            <input type="datetime-local" className="inputDateTime" required>
+            <input type="datetime-local" className="inputDateTime" required min="1" max="8" onMouseOver={() => alert('This feature is coming soon!')}>
             </input>
         </div>
         <div className ="inputNumGuestsWrapper">
