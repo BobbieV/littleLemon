@@ -33,6 +33,7 @@ function Availability() {
                 selectedDate={startDate}
                 handleDateSelect={handleDateSelect}
                 onChange={handleChange}
+                showIcon={true}
                 />}
             <div className ="availInput inputNumGuestsWrapper">
                 <label>Number of Guests:</label>
