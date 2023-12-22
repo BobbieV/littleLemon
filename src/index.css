@@ -466,6 +466,7 @@ button:focus-visible {
   text-align: center;
   border-radius: 16px;
   min-height: 20rem;
+  margin: 5rem 3rem;
 }
 .availH2 {
   color: #EDEFEE;
