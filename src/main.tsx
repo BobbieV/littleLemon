@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Root from './routes/root.tsx';
 import ErrorPage from './error-page.tsx';
-import Availability from './availability.tsx';
+import Availability from './routes/availability.tsx';
 
 const router = createBrowserRouter([
   {
