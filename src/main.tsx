@@ -1,11 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.tsx';
 import './index.css';
+import Root from './routes/root.tsx';
+import ErrorPage from './error-page.tsx';
+import Availability from './availability.tsx';
 
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "availability",
+    element: <Availability />
+  }
+]);
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
