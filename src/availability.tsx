@@ -12,11 +12,13 @@ function Availability() {
             <h2 className="availH2">Check For Availability</h2>
         </header>
         <div className="inputDateWrapper">
-            <input type="datetime-local" className="inputDateTime" required min="1" max="8" onMouseOver={() => alert('This feature is coming soon!')}>
+            <input type="datetime-local" className="inputDateTime" required min="1" max="8" onMouseOver={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}>
+                Date/Time of Reservation:
             </input>
         </div>
         <div className ="inputNumGuestsWrapper">
                 <input type="number" className="inputNumGuests" required>
+                Number of Guests:
                 </input>
             </div>
     </main>

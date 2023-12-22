@@ -468,5 +468,12 @@ button:focus-visible {
   min-height: 20rem;
 }
 .availH2 {
-  color: #EDEFEE
+  color: #EDEFEE;
+  font-size: x-large;
+}
+.inputDateWrapper {
+  display: block;
+  height: 3rem;
+  width: 75%
+  border: solid 3px #F4CE14;
 }
