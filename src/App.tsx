@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Availability from './routes/availability.tsx';
+import Availability from './availability.tsx';
 
 
 function App() {
