@@ -1,9 +1,9 @@
-import App from 'App.tsx';
+import { Outlet } from "react-router-dom";
 
 export default function Root() {
     return (
         <>
-        <App />
+        <Outlet/>
         </>
     )
 }

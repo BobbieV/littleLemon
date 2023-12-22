@@ -14,11 +14,13 @@ const router = createBrowserRouter([
     path:"/",
     element: <Root />,
     errorElement: <ErrorPage />,
+    children: [
+      {
+        path:"availability/",
+        element: <Availability />
+      }
+    ],
   },
-  {
-    path: "availability",
-    element: <Availability />,
-  }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
