@@ -474,6 +474,6 @@ button:focus-visible {
 .inputDateWrapper {
   display: block;
   height: 3rem;
-  width: 75%
+  width: 75%;
   border: solid 3px #F4CE14;
 }
