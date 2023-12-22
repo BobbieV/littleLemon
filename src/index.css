@@ -481,3 +481,7 @@ button:focus-visible {
   padding: 1rem;
   align-self: flex-end;
 }
+.inputNumGuests {
+  height: fit-content;
+  width: auto;
+}
