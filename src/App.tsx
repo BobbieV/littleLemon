@@ -1,6 +1,7 @@
 import  Home from './home.tsx';
 import './index.css';
 import {
+  BrowserRouter,
   Routes,
   Route,
 } from 'react-router-dom';
@@ -11,10 +12,12 @@ function App() {
 
   return (
     <>
-       <Routes>
+    <BrowserRouter>
+    <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/availability" element={<Availability /> }/>
         </Routes>
+    </BrowserRouter>
     </>
   )
 }
