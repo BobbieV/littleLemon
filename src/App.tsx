@@ -1,11 +1,8 @@
 import  Home from './home.tsx';
 import './index.css';
 import {
-  createBrowserRouter,
   Routes,
   Route,
-  createRoutesFromElements,
-  RouterProvider,
 } from 'react-router-dom';
 import Availability from './routes/availability.tsx';
 
