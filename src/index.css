@@ -93,7 +93,6 @@ html {
 }
 .titleBlock {
   text-align: left;
-  padding: 1rem 0;
 }
 .title {
   font-size: 2.25rem;
@@ -104,10 +103,11 @@ html {
   font-family: Markazi Text;
   font-weight: 400;
   word-wrap: 'break-word';
+  padding-top: 1rem;
 }
 .h2text {
   font-size: 2rem;
-  /*padding: 0;*/
+  padding-bottom: 1rem;
 }
 .text {
   color: #EDEFEE;
@@ -120,6 +120,7 @@ html {
   max-width: 55%;
   text-align: left;
   display:flex;
+  padding: 1rem 0;
   /*justify-self /*content: center;*/
 }
 .reserveATableWrapper {
