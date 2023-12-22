@@ -461,6 +461,9 @@ button:focus-visible {
   width: 85%;
   height: fit-content;
   background-color: #495E57;
+  text-align: center;
+  border-radius: 16px;
+  min-height: 20rem;
 }
 .availH2 {
   color: #EDEFEE
