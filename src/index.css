@@ -65,8 +65,6 @@ html {
   justify-content: center;
   background-color: #495E57;
   flex-wrap: wrap;
-  position: absolute;
-  justify-self: center;
 }
 .headerBackground {
   display: /*inline-block inline-*/flex;
