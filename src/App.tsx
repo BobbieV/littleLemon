@@ -1,25 +1,32 @@
+import  Home from './home.tsx';
+import './index.css';
+import {
+  createBrowserRouter,
+  Routes,
+  Route,
+  createRoutesFromElements,
+  RouterProvider,
+} from 'react-router-dom';
+import Availability from './routes/availability.tsx';
 
-import  Header  from './Header.tsx'
-import  Navbar  from './navbar.tsx'
-import Specials from './specials.tsx'
-import About from './about.tsx'
-import Testimonials from './testimonials.tsx'
-import Footer from './footer.tsx'
-import './index.css'
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Routes>
+            <Route path="/" element={ <Home />}/>
+            <Route path="/availability" element={ <Availability /> }/>
+          </Routes>
+  )
+)
 
 function App() {
 
-
   return (
     <>
-        <section id="app">
-          <Navbar/>
-          <Header/>
-          <Specials/>
-          <Testimonials/>
-          <About/>
-          <Footer/>
-        </section>
+      <RouterProvider router={router}/>
+          <Routes>
+            <Route path="/" element={ <Home />}/>
+            <Route path="/availability" element={ <Availability /> }/>
+          </Routes>
     </>
   )
 }
