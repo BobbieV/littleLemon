@@ -460,7 +460,7 @@ button:focus-visible {
   max-height: 3.25rem
 }
 .availabilityHeader {
-  width: 75%;
+  width: 80%;
   height: fit-content;
   background-color: #495E57;
   text-align: center;
