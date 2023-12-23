@@ -472,6 +472,7 @@ button:focus-visible {
   color: #EDEFEE;
   font-size: 3rem;
   word-spacing: 9999999999999px;
+  padding: 5rem;
 
 }
 .availInput {
