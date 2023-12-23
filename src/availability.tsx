@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 import  DatePickerComponent from './DatePicker.tsx'
 import { useState } from 'react';
-import Navbar from './navbar.tsx';
 
 
 function Availability() {
@@ -22,7 +21,6 @@ function Availability() {
     return (
     <>
     <main id="availability">
-        < Navbar />
         <header className="availabilityHeader">
             <h2 className="availH2">Check For Availability</h2>
         </header>
