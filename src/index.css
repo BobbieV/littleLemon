@@ -486,7 +486,7 @@ button:focus-visible {
   border-radius: 16px;
   padding: 1rem;
   justify-self: center;
-  margin: 3rem;
+  margin: 0 auto;
 }
 /*this isn't working
 .icon {
@@ -494,5 +494,6 @@ button:focus-visible {
 }*/
 /* DatePicker */
 .datePicker {
+  display: flex;
   padding: 0rem 3rem;
 }
