@@ -455,6 +455,7 @@ button:focus-visible {
 /* <Availability /> */
 #availability {
   background-color: #EDEFEE;
+  display: block;
 }
 .availabilityLogo {
   max-height: 3.25rem
