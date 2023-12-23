@@ -486,5 +486,5 @@ button:focus-visible {
 }
 .inputDateWrapper {
 display: inline-flex;
-justify-self: center;
+margin: 0 auto;
 }
