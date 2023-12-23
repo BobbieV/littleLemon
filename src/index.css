@@ -457,10 +457,10 @@ button:focus-visible {
   background-color: #EDEFEE;
 }
 .availabilityLogo {
-  max-height: 2.25rem
+  max-height: 3.25rem
 }
 .availabilityHeader {
-  width: 85%;
+  width: 75%;
   height: fit-content;
   background-color: #495E57;
   text-align: center;
@@ -476,15 +476,11 @@ button:focus-visible {
 
 }
 .availInput {
-  display: block;
+  display: inline-block;
   height: 3rem;
   width: 75%;
   border: solid 3px #F4CE14;
   border-radius: 16px;
   padding: 1rem;
   margin: 0 auto;
-}
-.inputDateWrapper {
-display: inline-flex;
-margin: 0 auto;
 }
