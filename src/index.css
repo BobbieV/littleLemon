@@ -483,4 +483,10 @@ button:focus-visible {
   border-radius: 16px;
   padding: 1rem;
   justify-self: center;
+  margin: 3rem;
+}
+
+/* DatePicker */
+.datePicker {
+  padding: 0rem 3rem;
 }
