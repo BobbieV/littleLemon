@@ -18,7 +18,9 @@ return (
             onSelect={handleDateSelect}
             showTimeSelect
             dateFormat="Pp"
-            onChange={(date: Date | null) => handleDateSelect(date)} />
+            onChange={(date: Date | null) => handleDateSelect(date)}
+            wrapperClassName="datePicker"
+             />
         </div>);
 };
 
