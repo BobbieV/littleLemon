@@ -482,5 +482,5 @@ button:focus-visible {
   border: solid 3px #F4CE14;
   border-radius: 16px;
   padding: 1rem;
-  margin: 0 auto;
+  justify-self: center;
 }
