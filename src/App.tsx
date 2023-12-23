@@ -15,7 +15,7 @@ function App() {
     <>
     <nav id="nav">
           <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo" alt="A lemon icon followed by the words 'Little Lemon'"></img>
-          <ul className="navtext">
+
             <Link to="/" className="navbar navtextHome">Home
             </Link>
             <Link to="/about" className="navbar navtextAbout">About
@@ -28,7 +28,7 @@ function App() {
             </Link>
             <Link to="/login" className="navbar navtextLogin">Login
             </Link>
-        </ul>
+
        </nav>
     <BrowserRouter>
     <Routes>

@@ -40,6 +40,7 @@ html {
   height: 2.25rem;
   margin-left: 1vw;
 }
+/*
 .navtext {
   list-style-type: none;
   display: flex;
@@ -47,7 +48,7 @@ html {
   justify-self: right;
 
 }
-.navtext li/*a*/ {
+.navtext li/*a*/ /*{
   display: inline;
   width: fit-content;
   padding: 0 0.75vw;
@@ -55,7 +56,7 @@ html {
 }
 .navtextLogin {
   color:#333333;
-}
+}*/
 
 /* </Header> */
 #header {
