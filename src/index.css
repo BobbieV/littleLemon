@@ -485,7 +485,9 @@ button:focus-visible {
   justify-self: center;
   margin: 3rem;
 }
-
+.icon {
+  justify-self: flex-end;
+}
 /* DatePicker */
 .datePicker {
   padding: 0rem 3rem;
