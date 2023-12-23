@@ -1,7 +1,7 @@
 import  Home from './home.tsx';
 import './index.css';
 import {
-  BrowserRouter,
+
   Link,
   Routes,
   Route,
@@ -30,12 +30,12 @@ function App() {
             </Link>
 
        </nav>
-    <BrowserRouter>
+
     <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/availability" element={<Availability /> }/>
         </Routes>
-    </BrowserRouter>
+
     </>
   )
 }
