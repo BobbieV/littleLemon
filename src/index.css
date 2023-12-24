@@ -40,18 +40,15 @@ html {
   height: 2.25rem;
   margin-left: 1vw;
 }
-NavLink {
-  display: inline-block;
-  justify-content: center;
-  padding: 1rem;
-}
-/*.navbar {
+
+
+.navbar {
   list-style-type: none;
   display: flex;
   align-self: center;
   justify-self: right;
 
-}
+}/*
 .navtext li/*a*/ /*{
   display: inline;
   width: fit-content;
