@@ -40,10 +40,10 @@ html {
   font-size: 1rem;
   font-family: Markazi Text;
   font-weight: 500;
-  padding: 0 .5rem;
+  padding: 1rem;
   align-self: center;
   text-decoration: none;
-  margin: 0 auto;
+  margin: 1rem;
 }
 .AppLogo {
   display: flex;
