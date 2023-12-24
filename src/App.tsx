@@ -5,6 +5,7 @@ import {
   Link,
   Routes,
   Route,
+  BrowserRouter,
 } from 'react-router-dom';
 import Availability from './availability.tsx';
 import ErrorPage from './error-page.tsx';
@@ -15,7 +16,7 @@ import About from './about.tsx';
 function App() {
 
   return (
-    <>
+    <>{ BrowserRouter }
     <nav id="nav">
           <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo" alt="A lemon icon followed by the words 'Little Lemon'"></img>
 
@@ -43,7 +44,7 @@ function App() {
           <Route path="/login" element={<ErrorPage />}/>
 
         </Routes>
-
+      { BrowserRouter }
     </>
   )
 }
