@@ -31,17 +31,6 @@ html {
   font-size: .70rem;
   font-family: Markazi Text;
   font-weight: 500;
-  word-wrap: break-word;
-  text-decoration: none;
-  /*.navbar {
-  list-style-type: none;
-  display: flex;
-  align-self: center;
-  justify-self: right;
-
-  width: fit-content;
-  padding: 0 0.75vw;
-}*/
 }
 .AppLogo {
   display: flex;
