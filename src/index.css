@@ -40,7 +40,7 @@ html {
   font-size: .70rem;
   font-family: Markazi Text;
   font-weight: 500;
-  /*align-self: center;*/
+  align-self: center;
   text-decoration: none;
 }
 .AppLogo {
