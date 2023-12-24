@@ -16,7 +16,8 @@ import About from './about.tsx';
 function App() {
 
   return (
-    <>{ BrowserRouter }
+    <>
+  <BrowserRouter >
     <nav id="nav">
           <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo" alt="A lemon icon followed by the words 'Little Lemon'"></img>
 
@@ -33,7 +34,7 @@ function App() {
             <Link to="/login" className="navbar navtextLogin">Login
             </Link>
 
-       </nav>
+    </nav>
 
     <Routes>
           <Route path="/" element={<Home />}/>
@@ -44,7 +45,7 @@ function App() {
           <Route path="/login" element={<ErrorPage />}/>
 
         </Routes>
-      { BrowserRouter }
+  </BrowserRouter>
     </>
   )
 }
