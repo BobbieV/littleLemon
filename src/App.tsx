@@ -25,8 +25,7 @@ function App() {
               to="/"
               className="navbar navtextHome"
               style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
+                color: isActive ? '#fff' : '#545e6f'
               })}
               >Home
             </NavLink>
@@ -34,8 +33,7 @@ function App() {
               to="/about"
               className="navbar navtextAbout"
               style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
+                color: isActive ? '#fff' : '#545e6f'
               })}
               >About
             </NavLink>
@@ -43,8 +41,7 @@ function App() {
               to="/specials"
               className="navbar navtextMenu"
               style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
+                color: isActive ? '#fff' : '#545e6f'
               })}
               >Menu
             </NavLink>
@@ -53,7 +50,6 @@ function App() {
               className="navbar navtextReservations"
               style={({ isActive }) => ({
                 color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
               })}
               >Reservations
             </NavLink>
@@ -61,8 +57,7 @@ function App() {
               to="/orderOnline"
               className="navbar navtextOrderonline"
               style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#545e6f',
-                background: isActive ? '#7600dc' : '#f0f0f0',
+                color: isActive ? '#fff' : '#545e6f'
               })}
               >Order Online
             </NavLink>
@@ -70,8 +65,7 @@ function App() {
               to="/login"
               className="navbar navtextLogin"
               style={({ isActive }) => ({
-                color: isActive ? '#fff' : '#F4CE14',
-                background: isActive ? '#F4CE14' : '#f0f0f0',
+                color: isActive ? '#fff' : '#333333'
               })}
               >Login
             </NavLink>
