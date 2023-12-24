@@ -448,6 +448,7 @@ button:focus-visible {
   background-color: #EDEFEE;
   display: block;
   align-self: center;
+  justify-content: center;
 }
 .availabilityLogo {
   max-height: 3.25rem
@@ -461,6 +462,7 @@ button:focus-visible {
   min-height: 20rem;
   margin: 0 auto;
   display: block;
+
 }
 .availH2 {
   color: #EDEFEE;
@@ -483,7 +485,7 @@ button:focus-visible {
 .availForm1 {
   display: block;
   width: 75%;
-  margin: 0 auto;
+
   box-sizing: border-box;
 }
 /*this isn't working
