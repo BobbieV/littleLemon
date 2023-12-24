@@ -37,6 +37,7 @@ html {
   padding: 0 .5rem;
   align-self: center;
   text-decoration: none;
+  margin: 0 auto;
 }
 .AppLogo {
   display: flex;
