@@ -23,11 +23,12 @@ html {
   width: 100%;
   height: 3.25rem;
   text-align: center;
-  justify-content:space-evenly;
+  justify-content:space-around;
+  align-content: center;
 
 }
 .navbar {
-  display: flex;
+
   text-align: justify;
   color: #495E57;
   font-size: .70rem;
