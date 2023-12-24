@@ -48,16 +48,9 @@ html {
   align-self: center;
   justify-self: right;
 
-}/*
-.navtext li/*a*/ /*{
-  display: inline;
   width: fit-content;
   padding: 0 0.75vw;
-  text-decoration: none;
 }
-.navtextLogin {
-  color:#333333;
-}*/
 
 /* </Header> */
 #header {
