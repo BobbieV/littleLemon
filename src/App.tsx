@@ -2,7 +2,7 @@ import  Home from './home.tsx';
 import './index.css';
 import {
 
-  Link,
+  NavLink,
   Routes,
   Route,
   BrowserRouter,
@@ -21,24 +21,24 @@ function App() {
     <nav id="nav">
           <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo" alt="A lemon icon followed by the words 'Little Lemon'"></img>
 
-            <Link to="/" className="navbar navtextHome">Home
-            </Link>
-            <Link to="/about" className="navbar navtextAbout">About
-            </Link>
-            <Link to="/specials" className="navbar navtextMenu">Menu
-            </Link>
-            <Link to="/availability" className="navbar navtextReservations">Reservations
-            </Link>
-            <Link to="/orderOnline" className="navbar navtextOrderonline">Order Online
-            </Link>
-            <Link to="/login" className="navbar navtextLogin">Login
-            </Link>
+            <NavLink to="/" className="navbar navtextHome">Home
+            </NavLink>
+            <NavLink to="/about" className="navbar navtextAbout">About
+            </NavLink>
+            <NavLink to="/specials" className="navbar navtextMenu">Menu
+            </NavLink>
+            <NavLink to="/availability" className="navbar navtextReservations">Reservations
+            </NavLink>
+            <NavLink to="/orderOnline" className="navbar navtextOrderonline">Order Online
+            </NavLink>
+            <NavLink to="/login" className="navbar navtextLogin">Login
+            </NavLink>
 
     </nav>
 
     <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/availability" element={<Availability /> }/>
+          <Route path="/availability" element={<Availability />}/>
           <Route path="/specials" element={<Specials />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/orderOnline" element={<ErrorPage />}/>
