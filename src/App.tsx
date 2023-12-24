@@ -18,6 +18,7 @@ function App() {
   return (
     <>
   <BrowserRouter >
+  <div className="navLinksWrapper">
     <nav id="nav">
           <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo" alt="A lemon icon followed by the words 'Little Lemon'"></img>
 
@@ -71,6 +72,7 @@ function App() {
             </NavLink>
 
     </nav>
+    </div>
 
     <Routes>
           <Route path="/" element={<Home />}/>

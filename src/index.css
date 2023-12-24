@@ -28,6 +28,11 @@ html {
   margin-top: .5rem;
 
 }
+.navLinksWrapper {
+  display: block;
+  align-content: center;
+  justify-content: space-evenly;
+}
 .navbar {
 
   text-align: justify;
