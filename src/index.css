@@ -35,13 +35,13 @@ html {
 }
 .navbar {
 
-  text-align: justify;
+  text-align: /*justify*/ right;
   color: #495E57;
   font-size: 1rem;
   font-family: Markazi Text;
   font-weight: 500;
   padding: 1rem;
-  align-self: center;
+  /*align-self: center;*/
   text-decoration: none;
   margin: 1rem;
 }
