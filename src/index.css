@@ -27,6 +27,7 @@ html {
 
 }
 .navbar {
+  display: flex;
   text-align: justify;
   color: #495E57;
   font-size: .70rem;
