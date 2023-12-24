@@ -478,7 +478,13 @@ button:focus-visible {
   border-radius: 16px;
   padding: 1rem;
   justify-self: center;
+
+}
+.availForm1 {
+  display: block;
+  width: 75%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 /*this isn't working
 .icon {

@@ -24,7 +24,7 @@ function Availability() {
         <header className="availabilityHeader">
             <h2 className="availH2">Check For Availability</h2>
         </header>
-        <form>
+        <form id="availForm1">
            {< DatePickerComponent
                 selectedDate={startDate}
                 handleDateSelect={handleDateSelect}
