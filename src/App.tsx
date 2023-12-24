@@ -21,17 +21,59 @@ function App() {
     <nav id="nav">
           <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo" alt="A lemon icon followed by the words 'Little Lemon'"></img>
 
-            <NavLink to="/" className="navbar navtextHome">Home
+            <NavLink
+              to="/"
+              className="navbar navtextHome"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}
+              >Home
             </NavLink>
-            <NavLink to="/about" className="navbar navtextAbout">About
+            <NavLink
+              to="/about"
+              className="navbar navtextAbout"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}
+              >About
             </NavLink>
-            <NavLink to="/specials" className="navbar navtextMenu">Menu
+            <NavLink
+              to="/specials"
+              className="navbar navtextMenu"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}
+              >Menu
             </NavLink>
-            <NavLink to="/availability" className="navbar navtextReservations">Reservations
+            <NavLink
+              to="/availability"
+              className="navbar navtextReservations"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}
+              >Reservations
             </NavLink>
-            <NavLink to="/orderOnline" className="navbar navtextOrderonline">Order Online
+            <NavLink
+              to="/orderOnline"
+              className="navbar navtextOrderonline"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}
+              >Order Online
             </NavLink>
-            <NavLink to="/login" className="navbar navtextLogin">Login
+            <NavLink
+              to="/login"
+              className="navbar navtextLogin"
+              style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#545e6f',
+                background: isActive ? '#7600dc' : '#f0f0f0',
+              })}
+              >Login
             </NavLink>
 
     </nav>
