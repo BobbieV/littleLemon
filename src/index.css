@@ -24,7 +24,7 @@ html {
   height: 3.25rem;
   text-align: center;
   justify-content:space-evenly;
-  align-content: baseline;
+  align-content: center;
 }
 .navbar {
   text-align: justify;
