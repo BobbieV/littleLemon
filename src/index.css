@@ -502,3 +502,11 @@ button:focus-visible {
   display: flex;
   padding: 0rem 3rem;
 }
+
+/* Error Page */
+
+.oops, .sorryText {
+  display: block;
+  margin: 0 auto;
+  padding: 3rem;
+}
