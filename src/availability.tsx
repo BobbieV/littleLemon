@@ -29,7 +29,8 @@ function Availability() {
                 selectedDate={startDate}
                 handleDateSelect={handleDateSelect}
                 onChange={handleChange}
-                />}
+                />
+                }
             <div className ="availInput inputNumGuestsWrapper">
                 <label>Number of Guests:</label>
                 <input type="number" className="inputNumGuests" required min="1" max="8">

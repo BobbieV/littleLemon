@@ -17,9 +17,9 @@ html {
 
 /* </Navbar> */
 #nav {
-  display: inline-flex;
+  display: inline-block;/*flex;
   float: right;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap;*/
   width: 100%;
   height: 3.25rem;
   justify-content: auto;
