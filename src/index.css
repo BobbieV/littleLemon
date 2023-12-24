@@ -450,6 +450,7 @@ button:focus-visible {
 /* <Availability /> */
 #availability {
   background-color: #EDEFEE;
+  padding-top: 3.25rem;
   display: block;
   align-self: center;
   justify-content: center;
