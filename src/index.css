@@ -24,7 +24,7 @@ html {
   height: 3.25rem;
   text-align: center;
   justify-content:space-evenly;
-  align-content: center;
+
 }
 .navbar {
   text-align: justify;
@@ -33,6 +33,7 @@ html {
   font-family: Markazi Text;
   font-weight: 500;
   padding: 0 .5rem;
+  align-self: center;
 }
 .AppLogo {
   display: flex;
