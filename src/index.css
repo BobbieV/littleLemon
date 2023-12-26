@@ -495,8 +495,7 @@ button:focus-visible {
 }
 #availNextPage {
   display: block;
-  margin: 0 auto;
-  padding: 3rem;
+  align-self: center;
 }
 /*this isn't working
 .icon {
