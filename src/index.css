@@ -451,12 +451,10 @@ button:focus-visible {
 #availability {
   background-color: #EDEFEE;
   padding-top: 3.75rem;
+  width: 100%;
   display: block;
   align-self: center;
   justify-content: center;
-}
-.availabilityLogo {
-  max-height: 3.25rem
 }
 .availabilityHeader {
   width: 80%;
@@ -480,7 +478,7 @@ button:focus-visible {
   display: flex;
   height: fit-content;
   width: 100%;
-  border: solid 3px #F4CE14;
+  border: solid 1px #F4CE14;
   border-radius: 16px;
   padding: 1rem;
   margin: 0 auto;
@@ -497,7 +495,8 @@ button:focus-visible {
 }
 #availNextPage {
   display: block;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  justify-self: center;
   width:fit-content;
 
 }
