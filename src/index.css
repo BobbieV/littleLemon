@@ -500,6 +500,9 @@ button:focus-visible {
   margin: 0 auto;
   width:fit-content;
 }
+.inputNumGuests {
+  width: 3rem;
+}
 /*this isn't working
 .icon {
   justify-self: flex-end;
