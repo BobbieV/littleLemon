@@ -503,11 +503,13 @@ button:focus-visible {
 }
 .inputNumGuests {
   width: 3rem;
-  padding: 0 3rem;
 }
 .selectedDate{
   padding: 0 3rem;
   color: #495E57;
+}
+.icon{
+  padding: 0 3rem;
 }
 /*this isn't working
 .icon {
