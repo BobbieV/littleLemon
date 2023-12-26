@@ -68,7 +68,7 @@ function App() {
               className="navbar navtextLogin"
               style={({ isActive }) => ({
                 color: isActive ? '#F4CE14' : '#333333',
-
+                borderRadius: isActive ? '#F4CE14 1px solid' : 'none'
               })}
               >Login
             </NavLink>
