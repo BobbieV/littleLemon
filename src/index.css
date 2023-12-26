@@ -478,7 +478,7 @@ button:focus-visible {
 
 }
 .availInput {
-  display: inline-block;
+  display: block;
   height: 3rem;
   width: 75%;
   border: solid 3px #F4CE14;
