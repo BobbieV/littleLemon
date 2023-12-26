@@ -513,11 +513,10 @@ button:focus-visible {
 }
 .icon{
   padding: 0 3rem;
-}
-/*this isn't working
-.icon {
   justify-self: flex-end;
-}*/
+}
+
+
 /* DatePicker */
 .datePicker {
   display: flex;
