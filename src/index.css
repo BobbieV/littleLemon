@@ -504,6 +504,9 @@ button:focus-visible {
 .inputNumGuests {
   width: 3rem;
 }
+.guestsLabel{
+  padding-right: 3rem;
+}
 .selectedDate{
   padding: 0 3rem;
   color: #495E57;

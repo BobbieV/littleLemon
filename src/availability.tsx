@@ -26,7 +26,7 @@ function Availability() {
                         />
 
             <div className ="availInput inputNumGuestsWrapper">
-                <label>Number of Guests:</label>
+                <label className="guestsLabel">Number of Guests:</label>
                 <input type="number" className="inputNumGuests" required min="1" max="8">
                 </input>
                 <FontAwesomeIcon icon={ faQuestion } className="fa icon" aria-hidden="true" onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
