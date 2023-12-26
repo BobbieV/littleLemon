@@ -493,6 +493,11 @@ button:focus-visible {
   margin: 0 auto;
   box-sizing: border-box;
 }
+#availNextPage {
+  display: block;
+  margin: 0 auto;
+  padding: 3rem;
+}
 /*this isn't working
 .icon {
   justify-self: flex-end;
