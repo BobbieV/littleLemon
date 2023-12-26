@@ -503,6 +503,7 @@ button:focus-visible {
 }
 .inputNumGuests {
   width: 3rem;
+  padding: 0 3rem;
 }
 .selectedDate{
   padding: 0 3rem;
