@@ -33,7 +33,7 @@ return (
              ) : null}
         <FontAwesomeIcon
                 icon={faCalendar}
-                className="calendarIcon"
+                className="calendarIcon icon"
                 onClick={toggleDatePicker}
         />
         {showDatePicker && (
