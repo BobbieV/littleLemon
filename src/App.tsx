@@ -27,7 +27,7 @@ function App() {
               to="/"
               className="navbar navtextHome"
               style={({ isActive }) => ({
-                color: isActive ? '#ee9972' : '#545e6f'
+                color: isActive ? '#495E57' : '#333333'
               })}
               >Home
             </NavLink>
@@ -35,7 +35,7 @@ function App() {
               to="/about"
               className="navbar navtextAbout"
               style={({ isActive }) => ({
-                color: isActive ? '#ee9972' : '#545e6f'
+                color: isActive ? '#495E57' : '#333333'
               })}
               >About
             </NavLink>
@@ -43,7 +43,7 @@ function App() {
               to="/specials"
               className="navbar navtextMenu"
               style={({ isActive }) => ({
-                color: isActive ? '#ee9972' : '#545e6f'
+                color: isActive ? '#495E57' : '#333333'
               })}
               >Menu
             </NavLink>
@@ -51,7 +51,7 @@ function App() {
               to="/availability"
               className="navbar navtextReservations"
               style={({ isActive }) => ({
-                color: isActive ? '#ee9972' : '#545e6f',
+                color: isActive ? '#495E57' : '#333333'
               })}
               >Reservations
             </NavLink>
