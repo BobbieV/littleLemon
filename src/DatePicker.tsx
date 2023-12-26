@@ -45,6 +45,9 @@ return (
                 {...props}
                 />
         )}
+         {props.selected !== null ? (
+                       <p>Selected Date/Time: {props.selected?.toLocaleString()}</p>
+                        ) : null}
         </div>
         );
 };
