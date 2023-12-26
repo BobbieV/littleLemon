@@ -495,11 +495,11 @@ button:focus-visible {
 }
 .availSubmit {
   display: block;
-  margin: 0 auto;
+  margin: 1rem;
 }
 #availNextPage {
   display: block;
-  margin: 1rem;
+  margin: 0 auto;
   width:fit-content;
 
 }
