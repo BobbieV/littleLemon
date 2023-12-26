@@ -490,8 +490,8 @@ button:focus-visible {
 #availForm1 {
   display: block;
   width: 75%;
-  justify-content: center;
-  align-content: center;
+  justify-self: center;
+  align-self: center;
   box-sizing: border-box;
 }
 /*this isn't working
