@@ -29,7 +29,7 @@ return (
 
         <label>Date & Time of Reservation:</label>
         {props.selected !== null ? (
-            <p>Selected Date/Time: {props.selected?.toLocaleString()}</p>
+            <p className="selectedDate">Selected Date/Time: {props.selected?.toLocaleString()}</p>
              ) : null}
         <FontAwesomeIcon
                 icon={faCalendar}

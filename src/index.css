@@ -494,6 +494,7 @@ button:focus-visible {
   width: 75%;
   margin: 0 auto;
   box-sizing: border-box;
+  color:#333333;
 }
 #availNextPage {
   display: block;
@@ -502,6 +503,10 @@ button:focus-visible {
 }
 .inputNumGuests {
   width: 3rem;
+}
+.selectedDate{
+  padding: 0 3rem;
+  color: #495E57;
 }
 /*this isn't working
 .icon {
