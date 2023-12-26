@@ -480,11 +480,11 @@ button:focus-visible {
 .availInput {
   display: block;
   height: 3rem;
-  width: 75%;
+  width: fit-content;
   border: solid 3px #F4CE14;
   border-radius: 16px;
   padding: 1rem;
-  justify-self: center;
+  margin: 0 auto;
 
 }
 #availForm1 {
