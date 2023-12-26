@@ -479,8 +479,8 @@ button:focus-visible {
 }
 .availInput {
   display: block;
-  height: 3rem;
-  width: fit-content;
+  height: fit-content;
+  width: auto;
   border: solid 3px #F4CE14;
   border-radius: 16px;
   padding: 1rem;
@@ -490,8 +490,7 @@ button:focus-visible {
 #availForm1 {
   display: block;
   width: 75%;
-  justify-self: center;
-  align-self: center;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 /*this isn't working
