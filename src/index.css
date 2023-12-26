@@ -491,17 +491,16 @@ button:focus-visible {
 }
 #availForm1 {
   display: block;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   box-sizing: border-box;
   color:#333333;
-  align-content: space-around;
 }
 #availNextPage {
   display: block;
   margin: 0 auto;
   width:fit-content;
-  padding: 3rem;
+
 }
 .inputNumGuests {
   width: 3rem;
