@@ -28,6 +28,9 @@ return (
     <div className="availInput inputDateWrapper ">
 
         <label>Date & Time of Reservation:</label>
+        {props.selected !== null ? (
+            <p>Selected Date/Time: {props.selected?.toLocaleString()}</p>
+             ) : null}
         <FontAwesomeIcon
                 icon={faCalendar}
                 className="calendarIcon"
@@ -45,9 +48,7 @@ return (
                 {...props}
                 />
         )}
-         {props.selected !== null ? (
-                       <p>Selected Date/Time: {props.selected?.toLocaleString()}</p>
-                        ) : null}
+        
         </div>
         );
 };
