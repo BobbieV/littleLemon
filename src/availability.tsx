@@ -16,7 +16,6 @@ function Availability() {
                 <h2 className="availH2">Check For Availability</h2>
             </header>
             <form id="availForm1">
-                <label>Date & Time of Reservation:</label>
                     <DatePickerComponent
                         onChange ={(date: Date | null) =>{
                             handleDateSelect(date);

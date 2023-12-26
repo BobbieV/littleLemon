@@ -26,6 +26,8 @@ const DatePickerComponent: React.FC<DatePickerComponentProps> = ({
 
 return (
     <div className="availInput inputDateWrapper">
+
+        <label>Date & Time of Reservation:</label>
         <FontAwesomeIcon
                 icon={faCalendar}
                 className="calendarIcon"
