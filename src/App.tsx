@@ -59,7 +59,7 @@ function App() {
               to="/orderOnline"
               className="navbar navtextOrderonline"
               style={({ isActive }) => ({
-                color: isActive ? '#ee9972' : '#545e6f'
+                color: isActive ? '#495E57' : '#333333'
               })}
               >Order Online
             </NavLink>
