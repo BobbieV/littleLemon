@@ -21,7 +21,11 @@ function Availability() {
                             handleDateSelect(date);
                         }}
                         selected={selectedDate}
-                        handleDateSelect={handleDateSelect} />
+                        handleDateSelect={handleDateSelect}
+                        />
+                        {selectedDate !== null ? (
+                       <p>Selected Date/Time: {selectedDate?.toLocaleString()}</p>
+                        ) : null}
 
             <div className ="availInput inputNumGuestsWrapper">
                 <label>Number of Guests:</label>
