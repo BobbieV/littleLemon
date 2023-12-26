@@ -67,7 +67,8 @@ function App() {
               to="/login"
               className="navbar navtextLogin"
               style={({ isActive }) => ({
-                color: isActive ? '#ee9972' : '#333333'
+                color: isActive ? '#F4CE14' : '#333333',
+
               })}
               >Login
             </NavLink>
