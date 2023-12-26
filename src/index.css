@@ -495,6 +495,7 @@ button:focus-visible {
   margin: 0 auto;
   box-sizing: border-box;
   color:#333333;
+  align-content: space-around;
 }
 #availNextPage {
   display: block;
