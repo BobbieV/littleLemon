@@ -1,36 +1,29 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
-import  DatePickerComponent from './DatePicker.tsx'
+import  DatePickerComponent from './DatePicker.tsx';
 import { useState } from 'react';
 
 
 function Availability() {
-
-    const [startDate, setStartDate] = useState<Date | null>(new Date());
-
+    const [selectedDate, setSelectedDate] = useState<Date | null>(null);
     const handleDateSelect = (date: Date | null) => {
-      if (date) {
-        setStartDate(date);
-      }
+        setSelectedDate(date);
     };
-
-    const handleChange = (date: Date | null) => {
-        setStartDate(date)
-    }
-
-    return (
+    return(
     <>
-    <main id="availability">
-        <header className="availabilityHeader">
-            <h2 className="availH2">Check For Availability</h2>
-        </header>
-        <form id="availForm1">
-           {< DatePickerComponent
-                selectedDate={startDate}
-                handleDateSelect={handleDateSelect}
-                onChange={handleChange}
-                />
-                }
+        <main id="availability">
+            <header className="availabilityHeader">
+                <h2 className="availH2">Check For Availability</h2>
+            </header>
+            <form id="availForm1">
+                <label>Date & Time of Reservation:</label>
+                    <DatePickerComponent
+                        onChange ={(date: Date | null) =>{
+                            handleDateSelect(date);
+                        }}
+                        selected={selectedDate}
+                        handleDateSelect={handleDateSelect} />
+
             <div className ="availInput inputNumGuestsWrapper">
                 <label>Number of Guests:</label>
                 <input type="number" className="inputNumGuests" required min="1" max="8">
@@ -40,7 +33,5 @@ function Availability() {
         </form>
     </main>
     </>
-    )
-}
-
+   ) }
 export default Availability;
