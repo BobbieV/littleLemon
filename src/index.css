@@ -495,7 +495,7 @@ button:focus-visible {
 }
 #availNextPage {
   display: block;
-  align-self: center;
+  margin: 0 auto;
   width:fit-content;
 }
 /*this isn't working
