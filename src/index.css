@@ -464,7 +464,7 @@ button:focus-visible {
   border-radius: 16px;
   min-height: 20rem;
   margin: 0 auto;
-  display: block;
+  display: flex;
   align-items: center;
 
 }
