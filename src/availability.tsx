@@ -14,7 +14,9 @@ function Availability() {
     <>
         <main id="availability">
             <header className="availabilityHeader">
-                <h2 className="availH2">Check For Availability</h2>
+                <h2 className="availH2">Check</h2>
+                <h2 className="availH2">For</h2>
+                <h2 className="availH2">Availability</h2>
             </header>
             <form id="availForm1">
                     <DatePickerComponent
