@@ -465,6 +465,7 @@ button:focus-visible {
   min-height: 20rem;
   margin: 0 auto;
   display: block;
+  align-content: center;
 
 }
 .availH2 {
