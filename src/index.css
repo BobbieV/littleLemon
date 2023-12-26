@@ -487,7 +487,7 @@ button:focus-visible {
   justify-self: center;
 
 }
-.availForm1 {
+#availForm1 {
   display: block;
   width: 75%;
   justify-items: center;
