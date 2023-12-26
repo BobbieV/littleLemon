@@ -480,7 +480,7 @@ button:focus-visible {
 .availInput {
   display: block;
   height: fit-content;
-  width: fit-content;
+  width: 80%;
   border: solid 3px #F4CE14;
   border-radius: 16px;
   padding: 1rem;
