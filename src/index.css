@@ -467,6 +467,7 @@ button:focus-visible {
   display: flex;
   align-content: center;
   justify-content: center;
+  justify-items: center;
   flex-wrap: wrap;
   margin-bottom: 5rem;
 
