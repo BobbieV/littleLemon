@@ -19,8 +19,8 @@ function Review() {
             <p className="reviewResTime">Time of Reservation: {}</p>
             <p className="reviewAddtlInfo">Additional Info: {}</p>
             <p className="reviewReferral">Referral Source: {}</p>
-            <Link to="/availability">Edit</Link>
-            <Link to="/">Confirm</Link>
+            <Link to="/availability" className="button">Edit</Link>
+            <Link to="/" className="button">Confirm</Link>
     </main>
     </>
    ) }
