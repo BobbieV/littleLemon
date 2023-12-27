@@ -485,7 +485,7 @@ button:focus-visible {
 .availInput {
   display: flex;
   height: fit-content;
-  width: 20rem;
+  width: 23rem;
   border: solid 1px #F4CE14;
   border-radius: 16px;
   padding: 1rem;
