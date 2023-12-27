@@ -39,11 +39,12 @@ return (
         {showDatePicker && (
             <ReactDatePicker
                 //showTimeSelect
+                required
                 dateFormat="Pp"
                 selected={props.selected}
                 onChange={(date: Date | null) =>{
-                    handleDateSelect(date);
-                    toggleDatePicker();
+                    handleDateSelect(date)
+                    toggleDatePicker()
                 }}
                 {...props}
                 />
