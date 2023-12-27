@@ -465,7 +465,7 @@ button:focus-visible {
   min-height: 20rem;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-content: center;
   word-wrap: wrap;
   margin-bottom: 5rem;
 
