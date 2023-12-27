@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 
 
+
 function Review() {
 
     return(
@@ -14,7 +15,7 @@ function Review() {
             </header>
             <p className="reviewName">Name: {}</p>
             <p className="reviewTel">Phone Number: {}</p>
-            <p className="reviewResDate">Date of Reservation: {}</p>
+            <p className="reviewResDate">Date of Reservation:</p>
             <p className="reviewResTime">Time of Reservation: {}</p>
             <p className="reviewAddtlInfo">Additional Info: {}</p>
             <p className="reviewReferral">Referral Source: {}</p>

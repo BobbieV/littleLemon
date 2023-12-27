@@ -5,13 +5,16 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
+
 function Availability() {
     const [selectedDate, setSelectedDate] = useState<Date | null>(null);
     const handleDateSelect = (date: Date | null) => {
         setSelectedDate(date);
     };
+
     return(
     <>
+
         <main id="availability">
             <header className="availabilityHeader">
                 <h2 className="availH2">Check</h2>
