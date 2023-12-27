@@ -585,7 +585,41 @@ button:focus-visible {
 
 }
 
+/* Review */
+#review {
+  background-color: #EDEFEE;
+  padding-top: 3.75rem;
+  width: 100%;
+  display: block;
+  align-self: center;
+ /*justify-content: center;*/
+}
+.reviewHeader {
+  width:fit-content;
+  height: fit-content;
+  background-color: #495E57;
+  text-align: center;
+  border-radius: 16px;
+  min-height: 20rem;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+
+}
+.reviewH2 {
+  color: #EDEFEE;
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+
+}
 /* Error Page */
 
 .oops, .sorryText {
