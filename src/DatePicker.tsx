@@ -34,7 +34,7 @@ return (
         <FontAwesomeIcon
                 icon={faCalendar}
                 className="calendarIcon icon"
-                onClick={toggleDatePicker}
+                onMouseEnter={toggleDatePicker}
         />
         {showDatePicker && (
             <ReactDatePicker
