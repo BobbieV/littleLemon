@@ -467,6 +467,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   word-wrap: wrap;
+  margin-bottom: 5rem;
 
 }
 .availH2 {
