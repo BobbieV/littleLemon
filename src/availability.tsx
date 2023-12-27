@@ -25,13 +25,26 @@ function Availability() {
                         }}
                         selected={selectedDate}
                         handleDateSelect={handleDateSelect}
+                        required
                         />
 
             <div className ="availInput inputNumGuestsWrapper">
-                <label className="guestsLabel">Number of Guests:</label>
-                <input type="number" className="inputNumGuests" required min="1" max="8">
+                <label
+                    className="guestsLabel"
+                    >Number of Guests:
+                    </label>
+                <input
+                    type="number"
+                    className="inputNumGuests"
+                    required
+                    min="1"
+                    max="8">
                 </input>
-                <FontAwesomeIcon icon={ faQuestion } className="fa icon" aria-hidden="true" onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
+                <FontAwesomeIcon
+                    icon={ faQuestion }
+                    className="fa icon"
+                    aria-hidden="true"
+                    onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
             </div>
             <div className="availSubmit">
                 <Link to="/details" id="availNextPage" className="button">Next Page</Link>

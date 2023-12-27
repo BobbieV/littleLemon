@@ -13,10 +13,10 @@ function Details() {
                 <form id="detailsForm1">
                     <label className="nameLabel">Name:
                     </label>
-                    <input type="text"></input>
+                    <input type="text" required></input>
                     <label className="phoneLabel">Phone Number:
                     </label>
-                    <input type="tel"></input>
+                    <input type="tel" required></input>
                     <label className="addtlInfo">Anything you would like us to know? e.g. food allergies, special events?
                     </label>
                     <input type="text"></input>
