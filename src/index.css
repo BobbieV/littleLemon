@@ -566,8 +566,26 @@ button:focus-visible {
   width: 100%;
   display: flex;
   margin: 0 auto;
+}
+#detailsForm1 {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color:#333333;
+}
+.detailsSubmit {
+  display: block;
+  margin: 1rem;
+}
+#detailsNextPage {
+  display: block;
+  margin: 0 auto;
+  width:fit-content;
 
 }
+
+
 /* Error Page */
 
 .oops, .sorryText {
