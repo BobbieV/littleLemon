@@ -457,7 +457,7 @@ button:focus-visible {
  /*justify-content: center;*/
 }
 .availabilityHeader {
-  width: 80%;
+  width: 100%;
   height: fit-content;
   background-color: #495E57;
   /*text-align: center;*/
