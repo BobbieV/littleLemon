@@ -467,7 +467,7 @@ button:focus-visible {
   display: flex;
   align-content: center;
   justify-content: center;
-  word-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 5rem;
 
 }
@@ -478,7 +478,7 @@ button:focus-visible {
   text-align: center;
   width: 100%;
   display: flex;
-  margin:7rem;
+
 
 }
 .availInput {
