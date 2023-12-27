@@ -558,7 +558,16 @@ button:focus-visible {
   margin-bottom: 5rem;
 
 }
+.detailsH2 {
+  color: #EDEFEE;
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
 
+}
 /* Error Page */
 
 .oops, .sorryText {
