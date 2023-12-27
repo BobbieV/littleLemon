@@ -12,6 +12,7 @@ import ErrorPage from './error-page.tsx';
 import Specials from './specials.tsx';
 import About from './about.tsx';
 import Details from './details.tsx';
+import Review from './review.tsx';
 
 
 function App() {
@@ -83,6 +84,7 @@ function App() {
           <Route path="/orderOnline" element={<ErrorPage />}/>
           <Route path="/login" element={<ErrorPage />}/>
           <Route path="/details" element={<Details />}/>
+          <Route path="/review" element={<Review />}/>
 
         </Routes>
   </BrowserRouter>
