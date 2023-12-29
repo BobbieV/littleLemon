@@ -567,6 +567,8 @@ align-self: center;
   min-width: 20rem;
   display: block;
   margin: 0 auto;
+  align-self: center;
+
 }
 #detailsForm1 {
   display: block;
@@ -593,7 +595,7 @@ align-self: center;
   width: 100%;
   display: block;
   align-self: center;
- /*justify-content: center;*/
+ justify-content: center;
 }
 .reviewHeader {
   width:fit-content;
