@@ -464,7 +464,7 @@ button:focus-visible {
   border-radius: 16px;
   min-height: 20rem;
   margin: 0 auto;
-  display: flex;
+  display: block;
   align-content: center;
   flex-wrap: wrap;
   margin-bottom: 5rem;
@@ -476,12 +476,12 @@ button:focus-visible {
   padding: 1rem;
   text-align: center;
   width: 100%;
-  display: flex;
+  display: block;
   margin: 0 auto;
 align-self: center;
 }
 .availInput {
-  display: flex;
+  display: block;
   height: fit-content;
   width: 21rem;
   border: solid 1px #F4CE14;
