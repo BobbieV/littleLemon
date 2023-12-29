@@ -23,7 +23,7 @@ function Details() {
                     <label className="referral">How did you hear about us?</label>
                     <input type="text"></input>
                     <div className="detailsSubmit">
-                        <Link to="/review" id="detailsNextPage" className="button">Next Page</Link>
+                        <Link to="/review" id="detailsNextPage" className="button">Submit</Link>
                     </div>
 
                 </form>
