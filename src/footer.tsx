@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 
 
@@ -16,23 +16,23 @@ function Footer() {
           <div className="footerTextGroup">
             <ul className="footer">
               <li>Doormat</li>
+              <li>Navigation</li>
               <li>
-                <a href="#nav">Navigation</a>
+              <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#nav">Home</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#nav">About</a>
+                <Link to="/specials">Menu</Link>
               </li>
               <li>
-                <a href="#specials">Menu</a>
+                <Link to="/orderOnline">Reservations</Link>
               </li>
               <li>
-                <a href="#header">Reservations</a>
-              </li>
-              <li>Order Online</li>
-              <li>Login</li>
+                <Link to="/orderOnline">OrderOnline</Link></li>
+              <li>
+                <Link to="/login">Login</Link></li>
             </ul>
               <ul className="footer">
                 Contact
