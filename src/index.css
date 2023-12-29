@@ -564,6 +564,7 @@ align-self: center;
   padding: 1rem;
   text-align: center;
   width: 100%;
+  min-width: 20rem;
   display: block;
   margin: 0 auto;
 }
