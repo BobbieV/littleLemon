@@ -480,7 +480,7 @@ button:focus-visible {
   width: 100%;
   display: flex;
   margin: 0 auto;
-
+align-self: center;
 }
 .availInput {
   display: flex;
@@ -543,7 +543,7 @@ button:focus-visible {
   align-self: center;
 }
 .detailsHeader {
-  width: 100%;
+  width:fit-content;
   height: fit-content;
   background-color: #495E57;
   text-align: center;
