@@ -8,7 +8,9 @@ function Details() {
         <>
              <main id="details">
             <header className="detailsHeader">
-                <h2 className="detailsH2">Enter Your Details</h2>
+                <h2 className="detailsH2">Enter</h2>
+                <h2 className="detailsH2">Your</h2>
+                <h2 className="detailsH2">Details</h2>
             </header>
                 <form id="detailsForm1">
                     <label className="nameLabel">Name:
