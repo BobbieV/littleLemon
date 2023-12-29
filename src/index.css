@@ -454,7 +454,7 @@ button:focus-visible {
   width: 100%;
   display: block;
   align-self: center;
- /*justify-content: center;*/
+  justify-content: center;
 }
 .availabilityHeader {
   width:fit-content;
