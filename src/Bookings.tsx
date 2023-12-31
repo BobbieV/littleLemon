@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 
 
@@ -27,6 +27,8 @@ function Bookings({ bookingData }: {bookingData: BookingData}) {
             <p>{bookingData.time}</p>
             <p>{bookingData.numGuests}</p>
             <p>{bookingData.occasion}</p>
+        <Link to="/BookingPage">Edit Reservation</Link>
+        <Link to="/">Home</Link>
 
     </main>
     </>
