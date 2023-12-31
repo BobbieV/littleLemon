@@ -13,6 +13,7 @@ import Specials from './specials.tsx';
 import About from './about.tsx';
 import Details from './details.tsx';
 import Review from './review.tsx';
+import ContactForm from './contactForm.tsx';
 
 
 function App() {
@@ -85,7 +86,7 @@ function App() {
           <Route path="/login" element={<ErrorPage />}/>
           <Route path="/details" element={<Details />}/>
           <Route path="/review" element={<Review />}/>
-
+          <Route path="/contactForm" element={<ContactForm />}/>
         </Routes>
   </BrowserRouter>
     </>
