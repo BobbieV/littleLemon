@@ -7,12 +7,17 @@ import DatePickerComponent from './DatePicker';
 
 
 function Availability() {
+    const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+    const [selectedGuests, setSelectedGuests] = useState<number | null>(null);
 
-    const [selectedDate, setSelectedDate] = useState<Date | null>(null)
     const handleDateSelect = (date: Date | null) => {
         setSelectedDate(date);
     };
-
+    const handleGuestsChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const { value } =event.target;
+        const guests = parseInt(value, 10);
+        setSelectedGuests(isNaN(guests) ? null : guests);
+    };
     return(
         <>
 
@@ -37,17 +42,18 @@ function Availability() {
                         <label>Number of Guests:</label>
                         <input
                             type="number"
-
+                            value={selectedGuests === null ? '': selectedGuests}
                             required
-
-
                             min="1"
-                            max="8" ></input>
+                            max="8"
+                            onChange={handleGuestsChange}
+                            ></input>
                         <FontAwesomeIcon
                             icon={ faQuestion }
                             className="fa icon"
                             aria-hidden="true"
-                            onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
+                            onClick={() =>
+                                alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
                     </div>
 
             <div className="availSubmit">
