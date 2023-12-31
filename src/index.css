@@ -378,7 +378,7 @@ width: max-content;
 }
 
 /* </Footer> */
-{/*
+/*
 #footer {
   display: inline-flex;
   flex-wrap: wrap;
@@ -413,7 +413,7 @@ width: max-content;
   margin-top: 0;
   text-decoration: none;
 }
-*/}
+*/
 /*buttons*/
 .button {
   border-radius: 8px;
@@ -449,7 +449,7 @@ button:focus-visible {
 
 
 /* <Availability /> */
-/*
+
 #availability {
   background-color: #EDEFEE;
   padding-top: 3.75rem;
@@ -529,12 +529,12 @@ align-self: center;
 
 
 /* DatePicker */
-/*
+
 .datePicker {
   display: flex;
   padding: 0rem 3rem;
 }
-*/
+
 
 
 /* Details */
