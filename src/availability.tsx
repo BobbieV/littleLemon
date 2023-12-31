@@ -43,7 +43,7 @@ function Availability() {
 
 
                             min="1"
-                            max="8" />
+                            max="8" ></input>
                         <FontAwesomeIcon
                             icon={ faQuestion }
                             className="fa icon"
