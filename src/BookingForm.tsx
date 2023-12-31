@@ -1,4 +1,6 @@
 import { useState, ChangeEvent, FormEvent } from 'react'
+import { Link } from 'react-router-dom';
+
 function BookingForm() {
 
     const [resName, setResName] = useState("");
@@ -115,9 +117,10 @@ function BookingForm() {
                             <option value="Other">Other</option>
                         </select>
                     </div>
-                    <div className="button">
-                        <input type="submit" value="Make Your Reservation"/>
+                    <div>
+                        <input type="submit" className="button" value="Make Your Reservation"/>
                     </div>
+                    <div><Link to="/" className="button">Home</Link></div>
                 </fieldset>
             </form>
         </div>
