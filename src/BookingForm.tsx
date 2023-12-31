@@ -26,6 +26,7 @@ function BookingForm() {
     const handleSubmit = (e: FormEvent<HTMLFormElement>)=> {
         e.preventDefault();
         console.log("Form Submitted!");
+        alert("Your reservation is Confirmed")
         setResName("");
         setDate("");
         setTime("5:00 pm");
