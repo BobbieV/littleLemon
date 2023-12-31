@@ -1,8 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuestion } from '@fortawesome/free-solid-svg-icons';
+{/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuestion } from '@fortawesome/free-solid-svg-icons';*/}
 import { Link } from 'react-router-dom';
-import { Formik } from 'formik';
-import DatePickerComponent from './DatePicker';
+{/*import { Formik } from 'formik';
+import DatePickerComponent from './DatePicker';*/}
 
 
 function Availability() {
@@ -17,7 +17,7 @@ function Availability() {
                 <h2 className="availH2">For</h2>
                 <h2 className="availH2">Availability</h2>
             </header>
-            <Formik
+        {/*}    <Formik
                 initialValues={{
                     numGuests: "",
                     resDateTime: ""
@@ -56,7 +56,7 @@ function Availability() {
                     </div>
                     </form>
             )}
-                    </Formik>
+            </Formik> */}
 
             <div className="availSubmit">
                 <Link to="/details" id="availNextPage" className="button">Next Page</Link>
