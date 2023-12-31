@@ -108,9 +108,10 @@ function BookingForm() {
                             value={occasion}
                             onChange={handleOccasionChange}
                             >
-                            <option>Birthday</option>
-                            <option>Anniversary</option>
-                            <option>Other</option>
+                            <option value="None">None</option>
+                            <option value="Birthday">Birthday</option>
+                            <option value="Anniversary">Anniversary</option>
+                            <option value="Other">Other</option>
                         </select>
                     </div>
                     <div className="button">
