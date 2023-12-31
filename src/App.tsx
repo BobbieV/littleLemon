@@ -50,7 +50,7 @@ function App() {
               >Menu
             </NavLink>
             <NavLink
-              to="/Bookings"
+              to="/BookingsPage"
               className="navbar navtextReservations"
               style={({ isActive }) => ({
                 color: isActive ? '#495E57' : '#333333'
@@ -79,7 +79,7 @@ function App() {
 
     <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/Bookings" element={<BookingsPage />}/>
+          <Route path="/BookingsPage" element={<BookingsPage />}/>
           <Route path="/specials" element={<Specials />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/orderOnline" element={<ErrorPage />}/>
