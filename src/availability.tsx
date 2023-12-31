@@ -1,13 +1,14 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+{/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-import DatePickerComponent from './DatePicker';
+import DatePickerComponent from './DatePicker';*/}
+import BookingForm from './BookingForm';
 
 
 function Availability() {
-    const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+ {/*   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
     const [selectedGuests, setSelectedGuests] = useState<number | null>(null);
 
     const handleDateSelect = (date: Date | null) => {
@@ -17,7 +18,7 @@ function Availability() {
         const { value } =event.target;
         const guests = parseInt(value, 10);
         setSelectedGuests(isNaN(guests) ? null : guests);
-    };
+    };*/}
     return(
         <>
 
@@ -27,7 +28,7 @@ function Availability() {
                 <h2 className="availH2">For</h2>
                 <h2 className="availH2">Availability</h2>
             </header>
-                <form id="availForm1" >
+                {/*<form id="availForm1" >
                     <div className ="availInput inputResDateTimeWrapper">
                         <DatePickerComponent
                         onChange={(date: Date | null) => {
@@ -59,7 +60,8 @@ function Availability() {
             <div className="availSubmit">
                 <Link to="/details" id="availNextPage" className="button">Next Page</Link>
             </div>
-            </form>
+                            </form>*/}
+                            <BookingForm />
     </main>
     </>
    ) }
