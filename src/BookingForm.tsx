@@ -22,7 +22,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
 
     const [resName, setResName] = useState("");
     const [date, setDate] = useState("");
-    const [time, setTime] = useState<string>("5:00 pm");
+    const [time, setTime] = useState<string>("");
     const [numGuests, setNumGuests] = useState("")
     const [occasion, setOccasion] = useState("");
 
@@ -155,7 +155,17 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
                             <option value="Other">Other</option>
                         </select>
                         <input type="submit" className="button" value="Make Your Reservation"/>
-                    <Link to="/" className="button">Home</Link></div>
+                    <Link
+                        to="/"
+                        className="button">
+                            Home
+                    </Link>
+                    <Link
+                        to="/Bookings"
+                        className="button">
+                            View Reservation
+                    </Link>
+                    </div>
                 </fieldset>
             </form>
             <Bookings bookingData={newBookingData}/>

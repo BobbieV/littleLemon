@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import  Home from './home.tsx';
 import './index.css';
 import {
@@ -14,10 +15,11 @@ import About from './about.tsx';
 import Details from './details.tsx';
 import Review from './review.tsx';
 import ContactForm from './contactForm.tsx';
+import Bookings from './Bookings.tsx'
 
 
 function App() {
-
+const [bookingData] =useState<any>(null)
   return (
     <>
   <BrowserRouter >
@@ -87,6 +89,7 @@ function App() {
           <Route path="/details" element={<Details />}/>
           <Route path="/review" element={<Review />}/>
           <Route path="/contactForm" element={<ContactForm />}/>
+          <Route path="/Bookings" element={<Bookings bookingData={bookingData}/>}/>
         </Routes>
   </BrowserRouter>
     </>
