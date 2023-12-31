@@ -31,7 +31,7 @@ const Availability = () => {
                         <label>Reservation Date & Time:</label>
                         <input
                             value={values.resDateTime}
-                            name="inputresDateTime"
+                            name="resDateTime"
                             required
                             onChange={handleChange}
                         />
@@ -45,7 +45,7 @@ const Availability = () => {
                         <label>Number of Guests:</label>
                         <input
                             type="number"
-                            className="inputNumGuests"
+                            name="numGuests"
                             required
                             value={values.numGuests}
                             onChange={handleChange}
