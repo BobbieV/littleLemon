@@ -1,68 +1,35 @@
-{/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuestion } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-
-import DatePickerComponent from './DatePicker';*/}
-import BookingForm from './BookingForm';
 
 
-function Bookings() {
- {/*   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
-    const [selectedGuests, setSelectedGuests] = useState<number | null>(null);
 
-    const handleDateSelect = (date: Date | null) => {
-        setSelectedDate(date);
-    };
-    const handleGuestsChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const { value } =event.target;
-        const guests = parseInt(value, 10);
-        setSelectedGuests(isNaN(guests) ? null : guests);
-    };*/}
+
+interface BookingData {
+    resName: string;
+    date: string;
+    time: string;
+    numGuests: string;
+    occasion: string;
+}
+
+
+
+function Bookings({ bookingData }: {bookingData: BookingData}) {
+
     return(
         <>
 
         <main id="availability">
             <header className="availabilityHeader">
-                <h2 className="availH2">Make</h2>
-                <h2 className="availH2">A</h2>
+                <h2 className="availH2">Your </h2>
                 <h2 className="availH2">Reservation</h2>
             </header>
-                {/*<form id="availForm1" >
-                    <div className ="availInput inputResDateTimeWrapper">
-                        <DatePickerComponent
-                        onChange={(date: Date | null) => {
-                            handleDateSelect(date);
-                        }}
-                        selected={selectedDate}
-                        handleDateSelect={handleDateSelect}
-                        required
-                        />
-                    </div>
-                    <div className ="availInput inputNumGuestsWrapper">
-                        <label>Number of Guests:</label>
-                        <input
-                            type="number"
-                            value={selectedGuests === null ? '': selectedGuests}
-                            required
-                            min="1"
-                            max="8"
-                            onChange={handleGuestsChange}
-                            />
-                        <FontAwesomeIcon
-                            icon={ faQuestion }
-                            className="fa icon"
-                            aria-hidden="true"
-                            onClick={() =>
-                                alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}/>
-                    </div>
+            <p>{bookingData.resName}</p>
+            <p>{bookingData.date}</p>
+            <p>{bookingData.time}</p>
+            <p>{bookingData.numGuests}</p>
+            <p>{bookingData.occasion}</p>
 
-            <div className="availSubmit">
-                <Link to="/details" id="availNextPage" className="button">Next Page</Link>
-            </div>
-                            </form>*/}
-                            <BookingForm />
     </main>
     </>
    ) }
-                            export default Bookings;
+
+   export default Bookings;

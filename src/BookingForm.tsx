@@ -1,7 +1,24 @@
 import { useState, ChangeEvent, FormEvent } from 'react'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 
-function BookingForm() {
+interface BookingFormProps{
+    updateBookingStatus?: (status: boolean) => void;
+    updateBookings?: (newBooking: any) => void;
+    setBookingData: (data:BookingData | null) => void;
+}
+interface BookingData {
+    resName: string;
+    date: string;
+    time: string;
+    numGuests: string;
+    occasion: string;
+}
+function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
+
+
+    const [newBooking, setNewBooking] = useState('')
 
     const [resName, setResName] = useState("");
     const [date, setDate] = useState("");
@@ -34,7 +51,22 @@ function BookingForm() {
         setTime("5:00 pm");
         setNumGuests("");
         setOccasion("");
+        setNewBooking('');
+        updateBookingStatus && updateBookingStatus(true);
+        updateBookings && updateBookings(
+          newBookingData
+        );
+
     }
+    const newBookingData = {
+        resName,
+        date,
+        time,
+        numGuests,
+        occasion,
+        newBooking,
+    };
+
     return(
         <div className="BookingForm">
             <form onSubmit={handleSubmit}>
@@ -98,6 +130,12 @@ function BookingForm() {
                             value={numGuests}
                             onChange={handleNumGuestsChange}
                             />
+                            <FontAwesomeIcon
+                            icon={ faQuestion }
+                            className="fa icon"
+                            aria-hidden="true"
+                            onClick={() =>
+                                alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}/>
                     </div>
                     <div className="field">
                         <label

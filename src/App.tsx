@@ -7,7 +7,7 @@ import {
   Route,
   BrowserRouter,
 } from 'react-router-dom';
-import Bookings from './Bookings.tsx';
+import BookingsPage from './BookingsPage.tsx';
 import ErrorPage from './error-page.tsx';
 import Specials from './specials.tsx';
 import About from './about.tsx';
@@ -79,7 +79,7 @@ function App() {
 
     <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/Bookings" element={<Bookings />}/>
+          <Route path="/Bookings" element={<BookingsPage />}/>
           <Route path="/specials" element={<Specials />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/orderOnline" element={<ErrorPage />}/>
