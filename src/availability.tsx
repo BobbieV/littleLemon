@@ -43,7 +43,7 @@ const Availability = () => {
                     icon={ faCalendar }
                     className="fa icon"
                     aria-hidden="true"
-                    onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon></Field>
+                    onClick={() => alert('This is a test.')}></FontAwesomeIcon></Field>
             </div>
             <div className ="availInput inputNumGuestsWrapper">
                 <label
