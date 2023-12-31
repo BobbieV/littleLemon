@@ -14,7 +14,7 @@ function Footer() {
             alt="A lemon icon next to the words 'Little Lemon'">
             </img>
           <div className="footerTextGroup">
-            <ul className="footer">
+{/*}            <ul className="footer">
               <li>Doormat</li>
               <li>Navigation</li>
               <li>
@@ -33,7 +33,7 @@ function Footer() {
                 <Link to="/orderOnline">Order Online</Link></li>
               <li>
                 <Link to="/login">Login</Link></li>
-            </ul>
+  </ul>*/}
               <ul className="footer">
                 Contact
                 <li>Address</li>
