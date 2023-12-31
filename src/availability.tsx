@@ -57,12 +57,14 @@ const Availability = () => {
                             aria-hidden="true"
                             onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
                     </div>
+                    </form>
+            )}
+                    </Formik>
+
             <div className="availSubmit">
                 <Link to="/details" id="availNextPage" className="button">Next Page</Link>
             </div>
-        </form>
-    )}
-        </Formik>
+
     </main>
     </>
    ) }
