@@ -82,6 +82,8 @@ function BookingForm() {
                         <input
                             id="numGuests"
                             type="number"
+                            min="1"
+                            max="8"
                             value={numGuests}
                             onChange={handleNumGuestsChange}
                             />
