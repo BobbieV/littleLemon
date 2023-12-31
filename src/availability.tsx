@@ -53,7 +53,7 @@ function Availability() {
                             className="fa icon"
                             aria-hidden="true"
                             onClick={() =>
-                                alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
+                                alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}/>
                     </div>
 
             <div className="availSubmit">
