@@ -5,7 +5,7 @@ import { Formik } from 'formik';
 import DatePickerComponent from './DatePicker';
 
 
-const Availability = () => {
+function Availability() {
 
 
     return(
