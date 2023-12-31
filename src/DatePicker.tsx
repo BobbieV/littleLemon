@@ -1,4 +1,4 @@
-import ReactDatePicker, {ReactDatePickerProps} from "react-datepicker";
+import ReactDatePicker, { ReactDatePickerProps } from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -42,9 +42,9 @@ return (
                 required
                 dateFormat="Pp"
                 selected={props.selected}
-                onChange={(date: Date | null) =>{
-                    handleDateSelect(date)
-                    toggleDatePicker()
+                onChange={(date: Date | null) => {
+                    handleDateSelect(date);
+                    toggleDatePicker();
                 }}
                 {...props}
                 />
