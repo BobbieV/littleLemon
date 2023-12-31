@@ -24,9 +24,9 @@ function Availability() {
 
         <main id="availability">
             <header className="availabilityHeader">
-                <h2 className="availH2">Check</h2>
-                <h2 className="availH2">For</h2>
-                <h2 className="availH2">Availability</h2>
+                <h2 className="availH2">Make</h2>
+                <h2 className="availH2">A</h2>
+                <h2 className="availH2">Reservation</h2>
             </header>
                 {/*<form id="availForm1" >
                     <div className ="availInput inputResDateTimeWrapper">
