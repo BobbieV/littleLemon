@@ -24,7 +24,7 @@ function Availability() {
             </header>
                 <form id="availForm1" >
                     <div className ="availInput inputResDateTimeWrapper">
-                        <label>Reservation Date & Time:</label>
+
                         <DatePickerComponent
                         onChange={(date: Date | null) => {
                             handleDateSelect(date);
@@ -38,7 +38,7 @@ function Availability() {
                         <label>Number of Guests:</label>
                         <input
                             type="number"
-                            name="numGuests"
+
                             required
 
 
@@ -50,12 +50,11 @@ function Availability() {
                             aria-hidden="true"
                             onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
                     </div>
-                    </form>
 
             <div className="availSubmit">
                 <Link to="/details" id="availNextPage" className="button">Next Page</Link>
             </div>
-
+            </form>
     </main>
     </>
    ) }
