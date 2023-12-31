@@ -1,4 +1,4 @@
-{/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
@@ -63,4 +63,4 @@ function Availability() {
     </main>
     </>
    ) }
-                            export default Availability;*/}
+                            export default Availability;
