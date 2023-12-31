@@ -2,7 +2,7 @@ import { useState, ChangeEvent, FormEvent } from 'react'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
-
+import Bookings from './Bookings.tsx'
 interface BookingFormProps{
     updateBookingStatus?: (status: boolean) => void;
     updateBookings?: (newBooking: any) => void;
@@ -154,13 +154,11 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
                             <option value="Anniversary">Anniversary</option>
                             <option value="Other">Other</option>
                         </select>
-                    </div>
-                    <div>
                         <input type="submit" className="button" value="Make Your Reservation"/>
-                    </div>
-                    <div><Link to="/" className="button">Home</Link></div>
+                    <Link to="/" className="button">Home</Link></div>
                 </fieldset>
             </form>
+            <Bookings bookingData={newBookingData}/>
         </div>
     )
 }
