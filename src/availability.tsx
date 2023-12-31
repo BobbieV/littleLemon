@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar, faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import { Formik, Form, Field} from 'formik'
+import { Formik } from 'formik'
 
 
 const Availability = () => {
@@ -22,53 +22,45 @@ const Availability = () => {
                     resDateTime: ""
                 }}
                 onSubmit ={(values) => {
-            alert(JSON.stringify(values))
+                    alert(JSON.stringify(values))
                 }}
             >
-                { ({handleSubmit, values, handleChange}) => (
-                    <Form id="availForm1" onSubmit={handleSubmit}>
-<div className ="availInput inputNumGuestsWrapper">
-                <label
-                    htmlFor="resDateTime"
-                    >Reservation Date & Time:
-                    </label>
-                <Field id="resDateTime" name="resDateTime">
-                <input
-                    value={values.resDateTime}
-                    name="inputresDateTime"
-                    required
-                    onChange={handleChange}
-                />
-                <FontAwesomeIcon
-                    icon={ faCalendar }
-                    className="fa icon"
-                    aria-hidden="true"
-                    onClick={() => alert('This is a test.')}></FontAwesomeIcon></Field>
-            </div>
-            <div className ="availInput inputNumGuestsWrapper">
-                <label
-                    htmlFor="numGuests"
-                    >Number of Guests:
-                    </label>
-                <Field id="numGuests" name="numGuests">
-                <input
-                    type="number"
-                    className="inputNumGuests"
-                    required
-                    value={values.numGuests}
-                    onChange={handleChange}
-                    min="1"
-                    max="8" />
-                <FontAwesomeIcon
-                    icon={ faQuestion }
-                    className="fa icon"
-                    aria-hidden="true"
-                    onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon></Field>
-            </div>
+            { ({handleSubmit, values, handleChange}) => (
+                <form id="availForm1" onSubmit={handleSubmit}>
+                    <div className ="availInput inputResDateTimeWrapper">
+                        <label>Reservation Date & Time:</label>
+                        <input
+                            value={values.resDateTime}
+                            name="inputresDateTime"
+                            required
+                            onChange={handleChange}
+                        />
+                    <FontAwesomeIcon
+                        icon={ faCalendar }
+                        className="fa icon"
+                        aria-hidden="true"
+                        onClick={() => alert('This is a test.')} />
+                    </div>
+                    <div className ="availInput inputNumGuestsWrapper">
+                        <label>Number of Guests:</label>
+                        <input
+                            type="number"
+                            className="inputNumGuests"
+                            required
+                            value={values.numGuests}
+                            onChange={handleChange}
+                            min="1"
+                            max="8" />
+                        <FontAwesomeIcon
+                            icon={ faQuestion }
+                            className="fa icon"
+                            aria-hidden="true"
+                            onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
+                    </div>
             <div className="availSubmit">
                 <Link to="/details" id="availNextPage" className="button">Next Page</Link>
             </div>
-        </Form>
+        </form>
     )}
         </Formik>
     </main>
