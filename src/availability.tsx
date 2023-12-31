@@ -1,14 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faQuestion } from '@fortawesome/free-solid-svg-icons';
+import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import { Formik } from 'formik'
+import { Formik } from 'formik';
+import DatePickerComponent from './DatePicker';
 
 
 const Availability = () => {
 
 
     return(
-    <>
+        <>
 
         <main id="availability">
             <header className="availabilityHeader">
@@ -29,17 +30,13 @@ const Availability = () => {
                 <form id="availForm1" onSubmit={handleSubmit}>
                     <div className ="availInput inputResDateTimeWrapper">
                         <label>Reservation Date & Time:</label>
-                        <input
+                        <DatePickerComponent
+                        handleDateSelect={handleChange}
                             value={values.resDateTime}
                             name="resDateTime"
                             required
                             onChange={handleChange}
                         />
-                    <FontAwesomeIcon
-                        icon={ faCalendar }
-                        className="fa icon"
-                        aria-hidden="true"
-                        onClick={() => alert('This is a test.')} />
                     </div>
                     <div className ="availInput inputNumGuestsWrapper">
                         <label>Number of Guests:</label>
