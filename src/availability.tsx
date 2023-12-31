@@ -24,14 +24,14 @@ function Availability() {
             </header>
                 <form id="availForm1" >
                     <div className ="availInput inputResDateTimeWrapper">
-                        {<DatePickerComponent
+                        <DatePickerComponent
                         onChange={(date: Date | null) => {
                             handleDateSelect(date);
                         }}
                         selected={selectedDate}
                         handleDateSelect={handleDateSelect}
                         required
-                        />}
+                        />
                     </div>
                     <div className ="availInput inputNumGuestsWrapper">
                         <label>Number of Guests:</label>
