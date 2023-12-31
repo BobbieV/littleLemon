@@ -3,7 +3,7 @@ function BookingForm() {
 
     const [resName, setResName] = useState("");
     const [date, setDate] = useState("");
-    const [time, setTime] = useState("");
+    const [time, setTime] = useState<string>("5:00 pm");
     const [numGuests, setNumGuests] = useState("")
     const [occasion, setOccasion] = useState("");
 
@@ -13,13 +13,13 @@ function BookingForm() {
     const handleDateChange = (e: ChangeEvent<HTMLInputElement>) => {
         setDate(e.target.value);
     }
-    const handleTimeChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const handleTimeChange = (e: ChangeEvent<HTMLSelectElement>) => {
         setTime(e.target.value);
     }
     const handleNumGuestsChange = (e: ChangeEvent<HTMLInputElement>) => {
         setNumGuests(e.target.value);
     }
-    const handleOccasionChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const handleOccasionChange = (e: ChangeEvent<HTMLSelectElement>) => {
         setOccasion(e.target.value);
     }
 
@@ -28,7 +28,7 @@ function BookingForm() {
         console.log("Form Submitted!");
         setResName("");
         setDate("");
-        setTime("");
+        setTime("5:00 pm");
         setNumGuests("");
         setOccasion("");
     }
@@ -51,11 +51,11 @@ function BookingForm() {
                     </div>
                     <div className="field">
                         <label
-                            htmlFor="date">
-                                Date:
+                            htmlFor="res-date">
+                                Choose Date:
                         </label>
                         <input
-                            id="date"
+                            id="res-date"
                             type="date"
                             placeholder="Date"
                             value={date}
@@ -64,15 +64,23 @@ function BookingForm() {
                     </div>
                     <div className="field">
                         <label
-                            htmlFor="time">
-                                Time:
+                            htmlFor="res-time">
+                                Choose Time:
                         </label>
-                        <input
-                            id="time"
-                            type="time"
+                        <select
+                            id="res-time"
                             value={time}
                             onChange={handleTimeChange}
-                            />
+                           >
+                            <option value="5:00 pm"> 5:00 pm</option>
+                            <option value="5:30 pm"> 5:30 pm</option>
+                            <option value="6:00 pm"> 6:00 pm</option>
+                            <option value="6:30 pm"> 6:30 pm</option>
+                            <option value="7:00 pm"> 7:00 pm</option>
+                            <option value="7:30 pm"> 7:30 pm</option>
+                            <option value="8:00 pm"> 8:00 pm</option>
+                            <option value="8:30 pm"> 8:30 pm</option>
+                           </select>
                     </div>
                     <div className="field">
                         <label
@@ -93,16 +101,20 @@ function BookingForm() {
                             htmlFor="occasion">
                                 Occasion (Birthday, Anniversary, etc):
                         </label>
-                        <input
+                        <select
                             id="occasion"
-                            type="text"
+
                             placeholder=""
                             value={occasion}
                             onChange={handleOccasionChange}
-                            />
+                            >
+                            <option>Birthday</option>
+                            <option>Anniversary</option>
+                            <option>Other</option>
+                        </select>
                     </div>
                     <div className="button">
-                        <button disabled={!numGuests}>Submit</button>
+                        <input type="submit" value="Make Your Reservation"/>
                     </div>
                 </fieldset>
             </form>
