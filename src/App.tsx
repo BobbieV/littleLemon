@@ -7,7 +7,7 @@ import {
   Route,
   BrowserRouter,
 } from 'react-router-dom';
-import Availability from './availability.tsx';
+{/*import Availability from './availability.tsx';*/}
 import ErrorPage from './error-page.tsx';
 import Specials from './specials.tsx';
 import About from './about.tsx';
@@ -78,7 +78,7 @@ function App() {
 
     <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/availability" element={<Availability />}/>
+          {/*<Route path="/availability" element={<Availability />}/>*/}
           <Route path="/specials" element={<Specials />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/orderOnline" element={<ErrorPage />}/>
