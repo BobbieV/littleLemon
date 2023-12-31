@@ -1,12 +1,17 @@
-{/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuestion } from '@fortawesome/free-solid-svg-icons';*/}
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-{/*import { Formik } from 'formik';
-import DatePickerComponent from './DatePicker';*/}
+import { useState } from 'react';
+
+import DatePickerComponent from './DatePicker';
 
 
 function Availability() {
 
+    const [selectedDate, setSelectedDate] = useState<Date | null>(null)
+    const handleDateSelect = (date: Date | null) => {
+        setSelectedDate(date);
+    };
 
     return(
         <>
@@ -17,25 +22,16 @@ function Availability() {
                 <h2 className="availH2">For</h2>
                 <h2 className="availH2">Availability</h2>
             </header>
-        {/*}    <Formik
-                initialValues={{
-                    numGuests: "",
-                    resDateTime: ""
-                }}
-                onSubmit ={(values) => {
-                    alert(JSON.stringify(values))
-                }}
-            >
-            { ({handleSubmit, values, handleChange}) => (
-                <form id="availForm1" onSubmit={handleSubmit}>
+                <form id="availForm1" >
                     <div className ="availInput inputResDateTimeWrapper">
                         <label>Reservation Date & Time:</label>
                         <DatePickerComponent
-                        handleDateSelect={handleChange}
-                            value={values.resDateTime}
-                            name="resDateTime"
-                            required
-                            onChange={handleChange}
+                        onChange={(date: Date | null) => {
+                            handleDateSelect(date);
+                        }}
+                        selected={selectedDate}
+                        handleDateSelect={handleDateSelect}
+                        required
                         />
                     </div>
                     <div className ="availInput inputNumGuestsWrapper">
@@ -44,8 +40,8 @@ function Availability() {
                             type="number"
                             name="numGuests"
                             required
-                            value={values.numGuests}
-                            onChange={handleChange}
+
+
                             min="1"
                             max="8" />
                         <FontAwesomeIcon
@@ -55,8 +51,6 @@ function Availability() {
                             onClick={() => alert('For Parties of more than 8 people, please call the restaurant directly to make reservations.')}></FontAwesomeIcon>
                     </div>
                     </form>
-            )}
-            </Formik> */}
 
             <div className="availSubmit">
                 <Link to="/details" id="availNextPage" className="button">Next Page</Link>
