@@ -47,7 +47,7 @@ function Availability() {
                             min="1"
                             max="8"
                             onChange={handleGuestsChange}
-                            ></input>
+                            />
                         <FontAwesomeIcon
                             icon={ faQuestion }
                             className="fa icon"
