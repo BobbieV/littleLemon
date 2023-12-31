@@ -100,7 +100,7 @@ function BookingForm() {
                             />
                     </div>
                     <div className="button">
-                        <button disabled={!numGuests}></button>
+                        <button disabled={!numGuests}>Submit</button>
                     </div>
                 </fieldset>
             </form>
