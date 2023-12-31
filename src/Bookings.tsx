@@ -7,7 +7,7 @@ import DatePickerComponent from './DatePicker';*/}
 import BookingForm from './BookingForm';
 
 
-function Availability() {
+function Bookings() {
  {/*   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
     const [selectedGuests, setSelectedGuests] = useState<number | null>(null);
 
@@ -65,4 +65,4 @@ function Availability() {
     </main>
     </>
    ) }
-                            export default Availability;
+                            export default Bookings;
