@@ -1,12 +1,17 @@
-import { useState } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
 
 
 function ContactForm() {
 const [name, setName]= useState("");
-const handleSubmit = (e: string) => {
+
+const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form Submitted!");
     setName("");
+};
+
+const handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setName(e.target.value);
 }
 
     return(
@@ -20,9 +25,12 @@ const handleSubmit = (e: string) => {
                         type="text"
                         placeholder="Name"
                         value={name}
-                        onChange={e.target.value} />
+                        onChange={handleNameChange}
+                    />
                     </div>
-                    <button disabled={!name} type="submit">Submit</button>
+                    <button disabled={!name} type="submit">
+                        Submit
+                    </button>
                 </fieldset>
             </form>
         </div>
