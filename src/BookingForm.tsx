@@ -161,6 +161,7 @@ const BookingForm: React.FC = () => {
                     </div>
                 </fieldset>
             </form>
+            {newBooking}
         </div>
         </BookingProvider>
     )
