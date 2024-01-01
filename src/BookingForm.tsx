@@ -46,6 +46,7 @@ const BookingForm: React.FC = () => {
         console.log({newBooking: newBookingArray});
         console.log('Updated Booking Data', bookingData, resName);
 
+
     }
     const [availableTimes] = useState<string[]>([
         "5:00 pm", "5:30 pm", "6:00 pm", "6:30 pm", "7:00 pm", "7:30 pm", "8:30 pm"
@@ -162,7 +163,8 @@ const BookingForm: React.FC = () => {
                 </fieldset>
             </form>
            <p>New Booking {newBooking} </p>
-           <p>BookingData {bookingData.resName}{bookingData.numGuests}</p>
+           <p>Name: {bookingData.resName}</p>
+           <p>Number of Guests:{bookingData.numGuests}</p>
         </div>
         </BookingProvider>
     )

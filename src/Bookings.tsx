@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookingProvider, useBookingContext } from "./BookingContext";
+import { BookingProvider, useBookingContext} from "./BookingContext";
 
 
 
@@ -25,7 +25,7 @@ function Bookings() {
             <p>{bookingData.time}</p>
             <p>{bookingData.numGuests}</p>
             <p>{bookingData.occasion}</p>
-        <Link to="/BookingPage">Edit Reservation</Link>
+        <Link to="/BookingsPage">Edit Reservation</Link>
         <Link to="/">Home</Link>
 
     </main>
