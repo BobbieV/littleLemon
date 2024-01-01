@@ -35,8 +35,13 @@ export const BookingProvider: React.FC<BookingProviderProps> = ({ children }: Bo
         numGuests: '',
         occasion: '',
     });
+
+    const contextValue: BookingContextType = {
+        bookingData,
+        setBookingData
+    };
     return (
-        <BookingContext.Provider value={{ bookingData, setBookingData}}>
+        <BookingContext.Provider value={ contextValue }>
             {children}
         </BookingContext.Provider>
     );
