@@ -156,7 +156,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
                             <option value="Other">Other</option>
                         </select>
                         <input type="submit" className="button" value="Make Your Reservation"/>
-                        {newBooking}
+                        <p>{newBooking}</p>
                     <Link
                         to="/"
                         className="button">
