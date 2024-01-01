@@ -2,7 +2,6 @@ import { useState, ChangeEvent, FormEvent } from 'react'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
-import Bookings from './Bookings.tsx';
 import { BookingProvider, useBooking } from './BookingContext.tsx'
 
 
@@ -58,20 +57,21 @@ function BookingForm() {
     console.log(newBooking);
     return(
         <BookingProvider>
-        <div className="BookingForm">
-            <form onSubmit={handleSubmit}>
-                <fieldset>
-                <div className="field">
-                        <label
-                            htmlFor="resName">
-                                Name:
-                        </label>
-                        <input
-                            id="resName"
-                            type="text"
-                            placeholder="Name"
-                            value={resName}
-                            onChange={handleResNameChange}
+            <div className="BookingForm">
+                <form onSubmit={handleSubmit}>
+                    <fieldset>
+                    <div className="field">
+                            <label
+                                htmlFor="resName">
+                                    Name:
+                            </label>
+                            <input
+                                id="resName"
+                                type="text"
+                                placeholder="Name"
+                                value={resName}
+                                onChange={handleResNameChange}
+                                required
                             />
                     </div>
                     <div className="field">
@@ -85,6 +85,7 @@ function BookingForm() {
                             placeholder="Date"
                             value={date}
                             onChange={handleDateChange}
+                            required
                             />
                     </div>
                     <div className="field">
@@ -93,6 +94,7 @@ function BookingForm() {
                                 Choose Time:
                         </label>
                         <select
+                            required
                             id="res-time"
                             value={time}
                             onChange={handleTimeChange}
@@ -116,6 +118,7 @@ function BookingForm() {
                             max="8"
                             value={numGuests}
                             onChange={handleNumGuestsChange}
+                            required
                             />
                             <FontAwesomeIcon
                             icon={ faQuestion }
@@ -131,8 +134,8 @@ function BookingForm() {
                         </label>
                         <select
                             id="occasion"
-
-                            placeholder=""
+                            required
+                            placeholder="Special Occasion"
                             value={occasion}
                             onChange={handleOccasionChange}
                             >
@@ -156,7 +159,6 @@ function BookingForm() {
                     </div>
                 </fieldset>
             </form>
-            <Bookings />
         </div>
         </BookingProvider>
     )
