@@ -56,7 +56,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         updateBookings && updateBookings(
           bookingData
         );
-        console.log({updateBookingStatus})
+        console.log({newBooking})
 
     }
     const bookingData = {
