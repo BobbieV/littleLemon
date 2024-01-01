@@ -26,7 +26,7 @@ export const useBookingContext = (): BookingContextType => {
 };
 };
 
-interface BookingProviderProps {
+export interface BookingProviderProps {
     children: React.ReactNode;
 }
 
