@@ -18,7 +18,7 @@ interface BookingData {
 function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
 
 
-    const [newBooking, setNewBooking] = useState('')
+    const [newBooking, setNewBooking] = useState<string[]>([])
 
     const [resName, setResName] = useState("");
     const [date, setDate] = useState("");
@@ -51,12 +51,12 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         setTime("5:00 pm");
         setNumGuests("");
         setOccasion("");
-        setNewBooking('');
+        setNewBooking(newBookingArray);
         updateBookingStatus && updateBookingStatus(true);
         updateBookings && updateBookings(
           bookingData
         );
-        console.log({newBooking})
+        console.log({newBooking: newBookingArray})
 
     }
     const [availableTimes] = useState<string[]>([
@@ -71,9 +71,9 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         occasion,
         newBooking,
     };
-    const handleNewBooking = new Array (bookingData.resName, bookingData.date, bookingData.time, bookingData.numGuests, bookingData.occasion);
+    const newBookingArray = [bookingData.resName, bookingData.date, bookingData.time, bookingData.numGuests, bookingData.occasion];
     console.log(bookingData)
-    console.log(handleNewBooking);
+    console.log(newBooking);
     return(
         <div className="BookingForm">
             <form onSubmit={handleSubmit}>
