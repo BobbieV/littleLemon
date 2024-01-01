@@ -56,6 +56,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         updateBookings && updateBookings(
           bookingData
         );
+        console.log({updateBookingStatus})
 
     }
     const bookingData = {
@@ -155,6 +156,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
                             <option value="Other">Other</option>
                         </select>
                         <input type="submit" className="button" value="Make Your Reservation"/>
+                        {newBooking}
                     <Link
                         to="/"
                         className="button">
