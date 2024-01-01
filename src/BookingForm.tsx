@@ -42,7 +42,7 @@ const BookingForm: React.FC = () => {
         setNumGuests("");
         setOccasion("");
         setNewBooking(newBookingArray);
-        setBookingData({...bookingData, resName})
+        setBookingData({...bookingData, resName, date, time, numGuests, occasion})
         console.log({newBooking: newBookingArray})
 
     }
