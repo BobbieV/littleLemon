@@ -59,7 +59,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         console.log({newBooking})
 
     }
-    var availableTimes = ["5:00 pm", "5:30 pm", "6:00 pm", "7:00 pm", "7:30 pm", "8:30 pm"];
+    var availableTimes = ["5:00 pm", "5:30 pm", "6:00 pm", "6:30 pm", "7:00 pm", "7:30 pm", "8:30 pm"];
 
     const bookingData = {
         resName,
