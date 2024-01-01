@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 import Bookings from './Bookings.tsx';
-import { useBooking } from './BookingContext.tsx'
+import { BookingProvider, useBooking } from './BookingContext.tsx'
 
 
 function BookingForm() {
@@ -57,6 +57,7 @@ function BookingForm() {
     console.log(bookingData)
     console.log(newBooking);
     return(
+        <BookingProvider>
         <div className="BookingForm">
             <form onSubmit={handleSubmit}>
                 <fieldset>
@@ -157,6 +158,7 @@ function BookingForm() {
             </form>
             <Bookings />
         </div>
+        </BookingProvider>
     )
 }
 export default BookingForm;
