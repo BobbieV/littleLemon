@@ -10,8 +10,7 @@ function Bookings() {
 
     if (!bookingData) {
         return <p>loading...</p>
-    }
-
+    }else {
 
     return(
         <>
@@ -31,6 +30,7 @@ function Bookings() {
 
     </main>
     </>
-   ) }
-
+   )
+}
+}
    export default Bookings;
