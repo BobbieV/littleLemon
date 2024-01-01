@@ -1,6 +1,6 @@
 import {createContext, useContext, useState, Dispatch, SetStateAction } from 'react';
 
-interface BookingData {
+export interface BookingData {
     resName: string;
     date: string;
     time: string;
@@ -8,29 +8,34 @@ interface BookingData {
     occasion: string;
 }
 
-interface BookingContextType {
+export interface BookingContextType {
     bookingData: BookingData;
     setBookingData: Dispatch<SetStateAction<BookingData>>;
 }
 
-export const BookingContext = createContext<BookingContextType | undefined>(undefined);
+export const BookingContext = createContext<BookingContextType | undefined>(
+undefined
+);
 
-export const useBooking = (): BookingContextType => {
+export const useBookingContext = (): BookingContextType => {
     const context = useContext(BookingContext);
     if (!context) {
         throw new Error('useBooking must be used within a BookingProvider');
-    }
-    return context;
+    } else {
+  return context;
+};
 };
 
 interface BookingProviderProps {
     children: React.ReactNode;
 }
 
-export const BookingProvider: React.FC<BookingProviderProps> = ({ children }: BookingProviderProps) => {
+export const BookingProvider: React.FC<BookingProviderProps> = ({
+    children
+}: BookingProviderProps) => {
     const [bookingData, setBookingData]= useState<BookingData>({
         resName: 'Name',
-        date: Date(),
+        date: new Date().toISOString().split('T')[0],
         time: '5:00 pm',
         numGuests: '1',
         occasion: 'None',
@@ -41,7 +46,7 @@ export const BookingProvider: React.FC<BookingProviderProps> = ({ children }: Bo
         setBookingData
     };
     return (
-        <BookingContext.Provider value={ contextValue }>
+        <BookingContext.Provider value={contextValue}>
             {children}
         </BookingContext.Provider>
     );

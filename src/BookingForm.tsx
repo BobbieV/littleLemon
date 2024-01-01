@@ -2,12 +2,13 @@ import { useState, ChangeEvent, FormEvent } from 'react'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
-import { BookingProvider, useBooking } from './BookingContext.tsx'
+import { useBookingContext, BookingProvider } from './BookingContext.tsx'
 
 
-function BookingForm() {
+const BookingForm: React.FC = () => {
 
     const [newBooking, setNewBooking] = useState<string[]>([])
+    const { bookingData, setBookingData} =useBookingContext();
 
     const [resName, setResName] = useState("");
     const [date, setDate] = useState("");
@@ -41,7 +42,7 @@ function BookingForm() {
         setNumGuests("");
         setOccasion("");
         setNewBooking(newBookingArray);
-        setBookingData(bookingData)
+        setBookingData({...bookingData, resName})
         console.log({newBooking: newBookingArray})
 
     }
@@ -49,7 +50,7 @@ function BookingForm() {
         "5:00 pm", "5:30 pm", "6:00 pm", "6:30 pm", "7:00 pm", "7:30 pm", "8:30 pm"
     ]);
 
-    const { bookingData, setBookingData } = useBooking();
+    {/*const { bookingData, setBookingData } = useBooking();*/}
 
 
     const newBookingArray = [bookingData.resName, bookingData.date, bookingData.time, bookingData.numGuests, bookingData.occasion];

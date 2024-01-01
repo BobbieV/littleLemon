@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { BookingProvider, useBooking } from "./BookingContext";
+import { BookingProvider, useBookingContext } from "./BookingContext";
 
 
 
 
 function Bookings() {
 
-    const { bookingData } =useBooking();
+    const { bookingData } =useBookingContext();
 
     if (!bookingData) {
         return <p>loading...</p>
