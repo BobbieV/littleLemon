@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useBooking } from "./BookingContext";
+import { BookingProvider, useBooking } from "./BookingContext";
 
 
 
@@ -13,8 +13,8 @@ function Bookings() {
     }else {
 
     return(
+    <BookingProvider>
         <>
-
         <main id="availability">
             <header className="availabilityHeader">
                 <h2 className="availH2">Your </h2>
@@ -30,6 +30,7 @@ function Bookings() {
 
     </main>
     </>
+    </BookingProvider>
    )
 }
 }
