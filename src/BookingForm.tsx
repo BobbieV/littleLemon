@@ -59,6 +59,8 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         console.log({newBooking})
 
     }
+    var availableTimes = ["5:00 pm", "5:30 pm", "6:00 pm", "7:00 pm", "7:30 pm", "8:30 pm"];
+
     const bookingData = {
         resName,
         date,
@@ -107,15 +109,12 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
                             id="res-time"
                             value={time}
                             onChange={handleTimeChange}
-                           >
-                            <option value="5:00 pm"> 5:00 pm</option>
-                            <option value="5:30 pm"> 5:30 pm</option>
-                            <option value="6:00 pm"> 6:00 pm</option>
-                            <option value="6:30 pm"> 6:30 pm</option>
-                            <option value="7:00 pm"> 7:00 pm</option>
-                            <option value="7:30 pm"> 7:30 pm</option>
-                            <option value="8:00 pm"> 8:00 pm</option>
-                            <option value="8:30 pm"> 8:30 pm</option>
+                            >
+                                {availableTimes.map((availableTime, index) => (
+                                    <option key={index} value={availableTime}>
+                                        {availableTime}
+                                    </option>
+                                ))}
                            </select>
                     </div>
                     <div className="field">

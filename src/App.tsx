@@ -25,7 +25,11 @@ const [bookingData] =useState<any>(null)
   <BrowserRouter >
   <div className="navLinksWrapper">
     <nav id="nav">
-          <img src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true" className="AppLogo" alt="A lemon icon followed by the words 'Little Lemon'"></img>
+          <img
+            src="https://github.com/BobbieV/littleLemon/blob/main/src/assets/images/logo.png?raw=true"
+            className="AppLogo"
+            alt="A lemon icon followed by the words 'Little Lemon'">
+          </img>
 
             <NavLink
               to="/"
