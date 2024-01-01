@@ -5,7 +5,7 @@ import { BookingProvider, useBookingContext } from "./BookingContext";
 
 function Bookings() {
 
-    const { bookingData } =useBookingContext();
+    const { bookingData } = useBookingContext();
 
     if (!bookingData) {
         return <p>loading...</p>
@@ -19,11 +19,11 @@ function Bookings() {
                 <h2 className="availH2">Your </h2>
                 <h2 className="availH2">Reservation</h2>
             </header>
-            <p>{bookingData.date}</p>
+            {/*<p>{bookingData.date}</p>
             <p>{bookingData.date}</p>
             <p>{bookingData.time}</p>
             <p>{bookingData.numGuests}</p>
-            <p>{bookingData.occasion}</p>
+    <p>{bookingData.occasion}</p>*/}
         <Link to="/BookingPage">Edit Reservation</Link>
         <Link to="/">Home</Link>
 
