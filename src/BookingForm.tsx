@@ -54,11 +54,11 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         setNewBooking('');
         updateBookingStatus && updateBookingStatus(true);
         updateBookings && updateBookings(
-          newBookingData
+          bookingData
         );
 
     }
-    const newBookingData = {
+    const bookingData = {
         resName,
         date,
         time,
@@ -168,7 +168,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
                     </div>
                 </fieldset>
             </form>
-            <Bookings bookingData={newBookingData}/>
+            <Bookings bookingData={bookingData}/>
         </div>
     )
 }
