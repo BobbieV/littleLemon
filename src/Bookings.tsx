@@ -7,9 +7,9 @@ function Bookings() {
 
     const { bookingData } = useBookingContext();
 
-   {/*} if (!bookingData) {
+ if (!bookingData) {
         return <p>loading...</p>
-    } else {  */
+    } else {
 }
 
     return(
