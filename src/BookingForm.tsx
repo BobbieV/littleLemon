@@ -2,21 +2,11 @@ import { useState, ChangeEvent, FormEvent } from 'react'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
-import Bookings from './Bookings.tsx'
-interface BookingFormProps{
-    updateBookingStatus?: (status: boolean) => void;
-    updateBookings?: (newBooking: any) => void;
-    setBookingData: (data:BookingData | null) => void;
-}
-interface BookingData {
-    resName: string;
-    date: string;
-    time: string;
-    numGuests: string;
-    occasion: string;
-}
-function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
+import Bookings from './Bookings.tsx';
+import { useBooking } from './BookingContext.tsx'
 
+
+function BookingForm() {
 
     const [newBooking, setNewBooking] = useState<string[]>([])
 
@@ -48,14 +38,11 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         alert("Your reservation is Confirmed")
         setResName("");
         setDate("");
-        setTime("5:00 pm");
+        setTime("");
         setNumGuests("");
         setOccasion("");
         setNewBooking(newBookingArray);
-        updateBookingStatus && updateBookingStatus(true);
-        updateBookings && updateBookings(
-          bookingData
-        );
+        setBookingData(bookingData)
         console.log({newBooking: newBookingArray})
 
     }
@@ -63,14 +50,9 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         "5:00 pm", "5:30 pm", "6:00 pm", "6:30 pm", "7:00 pm", "7:30 pm", "8:30 pm"
     ]);
 
-    const bookingData = {
-        resName,
-        date,
-        time,
-        numGuests,
-        occasion,
-        newBooking,
-    };
+    const { bookingData, setBookingData } = useBooking();
+
+
     const newBookingArray = [bookingData.resName, bookingData.date, bookingData.time, bookingData.numGuests, bookingData.occasion];
     console.log(bookingData)
     console.log(newBooking);
@@ -173,7 +155,7 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
                     </div>
                 </fieldset>
             </form>
-            <Bookings bookingData={bookingData}/>
+            <Bookings />
         </div>
     )
 }

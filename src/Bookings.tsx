@@ -1,18 +1,13 @@
 import { Link } from "react-router-dom";
-import BookingData from "./BookingForm";
-
-
-interface BookingData {
-   resName: string;
-    date: string;
-    time: string;
-    numGuests: string;
-    occasion: string;
-}
+import { useBooking } from "./BookingContext";
 
 
 
-function Bookings({ bookingData }: {bookingData: BookingData | null}) {
+
+function Bookings() {
+
+    const { bookingData } =useBooking();
+
     if (!bookingData) {
         return <p>loading...</p>
     }
