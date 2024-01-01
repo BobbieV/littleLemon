@@ -44,8 +44,7 @@ const BookingForm: React.FC = () => {
         setNewBooking(newBookingArray);
         setBookingData({...bookingData, resName, date, time, numGuests, occasion})
         console.log({newBooking: newBookingArray});
-        console.log('Updated Booking Data', bookingData);
-        useBookingContext()
+        console.log('Updated Booking Data', bookingData, resName);
 
     }
     const [availableTimes] = useState<string[]>([

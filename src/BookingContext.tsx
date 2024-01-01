@@ -34,11 +34,11 @@ export const BookingProvider: React.FC<BookingProviderProps> = ({
     children
 }: BookingProviderProps) => {
     const [bookingData, setBookingData]= useState<BookingData>({
-        resName: 'Name',
-        date: new Date().toISOString().split('T')[0],
-        time: '5:00 pm',
-        numGuests: '1',
-        occasion: 'None',
+        resName: '',
+        date: '',
+        time: '',
+        numGuests: '',
+        occasion: '',
     });
 
     const contextValue: BookingContextType = {
