@@ -67,7 +67,8 @@ function BookingForm({ updateBookingStatus, updateBookings}: BookingFormProps) {
         occasion,
         newBooking,
     };
-
+    setNewBooking(bookingData.resName);
+    console.log(bookingData)
     return(
         <div className="BookingForm">
             <form onSubmit={handleSubmit}>
