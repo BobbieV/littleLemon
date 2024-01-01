@@ -1,6 +1,5 @@
 import { BookingProvider } from "./BookingContext";
 import BookingForm from "./BookingForm"
-import Bookings from "./Bookings"
 
 
 function BookingsPage() {
@@ -11,7 +10,6 @@ function BookingsPage() {
   return (
     <BookingProvider>
     <div>
-            <Bookings />
 
             <BookingForm />
 
