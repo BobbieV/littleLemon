@@ -13,7 +13,7 @@ interface BookingContextType {
     setBookingData: Dispatch<SetStateAction<BookingData>>;
 }
 
-const BookingContext = createContext<BookingContextType | undefined>(undefined);
+export const BookingContext = createContext<BookingContextType | undefined>(undefined);
 
 export const useBooking = (): BookingContextType => {
     const context = useContext(BookingContext);
@@ -29,11 +29,11 @@ interface BookingProviderProps {
 
 export const BookingProvider: React.FC<BookingProviderProps> = ({ children }: BookingProviderProps) => {
     const [bookingData, setBookingData]= useState<BookingData>({
-        resName: '',
-        date: '',
-        time: '',
-        numGuests: '',
-        occasion: '',
+        resName: 'Name',
+        date: Date(),
+        time: '5:00 pm',
+        numGuests: '1',
+        occasion: 'None',
     });
 
     const contextValue: BookingContextType = {
