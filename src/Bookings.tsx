@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-
+import BookingData from "./BookingForm";
 
 
 interface BookingData {
-    resName: string;
+   resName: string;
     date: string;
     time: string;
     numGuests: string;
@@ -12,7 +12,11 @@ interface BookingData {
 
 
 
-function Bookings({ bookingData }: {bookingData: BookingData}) {
+function Bookings({ bookingData }: {bookingData: BookingData | null}) {
+    if (!bookingData) {
+        return <p>loading...</p>
+    }
+
 
     return(
         <>
